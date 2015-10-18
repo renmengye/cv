@@ -1,0 +1,123 @@
+\let\nofiles\relax
+\documentclass[margin,line]{res}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+\newenvironment{list3}{
+	\vspace{-0.13in}
+  \begin{list}{}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{-0.0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{-0.0in} \setlength{\partopsep}{-0.0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+\pagestyle{fancy}
+\cfoot{}
+\rfoot{Page \thepage \ of \pageref{LastPage}}
+\name{Mengye Ren \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2in}p{4in}}
+10 Kings College Rd, Rm 3302 & {\it Tel:}  +1 (647) 831-6099 \\            
+Toronto, Ontario      & {\it Email:}  mren@cs.toronto.edu\\
+Canada, M5S 3G4       & {\it Website:} http://www.cs.toronto.edu/mren \\     
+\end{tabular}
+
+\section{\sc Basic \\Information}
+Citizenship: Canadian
+
+\section{\sc Research Interests}
+Machine learning, artificial intelligence, natural language processing,
+computer vision
+
+\section{\sc Education}
+{\bf University of Toronto}\\
+{\em Department of Computer Science} \hfill{September 2015 - present}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] MSc Student
+\end{list1}
+{\em Department of Engineering Science} \hfill {September 2011 - June 2015}\\
+\vspace*{-.1in}
+\begin{list1}
+\item[] BASc, CGPA 3.90/4.00
+\end{list1}
+
+\section{\sc Publications}
+Exploring Models and Data for Image Question Answering. \textbf{Mengye Ren},
+Ryan Kiros, Richard Zemel. NIPS 2015.
+
+\section{\sc Teaching}
+{\bf University of Toronto}\\
+{\em Teaching Assistant} \hfill {January, 2015 - present}\\
+\begin{list3}
+\item CSC411/2515: Introduction to Machine Learning
+\item CSC190: Algorithm and Data Structure
+\end{list3}
+
+\section{\sc Working Experience}
+{\bf Google Inc.}, Mountain View, California USA\\
+{\em Intern, Supervisor: Dumitru Erhan} \hfill {May - August 2015}\\
+\begin{list3}
+\item Worked in Image Understanding and Google Brain team.
+\end{list3}
+
+{\bf Google Inc.}, Mountain View, California USA\\
+{\em Intern, Supervisor: Chunfeng Hao} \hfill {May - August 2014}\\
+\begin{list3}
+\item Worked in StreetView team. \end{list3}
+
+{\bf Microsoft Corp.}, Redmond, Washington USA\\
+{\em Intern, Supervisor: Leo Lee} \hfill {June - August 2013}\\
+\begin{list3}
+\item Worked in Visual Studio team. 
+\end{list3}
+
+{\bf Microsoft Corp.}, Redmond, Washington USA\\
+{\em Intern, Supervisor: Scott Louvau} \hfill {June - August 2012}\\\
+\begin{list3}
+\item Worked in Visual Studio team.
+\end{list3}
+
+\section{\sc Honors and Awards}
+\begin{list2}
+\item U of T Quantathon 2nd Place, C\$5000 total (with M. Li, J. Nijjer), 2015
+\item U of T Undergraduate Mathematics Competition, Honourable Mention, 2015
+\item Wallberg Undergraduate Scholarship, C\$1500, 2014
+\item International 5th place in Windward AI Challenge, 1st in U of T (with L. Guo), 2014
+\item 1st place in Windows Phone Hackathon (with T. Wu, M. Lin, M. Faizan), 2013
+\item Dean's List for all semesters, 2011-2014
+\item Entrance Scholarship from the University of Toronto, C\$5000, 2011
+\item Meritorious Award in Mathematical Contest of Modeling (MCM), 2011
+\end{list2}
+
+\end{resume}
+\end{document}
