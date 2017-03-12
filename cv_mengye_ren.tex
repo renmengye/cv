@@ -1,13 +1,32 @@
 \let\nofiles\relax
 \documentclass[margin,line]{res}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+\usepackage{tabularx}
+
 \oddsidemargin -.5in
 \evensidemargin -.5in
 \textwidth=6.0in
 \itemsep=0in
 \parsep=0in
+
+\newunicodechar{￥}{\textyen}
+\DeclareTextCommandDefault{\textyen}{%
+  \vphantom{Y}%
+  {\ooalign{Y\cr\hidewidth\yenbars\hidewidth\cr}}%
+}
+\newcommand{\yenbars}{%
+  \vbox{
+     \hrule height.1ex width.4em
+     \kern.15ex
+     \hrule height.1ex width.4em
+     \kern.3ex
+  }%
+}
+
 
 % if using pdflatex:
 \setlength{\pdfpagewidth}{\paperwidth}
@@ -52,14 +71,15 @@ Canada, M5S 3G4       & {\it Website:} http://www.cs.toronto.edu/$\sim$mren \\
 \end{tabular}
 
 \section{\sc Research Interests}
-Machine learning, deep learning, computer vision
+Deep learning, computer vision, visual understanding, and biologically 
+plausible machine learning.
 
 \section{\sc Education}
 {\bf University of Toronto}\\
 {\em Department of Computer Science} \hfill{September 2015 - present}\\
 \vspace*{-.1in}
 \begin{list1}
-\item[] Graduate Student
+\item[] PhD Student
 \end{list1}
 {\em Department of Engineering Science} \hfill {September 2011 - June 2015}\\
 \vspace*{-.1in}
@@ -68,53 +88,69 @@ Machine learning, deep learning, computer vision
 \end{list1}
 
 \section{\sc Publications}
-Exploring Models and Data for Image Question Answering. \textbf{Mengye Ren},
-Ryan Kiros, Richard Zemel. NIPS 2015.
-
-\section{\sc Preprints}
 Normalizing the Normalizers: Comparing and Extending Network Normalization 
 Schemes. \textbf{Mengye Ren}*, Renjie Liao*, Raquel Urtasun, Fabian H. Sinz, 
-Richard S. Zemel. ArXiv Preprint, 2016. 
+Richard S. Zemel. ICLR 2017.
 
 End-to-End Instance Segmentation with Recurrent Attention. 
-\textbf{Mengye Ren}, Richard S. Zemel. ArXiv Preprint, 2016.
+\textbf{Mengye Ren}, Richard S. Zemel. CVPR 2017.
+
+Exploring Models and Data for Image Question Answering. \textbf{Mengye Ren},
+Ryan Kiros, Richard Zemel. NIPS 2015.
 
 \section{\sc Teaching}
 {\bf University of Toronto}\\
 {\em Teaching Assistant} \hfill {January, 2015 - present}\\
 \begin{list3}
+\item ECE521: Inference Algorithms
 \item CSC401: Natural Language Computing
 \item CSC411: Introduction to Machine Learning
 \item CSC190: Algorithm and Data Structure
 \end{list3}
 
 \section{\sc Working Experience}
-{\bf Twitter}, Cambridge, MA USA\\
-{\em Research Intern} \hfill {May - November 2016}\\
-\begin{list3}
-\item Worked in Advanced Technology Group. Deep learning and computer vision research.
-\end{list3}
+\begin{tabular*}{\textwidth}{lll@{\extracolsep{\fill}}r}
+% \setlength\extrarowheight{5pt}
+{\bf Twitter Inc.} & Cambridge, MA & \em{Research Intern} & Summer 2016 \\
+\\[-0.5em]
+{\bf Google Inc.} & Mountain View, CA & \em{Research Intern} & Summer 2015, 2014\\
+\\[-0.5em]
+{\bf Microsoft Corp.} & Redmond, WA & \em{Intern} & Summer 2013, 2012
+\end{tabular*}
+% {\bf Twitter}, Cambridge MA \hfill
+% % \\
+% {\em Research Intern} \hfill {May - November 2016}
+% % \\
+% % \begin{list3}
+% % \item Worked in Advanced Technology Group. Deep learning and computer vision research.
+% % \end{list3}
 
-{\bf Google}, Mountain View, CA USA\\
-{\em Research Intern} \hfill {May - August 2015, May-August 2014}\\
-\begin{list3}
-\item Worked in Google Brain, Image Understanding, and StreetView team.
-\end{list3}
+% {\bf Google}, Mountain View CA \hfill
+% % \\
+% {\em Research Intern} \hfill {May - August 2015, May-August 2014}
+% % \\
+% % \begin{list3}
+% % \item Worked in Google Brain, Image Understanding, and StreetView team.
+% % \end{list3}
 
-{\bf Microsoft}, Redmond, WA USA\\
-{\em Intern} \hfill {June - August 2013, June-Auguest 2012}\\
-\begin{list3}
-\item Worked in Visual Studio team. 
-\end{list3}
+% {\bf Microsoft}, Redmond WA \hspace{2em}
+% % \\
+% {\em Intern} \hfill {June - August 2013, June-Auguest 2012}
+% % \\
+% % \begin{list3}
+% % \item Worked in Visual Studio team. 
+% % \end{list3}
 
 \section{\sc Honors and Awards}
 \begin{list2}
-\item U of T Quantathon 2nd Place, C\$5000 total (with M. Li, J. Nijjer), 2015
+\item ICLR 2017 Toulon Travel Award \$1,250 USD.
+\item MLSS 2015 Kyoto Travel Support \textyen 140,000 JPY.
+\item U of T Quantathon 2nd Place, \$5,000 CAD (with M. Li, J. Nijjer), 2015
 \item U of T Undergraduate Mathematics Competition, Honourable Mention, 2015
-\item Wallberg Undergraduate Scholarship, C\$1500, 2014
+\item Wallberg Undergraduate Scholarship, \$1,500 CAD, 2014
 \item International 5th place in Windward AI Challenge, 1st in U of T (with L. Guo), 2014
-\item Dean's List for all semesters, 2011-2014
-\item Entrance Scholarship from the University of Toronto, C\$5000, 2011
+\item Dean's List for all semesters, 2011-2015
+\item Entrance Scholarship from the University of Toronto, \$5,000 CAD, 2011
 \item Meritorious Award in Mathematical Contest of Modeling (MCM), 2011
 \end{list2}
 
