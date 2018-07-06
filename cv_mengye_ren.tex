@@ -7,7 +7,9 @@
 \usepackage{lastpage}
 \usepackage{tabularx}
 \usepackage{booktabs}
-\usepackage{url}
+\usepackage{etaremune}
+% \usepackage{url}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
 
 \oddsidemargin -.5in
 \evensidemargin -.5in
@@ -95,52 +97,58 @@ Deep learning, machine learning, computer vision
 
 % \section{\sc Preprints}
 \section{\sc Publications}
-Learning to Reweight Examples for Robust Deep Learning.
+\begin{etaremune}
+\setlength\itemsep{1em}
+\renewcommand\labelenumi{C\theenumi}
+\item Learning to Reweight Examples for Robust Deep Learning.
 \textbf{Mengye Ren}, Wenyuan Zeng, Bin Yang, Raquel Urtasun.
-In \textit{Proceedings of the 35th International Conference on Machine Learning (ICML)}, Stockholm, Sweden, 2018.
+In \textit{Proceedings of the 35th International Conference on Machine Learning (ICML)}, Stockholm, Sweden, 2018
+(\textbf{oral}).
 
-SBNet: Sparse Blocks Network for Fast Inference. 
+\item SBNet: Sparse Blocks Network for Fast Inference. 
 \textbf{Mengye Ren}*, Andrei Pokrovsky*, Bin Yang*, Raquel Urtasun.
 In \textit{Proceedings of IEEE Computer Vision and Pattern Recognition (CVPR)}, Salt Lake City, Utah, USA, 2018
 (\textbf{spotlight}).
 
-Meta-Learning for Semi-Supervised Few-Shot Classification. 
+\item Meta-Learning for Semi-Supervised Few-Shot Classification. 
 \textbf{Mengye Ren}, Eleni Triantafillou*, Sachin Ravi*, Jake Snell, Kevin Swersky, 
 Joshua B. Tenenbaum, Hugo Larochelle, Richard S. Zemel. 
 In \textit{Proceedings of 6th International Conference on Learning Representations (ICLR)}, Vancouver, British Columbia, Canada, 2018.
 
-Understanding Short-Horizon Bias in Meta Optimization. 
+\item Understanding Short-Horizon Bias in Meta Optimization. 
 Yuhuai Wu*, \textbf{Mengye Ren*}, Renjie Liao, Roger B. Grosse. 
 In \textit{Proceedings of 6th International Conference on Learning Representations (ICLR)}, Vancouver, British Columbia, Canada, 2018.
 
-The Reversible Residual Network: Backpropagation without Storing Actications. 
+\item The Reversible Residual Network: Backpropagation without Storing Actications. 
 Aidan N. Gomez*, \textbf{Mengye Ren}*, Raquel Urtasun, Roger B. Grosse. 
 In \textit{Advances in Neural Information Processing Systems (NIPS)}, Long Beach, California, USA, 2017.
 
-End-to-End Instance Segmentation with Recurrent Attention. 
+\item End-to-End Instance Segmentation with Recurrent Attention. 
 \textbf{Mengye Ren}, Richard S. Zemel. 
 In \textit{Proceedings of IEEE Computer Vision and Pattern Recognition (CVPR)}, Honolulu, Hawaii, USA, 2017 
 (\textbf{spotlight}).
 
-Normalizing the Normalizers: Comparing and Extending Network Normalization Schemes. 
+\item Normalizing the Normalizers: Comparing and Extending Network Normalization Schemes. 
 \textbf{Mengye Ren}*, Renjie Liao*, Raquel Urtasun, Fabian H. Sinz, Richard S. Zemel. 
 In \textit{Proceedings of 5th International Conference on Learning Representations (ICLR)}, Toulon, France, 2017.
 
-Exploring Models and Data for Image Question Answering. 
+\item Exploring Models and Data for Image Question Answering. 
 \textbf{Mengye Ren}, Ryan Kiros, Richard Zemel. 
-In \textit{Advances in Neural Information Processing Systems (NIPS)}, Montreal, Quebec, Canada, 2015.
-
+In \textit{Advances in Neural Information Processing Systems (NIPS)}, Montréal, Québec, Canada, 2015.
+\end{etaremune}
 (*=equal contribution)
 
 \section{\sc Teaching}
 {\bf University of Toronto}\\
 {\em Teaching Assistant} \\%\hfill {January, 2015 - present}\\
 \begin{list3}
+\setlength\itemsep{1em}
 \item ECE521: Inference Algorithms, Winter 2017.
 \item CSC401: Natural Language Computing, Winter 2016.
 \item CSC411: Introduction to Machine Learning, Fall 2015, 2016.
 \item CSC190: Algorithm and Data Structure, Winter 2015.
 \end{list3}
+\vspace{0.1in}
 
 \section{\sc Working Experience}
 \begin{tabular*}{\textwidth}{lll@{\extracolsep{\fill}}r}
@@ -166,7 +174,10 @@ Working on research related to motion planning and general machine learning.
 
 \section{\sc Honors and Awards}
 \begin{list2}
-\item NVIDIA Research Award, a Titan V GPU,  (with A.N. Gomez, R. Urtasun, R.B. Grosse), 2017
+\setlength\itemsep{1em}
+\item NSERC Alexander Graham Bell Canada Graduate Scholarship, \$35,000 CAD per year for three years maximum, 2018
+\item NVIDIA Research Pioneer Award (with A. Pokrovsky, B. Yang, and R. Urtasun), 2018
+\item NVIDIA Research Pioneer Award, a Titan V GPU,  (with A.N. Gomez, R. Urtasun, R.B. Grosse), 2017
 \item NIPS 2017 Travel Award, \$800 USD, 2017
 \item ICLR 2017 Travel Award \$1,250 USD, 2017
 \item MLSS 2015 Kyoto Travel Support \textyen 140,000 JPY, 2015
@@ -181,7 +192,9 @@ Working on research related to motion planning and general machine learning.
 
 \section{\sc Professional Services}
 Program Committee (Reviewer): 
+\vskip 0.2cm
 \begin{list2}
+\setlength\itemsep{1em}
 \item NIPS 2016, 2017, 2018
 \item ICML 2017, 2018
 \item AAAI 2018
@@ -189,33 +202,53 @@ Program Committee (Reviewer):
 \item CVPR 2018
 \item UAI 2018
 \end{list2}
+\vspace{0.1in}
 
 \section{\sc Open Source Softwares}
 \begin{list2}
+\setlength\itemsep{1em}
 \item TensorFlow Forward-Mode AutoDiff. Forward-mode automatic differentiation for TensorFlow. \\
 GitHub: \url{https://github.com/renmengye/tensorflow-forward-ad}
 \item DeepDashboard: Real-time web-based training visualizer.\\
 GitHub: \url{https://github.com/renmengye/deep-dashboard}
 \end{list2}
+\vspace{0.1in}
 
 \section{\sc Invited Talks}
 \begin{list2}
+\setlength\itemsep{1em}
 \item Meta-Learning and Learning to Reweight Examples. Max Planck Institute for Intelligent Systems. Tübingen, Germany. June 2018.
+\item SBNet: Sparse Blocks Network for Fast Inference. CVPR 2018. Salt Lake City, Utah, USA. June 2018.
 \item Meta-Learning for Weakly Supervised Learning. NEC Laboratories America. Princeton, New Jersey, USA. June 2018.
-\item SBNet: Sparse Blocks Network for Fast Inference. Borealis AI Lab (RBC Research), Toronto, Ontario, Canada. Feburary 2018.
-\item Meta-Learning for Semi-Supervised Few-Shot Classification. Vector Institute, Toronto, Ontario, Canada. November 2017.
-\item Sequence-to-Sequence Deep Learning with Recurrent Attention. Queen's University, Kingston, Ontario, Canada. May 2017.
-\item Deep Dashboard Tutorial. University of Guelph, Guelph, Ontario, Canada. March 2016.
-\item Deep Dashboard Tutorial. University of Toronto, Toronto, Ontario, Canada. Feburary 2016. 
+\item SBNet: Sparse Blocks Network for Fast Inference. Borealis AI Lab (RBC Research). Toronto, Ontario, Canada. Feburary 2018.
+\item Meta-Learning for Semi-Supervised Few-Shot Classification. Vector Institute. Toronto, Ontario, Canada. November 2017.
+\item End-to-End Instance Segmentation with Recurrent Attention. CVPR 2017. Honolulu, Hawaii, USA. July 2017.
+\item Sequence-to-Sequence Deep Learning with Recurrent Attention. Queen's University. Kingston, Ontario, Canada. May 2017.
+\item Deep Dashboard Tutorial. University of Guelph. Guelph, Ontario, Canada. March 2016.
+\item Deep Dashboard Tutorial. University of Toronto. Toronto, Ontario, Canada. Feburary 2016. 
 \item Exploring Data and Models for Image Question Answering. ICML 2015 Deep Learning Workshop, Lille, France. July 2015.
 \end{list2}
+\vspace{0.1in}
 
 \section{\sc Mentorship}
 \begin{list2}
-\item Chris Zhang, University of Waterloo, Intern at Uber ATG, May 2018 - August 2018.
+\setlength\itemsep{1em}
+\item Jia'Ao (Jason) Sun, University of Toronto, Computer Science Research Project, June 2018 - Present.
+\item Chris Zhang, University of Waterloo, Intern at Uber ATG, May 2018 - Present.
 \item Yen-chen Lin, National Tsing Hua University, Intern at Uber ATG, October 2017 - December 2017.
 \item Xinkai Wei, University of Waterloo, Intern at Uber ATG, September 2017 - December 2017.
 \item Yatu Zhang, University of Toronto, Undergraduate Thesis Project, September 2016 - May 2017.
+\end{list2}
+\vspace{0.1in}
+
+\section{\sc Media Coverage}
+\begin{list2}
+\setlength\itemsep{1em}
+\item Autonomous vehicles: U of T researchers make advances with new algorithm. Nina Haikara. U of T News. \url{https://www.utoronto.ca/news/autonomous-vehicles-u-t-researchers-make-advances-new-algorithm}. 2018/06/21.
+
+\item Industry | Uber proposed SBNet: Leveraging Activation Block Sparsity for Speeding up Convolutional Neural Networks (Article in Chinese). Synced. \url{https://mp.weixin.qq.com/s/xCzS7sYMFmk5K4ClB1I2YQ}. 2018/01/18.
+
+\item SBNet: Leveraging Activation Block Sparsity for Speeding up Convolutional Neural Networks. Uber Engineering Blog. \url{http://eng.uber.com/sbnet}. 2018/01/16.
 \end{list2}
 
 \end{resume}
