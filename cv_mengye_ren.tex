@@ -30,7 +30,6 @@
   }%
 }
 
-
 % if using pdflatex:
 \setlength{\pdfpagewidth}{\paperwidth}
 \setlength{\pdfpageheight}{\paperheight} 
@@ -56,6 +55,7 @@
       \setlength{\leftmargin}{0.2in}}}{\end{list}}
 
 \renewcommand{\headrulewidth}{0pt}
+\def\shortcv{1}
 
 \begin{document}
 
@@ -81,14 +81,15 @@ Machine learning, neural networks, computer vision, deep learning, meta learning
 {\bf University of Toronto}\\
 \quad{\em Department of Computer Science} & \hfill{Jan 2017 - present}\\
 \quad PhD Student, Advisor: Richard S. Zemel\\
-\\
 \quad {\em Department of Computer Science} & \hfill{Sept 2015 - Jan 2017}\\
 \quad MSc, Advisor: Richard S. Zemel%, Avg GPA: A\\
 \\
 \quad {\em Department of Engineering Science, ECE Option} & \hfill {Sept 2011 - June 2015}\\
 \quad BASc, CGPA 3.90/4.00
 \end{tabular*}
+\if\shortcv0 
 \vspace{0.1in}
+\fi
 
 \section{\sc Work Experience}
 \begin{tabular*}{\textwidth}{lll@{\extracolsep{\fill}}r}
@@ -97,49 +98,105 @@ Machine learning, neural networks, computer vision, deep learning, meta learning
 \multicolumn{3}{l}{
 \quad Motion planning, machine learning and artificial intelligence
 }\\
-\\[0.0em]
+\if\shortcv0 \\[0.0em] \fi
 {\bf Uber ATG} & Toronto, ON & \em{Research Scientist II} & May 2017 - Sept 2018\\
 \multicolumn{3}{l}{
 \quad Efficient and robust deep learning algorithms
 }\\
-\\[0.0em]
+\if\shortcv0 \\[0.0em] \fi
 {\bf Twitter} & Cambridge, MA & \em{SWE Intern} & Summer 2016 \\
 \multicolumn{3}{l}{\quad Visual relationship discovery}\\
-\\[0.0em]
+\if\shortcv0 \\[0.0em] \fi
 {\bf Google Brain} & Mountain View, CA & \em{SWE Intern} & Summer 2015\\
 \multicolumn{3}{l}{\quad Visual question answering}\\
-\\[0.0em]
+\if\shortcv0 \\[0.0em] \fi
 {\bf Google} & Mountain View, CA & \em{SWE Intern} & Summer 2014\\
 \multicolumn{3}{l}{\quad A back-end panorama caching system for StreetView}\\
-\\[0.0em]
+\if\shortcv0 \\[0.0em] \fi
 {\bf Microsoft} & Redmond, WA & \em{SDET Intern} & Summer 2013\\
 \multicolumn{3}{l}{\quad Analytics visualization}\\
-\\[0.0em]
+\if\shortcv0 \\[0.0em] \fi
 {\bf Microsoft} & Redmond, WA & \em{SDET Intern} & Summer 2012\\
 \multicolumn{3}{l}{\quad A code search engine}\\
-\\[0.0em]
+\if\shortcv0 \\[0.0em] \fi
 \end{tabular*}
 
 \section{\sc Teaching Experience}
-{\bf University of Toronto \vspace{0.1in}}\\
+{\bf University of Toronto \if\shortcv0 \vspace{0.1in} \fi}\\
 {\em Course Instructor} \\
 \begin{list3}
+\if\shortcv0
 \setlength\itemsep{0.6em}
+\fi
 \item CSC 411: Machine Learning and Data Mining \hfill Winter 2019
 \end{list3}
+\if\shortcv1
+\vspace{-0.15in}
+\fi
 
 {\em Teaching Assistant} \\
 \begin{list3}
+\if\shortcv0
 \setlength\itemsep{0.6em}
+\fi
 \item ECE 521: Inference Algorithms \hfill Winter 2017
 \item CSC 401: Natural Language Computing \hfill Winter 2016
-\item CSC 411: Machine Learning and Data Mining \hfill Fall 2016
-\item CSC 411: Machine Learning and Data Mining \hfill Fall 2015 
+\item CSC 411: Machine Learning and Data Mining \hfill Fall 2016, Fall 2015 
 \item CSC 190: Algorithm and Data Structure \hfill Winter 2015
 \end{list3}
+\if\shortcv0 
 \vspace{0.1in}
+\fi
 
+\if\shortcv1
+\section{\sc Selected Publications}
+\begin{list2}
+\item
+\textbf{M. Ren}, R. Liao, E. Fetaya, R.S. Zemel. 
+Incremental Few-Shot Learning with Attention Attractor Networks.
+\textit{NeurIPS}, 2019.
 
+\item
+K. Wong, S. Wang, \textbf{M. Ren}, M. Liang, R. Urtasun.
+Identifying Unknown Instances for Autonomous Driving.
+\textit{CoRL}, 2019.
+
+\item
+C. Zhang, \textbf{M. Ren}, R. Urtasun.
+Graph HyperNetworks for Neural Architecture Search.
+\textit{ICLR}, 2019.
+
+\item 
+\textbf{M. Ren}, W. Zeng, B. Yang, R. Urtasun.
+Learning to Reweight Examples for Robust Deep Learning.
+\textit{ICML}, 2018.
+
+\item
+\textbf{M. Ren}, E. Triantafillou*, S. Ravi*, J. Snell, K. Swersky, 
+J.B. Tenenbaum, H. Larochelle, R.S. Zemel. 
+Meta-Learning for Semi-Supervised Few-Shot Classification. 
+\textit{ICLR}, 2018.
+(*=equal contribution)
+
+\item
+Y. Wu*, \textbf{M. Ren}*, R. Liao, R.B. Grosse. 
+Understanding Short-Horizon Bias in Meta Optimization. 
+\textit{ICLR}, 2018.
+(*=equal contribution)
+
+\item
+\textbf{M. Ren}, R.S. Zemel. 
+End-to-End Instance Segmentation with Recurrent Attention.
+\textit{CVPR}, 2017.
+
+\item
+\textbf{M. Ren}, R. Kiros, R.S. Zemel. 
+Exploring Models and Data for Image Question Answering. 
+\textit{NIPS}, 2015.
+\end{list2}
+\fi
+
+\if\shortcv0
 \section{\sc Conference Publications}
 \begin{etaremune}%[start=15]
 \setlength\itemsep{1em}
@@ -213,7 +270,7 @@ In \textit{5th International Conference on Learning Representations (ICLR)}, Tou
 (*=equal contribution)
 
 \item
-\textbf{Mengye Ren}, Ryan Kiros, Richard Zemel. 
+\textbf{Mengye Ren}, Ryan Kiros, Richard S. Zemel. 
 Exploring Models and Data for Image Question Answering. 
 In \textit{Advances in Neural Information Processing Systems 28 (NIPS)}, Montréal, Québec, Canada, 2015.
 \end{etaremune}
@@ -240,7 +297,6 @@ Deformable Filter Convolution for Point Cloud Reasoning.
  (*=equal contribution)
 \end{etaremune}
 \vspace{0.1in}
-
 
 \section{\sc Workshop Papers}
 \begin{etaremune}
@@ -275,7 +331,17 @@ In \textit{International Conference on Machine Learning (ICML) Deep Learning Wor
 (\textbf{oral})
 \end{etaremune}
 \vspace{0.1in}
+\fi
 
+\if\shortcv1
+\section{\sc Patents}
+% \setlength\itemsep{1em}
+% \renewcommand\labelenumi{P\theenumi}
+\begin{list2}
+\item
+R. Urtasun, \textbf{M. Ren}, A. Pokrovsky, B. Yang. Sparse Convolutional Neural Networks,\\ US20190146497A1, \textit{US Patent Application Pending}, 2019.
+\end{list2}
+\else
 \section{\sc Patents}
 \setlength\itemsep{1em}
 \renewcommand\labelenumi{P\theenumi}
@@ -283,7 +349,18 @@ In \textit{International Conference on Machine Learning (ICML) Deep Learning Wor
 \item
 Raquel Urtasun, \textbf{Mengye Ren}, Andrei Pokrovsky, Bin Yang. Sparse Convolutional Neural Networks, US20190146497A1, \textit{US Patent Application Pending}, 2019.
 \end{etaremune}
+\vspace{0.1in}
+\fi
 
+\if\shortcv1
+\section{\sc Recent Honors and Awards}
+\begin{list2}
+% \setlength\itemsep{1em}
+\item NSERC Alexander Graham Bell Scholarship, \$35,000 CAD per year for 3 years \hfill 2018
+\item NVIDIA Research Pioneer Award (with A. Pokrovsky, B. Yang, and R. Urtasun) \hfill 2018
+\item NVIDIA Research Pioneer Award (with A.N. Gomez, R. Urtasun, R.B. Grosse) \hfill 2017
+\end{list2}
+\else
 \section{\sc Honors and Awards}
 \begin{list2}
 \setlength\itemsep{1em}
@@ -302,7 +379,15 @@ Raquel Urtasun, \textbf{Mengye Ren}, Andrei Pokrovsky, Bin Yang. Sparse Convolut
 \item Meritorious Award in Mathematical Contest of Modeling (MCM) (with C. Chen, S. Wang) \hfill 2011
 \end{list2}
 \vspace{0.1in}
+\fi
 
+\if\shortcv1
+\section{\sc Professional Services}
+\begin{list2}
+\item Journal Reviewer: IEEE TPAMI, TIP, TNNLS, Optimization Methods and Software
+\item Conference Reviewer:  NIPS/NeurIPS 2016 - 2019, ICML 2017 - 2019, AAAI 2018, UAI 2018, ICLR 2018 - 2020, CVPR 2018 - 2020, ICCV 2019
+\end{list2}
+\else
 \section{\sc Professional Services}
 Journal Reviewer:
 \vskip 0.1in
@@ -334,18 +419,43 @@ Seminar Organizer:
 \item Meta-Learning Weekly Seminars at Vector Institute (with E. Triantafillou) \hfill Feb 2019 - Present
 \item Uber ATG R\&D Weekly Paper Reading Seminars \hfill Apr 2018 - Present
 \end{list2}
-\vspace{0.25in}
+\vspace{0.1in}
+\fi
 
+\if\shortcv0
 \section{\sc Open Source Softwares}
 \begin{list2}
+\if\shortcv0
 \setlength\itemsep{1em}
+\fi
 \item TensorFlow Forward-Mode AutoDiff. Forward-mode automatic differentiation for TensorFlow. \\
 GitHub: \url{https://github.com/renmengye/tensorflow-forward-ad}
 \item DeepDashboard: Real-time web-based training visualizer.\\
 GitHub: \url{https://github.com/renmengye/deep-dashboard}
 \end{list2}
-\vspace{0.2in}
+\vspace{0.1in}
+\fi
 
+\if\shortcv1
+\section{\sc Selected Invited Talks}
+\begin{list2}
+% \setlength\itemsep{1em}
+% \renewcommand\labelenumi{T\theenumi}
+% \begin{list2}
+% \setlength\itemsep{1em}
+\item Meta-Learning for Weakly Supervised Learning. INRIA Grenoble - Rhône-Alpes. Grenoble, France. July 2018.
+\item Learning to Reweight Examples for Robust Deep Learning. ICML 2018. Stockholm, Sweden. July 2018.
+\item Meta-Learning and Learning to Reweight Examples. Max Planck Institute for Intelligent Systems. Tübingen, Germany. June 2018.
+\item SBNet: Sparse Blocks Network for Fast Inference. CVPR 2018. Salt Lake City, Utah, USA. June 2018.
+\item Meta-Learning for Weakly Supervised Learning. NEC Laboratories America. Princeton, New Jersey, USA. June 2018.
+\item SBNet: Sparse Blocks Network for Fast Inference. Borealis AI Lab (RBC Research). Toronto, Ontario, Canada. Feb 2018.
+\item Meta-Learning for Semi-Supervised Few-Shot Classification. Vector Institute. Toronto, Ontario, Canada. Nov 2017.
+\item End-to-End Instance Segmentation with Recurrent Attention. CVPR 2017. Honolulu, Hawaii, USA. July 2017.
+\item Sequence-to-Sequence Deep Learning with Recurrent Attention. Queen's University. Kingston, Ontario, Canada. May 2017.
+\item Exploring Data and Models for Image Question Answering. ICML 2015 Deep Learning Workshop. Lille, France. July 2015.
+\end{list2}
+\fi
+\if\shortcv0
 \section{\sc Invited Talks}
 \begin{etaremune}
 \setlength\itemsep{1em}
@@ -368,9 +478,10 @@ GitHub: \url{https://github.com/renmengye/deep-dashboard}
 % \end{list2}
 \end{etaremune}
 \vspace{0.1in}
+\fi
 
+\if\shortcv0
 \section{\sc Students Mentored}
-
 {\def\arraystretch{1.8}
 \begin{tabular*}{\textwidth}{lll@{\extracolsep{\fill}}r}
 Alexander Li       & Univ. of Toronto  & \textit{Undergrad Thesis} & Sept 2019 - Present        \\
@@ -406,6 +517,7 @@ Yatu Zhang         & Univ. of Toronto  & \textit{Undergrad Thesis} & Sept 2016 -
 
 \item SBNet: Leveraging Activation Block Sparsity for Speeding up Convolutional Neural Networks. Uber Engineering Blog. \url{http://eng.uber.com/sbnet}. 2018/01/16.
 \end{list2}
+\fi
 
 \end{resume}
 \end{document}
