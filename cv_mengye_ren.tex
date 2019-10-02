@@ -55,7 +55,8 @@
       \setlength{\leftmargin}{0.2in}}}{\end{list}}
 
 \renewcommand{\headrulewidth}{0pt}
-\def\shortcv{1}
+% \def\shortcv{1}
+\def\shortcv{0}
 
 \begin{document}
 
@@ -211,6 +212,7 @@ In \textit{Advances in Neural Information Processing Systems (NeurIPS)}, Vancouv
 Kelvin Wong, Shenlong Wang, \textbf{Mengye Ren}, Ming Liang, Raquel Urtasun.
 Identifying Unknown Instances for Autonomous Driving.
 In \textit{Conference on Robot Learning (CoRL)}, Osaka, Japan, 2019.
+(\textbf{spotlight})
 
 \item
 Abbas Sadat*, \textbf{Mengye Ren}*, Andrei Pokrovsky, Yen-Chen Lin, Ersin Yumer, Raquel Urtasun.
@@ -289,12 +291,6 @@ End-to-end Contextual Perception and Prediction with Interaction Transformer.
 Yuwen Xiong*, \textbf{Mengye Ren}*, Raquel Urtasun.
 Learning to Remember from a Multi-Task Teacher.
 (*=equal contribution)
-
-\item
-Yuwen Xiong*, \textbf{Mengye Ren}*, Renjie Liao, Kelvin Wong, Raquel Urtasun.
-Deformable Filter Convolution for Point Cloud Reasoning.
-\textit{arXiv preprint arXiv:1907.13079}, 2019.
- (*=equal contribution)
 \end{etaremune}
 \vspace{0.1in}
 
@@ -303,13 +299,28 @@ Deformable Filter Convolution for Point Cloud Reasoning.
 \setlength\itemsep{1em}
 \renewcommand\labelenumi{W\theenumi}
 \item
+James Lucas, \textbf{Mengye Ren}, Richard S. Zemel.
+Information-Theoretic Limitations on Novel Task Generalization.
+In \textit{NeurIPS Workshop on Machine Learning with Guarantees},
+Vancouver British Columbia, Canada, 2019.
+
+\item
+Yuwen Xiong*, \textbf{Mengye Ren}*, Renjie Liao, Kelvin Wong, Raquel Urtasun.
+Deformable Filter Convolution for Point Cloud Reasoning.
+In \textit{Neural Information Processing Systems (NeurIPS) Workshop on Sets \& Partitions}, 
+Vancouver, British Columbia, Canada, 2019.
+\textit{arXiv:1907.13079}.
+ (*=equal contribution)
+
+\item
 \textbf{Mengye Ren}, Renjie Liao, Ethan Fetaya, Richard S. Zemel. 
 Incremental Few-Shot Learning with Attention Attractor Networks.
-In \textit{Neural Information Processing Systems (NIPS) Meta-Learning Workshop}, Montréal, Québec, Canada, 2018.
+In \textit{Neural Information Processing Systems (NeurIPS) Meta-Learning Workshop}, Montréal, Québec, Canada, 2018.
+
 \item
 Chris Zhang, \textbf{Mengye Ren}, Raquel Urtasun.
 Graph HyperNetworks for Neural Architecture Search.
-In \textit{Neural Information Processing Systems (NIPS) Meta-Learning Workshop}, Montréal, Québec, Canada, 2018.
+In \textit{Neural Information Processing Systems (NeurIPS) Meta-Learning Workshop}, Montréal, Québec, Canada, 2018.
 \item
 
 \textbf{Mengye Ren}, Eleni Triantafillou*, Sachin Ravi*, Jake Snell, Kevin Swersky, 
@@ -482,21 +493,36 @@ GitHub: \url{https://github.com/renmengye/deep-dashboard}
 
 \if\shortcv0
 \section{\sc Students Mentored}
-{\def\arraystretch{1.8}
-\begin{tabular*}{\textwidth}{lll@{\extracolsep{\fill}}r}
-Alexander Li       & Univ. of Toronto  & \textit{Undergrad Thesis} & Sept 2019 - Present        \\
-Bob Wei            & Univ. of Waterloo & \textit{Uber ATG Intern}  & Sept 2019 - Present        \\
-Alexander Wang     & Univ. of Toronto  & \textit{Undergrad Thesis} & Aug 2019 - Present         \\
-Quinlan Sykora     & Univ. of Toronto  & \textit{Uber ATG Intern}  & May 2019 - Present         \\
-James Tu           & Univ. of Toronto  & \textit{Uber ATG Intern}  & May 2019 - Present         \\
-Jia'Ao (Jason) Sun & Univ. of Toronto  & \textit{Undergrad Research} & June 2018 - Present        \\
-Mengfei Liu        & Univ. of Waterloo & \textit{Uber ATG Intern}  & May 2019 - Aug 2019        \\
-Richard Du         & Princeton Univ.   & \textit{Uber ATG Intern}  & Sept 2018 - Dec 2018       \\
-Chris Zhang        & Univ. of Waterloo & \textit{Uber ATG Intern}  & May 2018 - Dec 2018        \\
-Yen-chen Lin       & National Tsing Hua Univ. & \textit{Uber ATG Intern} & Oct 2017 - Dec 2017  \\
-Xinkai Wei         & Univ. of Waterloo & \textit{Uber ATG Intern}  & Sept 2017 - Dec 2017       \\
-Yatu Zhang         & Univ. of Toronto  & \textit{Undergrad Thesis} & Sept 2016 - May 2017
-\end{tabular*}}
+\begin{list2}
+\item Stephen Liu        \hfill Sept 2019 - Present        \\
+\item Alexander Li       \hfill Sept 2019 - Present        \\
+\item Bob Wei            \hfill Sept 2019 - Present        \\
+\item Alexander Wang     \hfill Aug 2019 - Present         \\
+\item Quinlan Sykora     \hfill May 2019 - Present         \\
+\item James Tu           \hfill May 2019 - Present         \\
+\item Jia'Ao (Jason) Sun \hfill June 2018 - Present        \\
+\item Mengfei Liu        \hfill May 2019 - Aug 2019        \\
+\item Richard Du         \hfill Sept 2018 - Dec 2018       \\
+\item Chris Zhang        \hfill May 2018 - Dec 2018        \\
+\item Yen-chen Lin       \hfill Oct 2017 - Dec 2017        \\
+\item Xinkai Wei         \hfill Sept 2017 - Dec 2017       \\
+\item Yatu Zhang         \hfill Sept 2016 - May 2017
+\end{list2}
+% {\def\arraystretch{1.8}
+% \begin{tabular*}{\textwidth}{lll@{\extracolsep{\fill}}r}
+% Alexander Li       & Univ. of Toronto  & \textit{Undergrad Thesis} & Sept 2019 - Present        \\
+% Bob Wei            & Univ. of Waterloo & \textit{Uber ATG Intern}  & Sept 2019 - Present        \\
+% Alexander Wang     & Univ. of Toronto  & \textit{Undergrad Thesis} & Aug 2019 - Present         \\
+% Quinlan Sykora     & Univ. of Toronto  & \textit{Uber ATG Intern}  & May 2019 - Present         \\
+% James Tu           & Univ. of Toronto  & \textit{Uber ATG Intern}  & May 2019 - Present         \\
+% Jia'Ao (Jason) Sun & Univ. of Toronto  & \textit{Undergrad Research} & June 2018 - Present        \\
+% Mengfei Liu        & Univ. of Waterloo & \textit{Uber ATG Intern}  & May 2019 - Aug 2019        \\
+% Richard Du         & Princeton Univ.   & \textit{Uber ATG Intern}  & Sept 2018 - Dec 2018       \\
+% Chris Zhang        & Univ. of Waterloo & \textit{Uber ATG Intern}  & May 2018 - Dec 2018        \\
+% Yen-chen Lin       & National Tsing Hua Univ. & \textit{Uber ATG Intern} & Oct 2017 - Dec 2017  \\
+% Xinkai Wei         & Univ. of Waterloo & \textit{Uber ATG Intern}  & Sept 2017 - Dec 2017       \\
+% Yatu Zhang         & Univ. of Toronto  & \textit{Undergrad Thesis} & Sept 2016 - May 2017
+% \end{tabular*}}
 % \begin{list2}
 % \setlength\itemsep{1em}
 % \item Richard Du, Princeton University, Intern at Uber ATG, September 2018 - Present.
