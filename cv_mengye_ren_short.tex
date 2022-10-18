@@ -1,0 +1,57 @@
+\let\nofiles\relax
+\documentclass[margin,line]{res}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+\usepackage[english]{babel}
+\usepackage{palatino}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{etaremune}
+\usepackage{enumitem}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage{macro}
+\def\shortcv{1}
+% \def\shortcv{0}
+\if\shortcv1
+\newcommand{\myspace}{\vspace{-0.1in}}
+\else
+\newcommand{\myspace}{\vspace{0.1in}}
+\fi
+
+\begin{document}
+
+\pagestyle{fancy}
+\cfoot{}
+\rfoot{}
+% \rfoot{Page \thepage \ of \pageref{LastPage}}
+\name{
+% \sc 
+Mengye Ren -- Curriculum Vit\ae \vspace*{.1in}}
+
+% \name{ Mengye Ren}
+\begin{resume}
+
+\input{sections/contact}\myspace
+\input{sections/interests}\myspace
+\input{sections/education}\myspace
+\input{sections/work}\myspace
+\input{sections/teaching}\myspace
+% \newpage
+\input{sections/select_pubs}\myspace
+\input{sections/select_talks}\myspace
+\input{sections/awards}
+\if\shortcv1
+\else
+\input{sections/pubs}
+\input{sections/service}
+\input{sections/software}
+% \input{sections/select_talks}
+\input{sections/talks}
+\input{sections/students}
+\input{sections/media}
+\fi
+
+\end{resume}
+\end{document}
