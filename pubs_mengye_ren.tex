@@ -1,0 +1,33 @@
+\let\nofiles\relax
+\documentclass[margin,line]{res}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+\usepackage[english]{babel}
+\usepackage{palatino}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{etaremune}
+\usepackage{enumitem}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage{macro}
+% \def\shortcv{1}
+\def\shortcv{0}
+
+\begin{document}
+
+\pagestyle{fancy}
+\cfoot{}
+\rfoot{Page \thepage \ of \pageref{LastPage}}
+\name{
+% \sc 
+Mengye Ren -- List of Publications \vspace*{.1in}}
+
+% \name{\huge Mengye Ren}
+\begin{resume}
+Webpage: \url{https://mengyeren.com/research/}
+\input{sections/pubs}
+
+\end{resume}
+\end{document}
