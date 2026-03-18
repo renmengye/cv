@@ -1,0 +1,17 @@
+name: Trigger Website Rebuild
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - publications.yaml
+      - talks.yaml
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger website build
+        run: gh workflow run "Build and Deploy" --repo renmengye/renmengye.github.io
+        env:
+          GH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
