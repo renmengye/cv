@@ -1,3 +1,12 @@
+# Single source of truth for all publications.
+# Sorted by arxiv date descending (newest first).
+# Each entry needs: key, type, title, authors, venue_full, venue_short, year.
+# Optional: equal_contribution, note (oral/spotlight), selected, links, webpage_path.
+#
+# To add a paper: copy an existing entry, edit fields, insert by arxiv date.
+# Then run: make cv (in this repo) to rebuild the CV PDF.
+# To update the website: push this repo, then update the submodule in renmengye.github.io.
+
 publications:
 - key: wang2026temporal
   title: Temporal straightening for latent planning
