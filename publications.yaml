@@ -1,12 +1,3 @@
-# Single source of truth for all publications.
-# Sorted by arxiv date descending (newest first).
-# Each entry needs: key, type, title, authors, venue_full, venue_short, year.
-# Optional: equal_contribution, note (oral/spotlight), selected, links, webpage_path.
-#
-# To add a paper: copy an existing entry, edit fields, insert by arxiv date.
-# Then run: make cv (in this repo) to rebuild the CV PDF.
-# To update the website: push this repo, then update the submodule in renmengye.github.io.
-
 publications:
 - key: wang2026temporal
   title: Temporal straightening for latent planning
@@ -30,6 +21,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/temporal-straightening/"
     arxiv: "https://arxiv.org/abs/2603.12231"
+    html: "https://arxiv.org/html/2603.12231"
   type: workshop
 - key: wang2026temporal_preprint
   type: preprint
@@ -54,6 +46,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/temporal-straightening/"
     arxiv: "https://arxiv.org/abs/2603.12231"
+    html: "https://arxiv.org/html/2603.12231"
 - key: kim2026maego
   type: preprint
   title: "MA-EgoQA: Question answering over egocentric videos from multiple embodied agents"
@@ -76,6 +69,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2603.09827"
+    html: "https://arxiv.org/html/2603.09827"
 - key: sprague2026skillfactory
   title: "SkillFactory: Self-distillation for learning cognitive behaviors"
   authors:
@@ -96,6 +90,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2512.04072"
+    html: "https://arxiv.org/html/2512.04072"
   type: conference
 - key: lu2026when
   title: When does verification pay off? A closer look at LLMs as solution verifiers
@@ -117,6 +112,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2512.02304"
+    html: "https://arxiv.org/html/2512.02304"
   type: workshop
 - key: wu2026local
   title: Local reinforcement learning with action-conditioned root mean squared Q-functions
@@ -135,6 +131,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/arq/"
     arxiv: "https://arxiv.org/abs/2510.06649"
+    html: "https://arxiv.org/html/2510.06649"
   type: conference
 - key: hoang2026midway
   title: "Midway Network: Learning representations for recognition and motion from latent dynamics"
@@ -153,6 +150,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/midway-network/"
     arxiv: "https://arxiv.org/abs/2510.05558"
+    html: "https://arxiv.org/html/2510.05558"
   type: conference
 - key: abdulsalam2026lamo
   title: "LaMo: A latent motion world model for long-horizon prediction"
@@ -191,6 +189,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2512.06232"
+    html: "https://arxiv.org/html/2512.06232"
   type: workshop
 - key: lu2025when
   title: When does verification pay off? A closer look at LLMs as solution verifiers
@@ -212,6 +211,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2512.02304"
+    html: "https://arxiv.org/html/2512.02304"
   type: preprint
 - key: wang2025incontext
   title: In-context clustering with large language models
@@ -231,6 +231,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/icc/"
     arxiv: "https://arxiv.org/abs/2510.08466"
+    html: "https://arxiv.org/html/2510.08466"
   type: preprint
 - key: yang2025streammem
   title: "StreamMem: Query-agnostic KV cache memory for streaming video understanding"
@@ -254,6 +255,7 @@ publications:
   links:
     webpage: "https://yangyanl.ai/streammem/"
     arxiv: "https://arxiv.org/abs/2508.15717"
+    html: "https://arxiv.org/html/2508.15717"
   type: preprint
 - key: lu2025context_wo
   title: Context tuning for in-context optimization
@@ -274,6 +276,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/context-tuning/"
     arxiv: "https://arxiv.org/abs/2507.04221"
+    html: "https://arxiv.org/html/2507.04221"
   type: workshop
 - key: lu2025context_pr
   title: Context tuning for in-context optimization
@@ -294,6 +297,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/context-tuning/"
     arxiv: "https://arxiv.org/abs/2507.04221"
+    html: "https://arxiv.org/html/2507.04221"
   type: preprint
 - key: baek2025discrete
   title: "Discrete JEPA: Learning discrete token representations without reconstruction"
@@ -314,6 +318,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2506.14373"
+    html: "https://arxiv.org/html/2506.14373"
   type: workshop
 - key: mahdaviyeh2025replay
   title: Replay can provably increase forgetting
@@ -335,6 +340,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2506.04377"
+    html: "https://arxiv.org/html/2506.04377"
   type: conference
 - key: yang2025memory
   title: "Memory Storyboard: Leveraging temporal segmentation for streaming self-supervised learning from egocentric videos"
@@ -354,6 +360,7 @@ publications:
     webpage: "https://agenticlearning.ai/memory-storyboard/"
     arxiv: "https://arxiv.org/abs/2501.12254"
     code: "https://github.com/agentic-learning-ai-lab/memory-storyboard"
+    html: "https://arxiv.org/html/2501.12254"
   type: conference
 - key: singhal2025a
   title: A general framework for inference-time scaling and steering of diffusion models
@@ -379,6 +386,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2501.06848"
+    html: "https://arxiv.org/html/2501.06848"
   type: conference
 - key: dai2025are
   title: Are LLMs prescient? A continuous evaluation using daily news as the oracle
@@ -400,6 +408,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2411.08324"
     code: "https://github.com/agentic-learning-ai-lab/daily-oracle"
     dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/daily-oracle"
+    html: "https://arxiv.org/html/2411.08324"
   type: conference
 - key: wang2025poodle
   title: "PooDLe: Pooled and dense self-supervised learning from naturalistic videos"
@@ -512,6 +521,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2411.08324"
     code: "https://github.com/agentic-learning-ai-lab/daily-oracle"
     dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/daily-oracle"
+    html: "https://arxiv.org/html/2411.08324"
   type: workshop
 - key: lu2024procreate
   title: "ProCreate, don't reproduce! Propulsive energy diffusion for creative generation"
@@ -722,6 +732,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2311.17218"
+    html: "https://arxiv.org/html/2311.17218"
   type: preprint
 - key: zhang2023towards
   title: Towards unsupervised object detection from LiDAR point clouds
@@ -747,6 +758,7 @@ publications:
     pdf: 2023/towards-unsupervised-object-detection-from-lidar-point-clouds/zhang-2023-towards.pdf
     video: "https://research-assets.waabi.ai/wp-content/uploads/2023/05/oyster_video-2.mp4"
     webpage: "https://waabi.ai/oyster"
+    html: "https://arxiv.org/html/2311.02007"
   type: conference
 - key: ren2023scaling
   title: Scaling forward gradient with local losses
@@ -791,6 +803,7 @@ publications:
   - E Yumer
   links:
     arxiv: "https://arxiv.org/abs/1910.04586"
+    html: "https://arxiv.org/html/1910.04586"
   webpage_path: null
   type: patent
 - key: jones2023learning
@@ -967,6 +980,7 @@ publications:
   links:
     pdf: 2022/rethinking-closed-loop-training-for-autonomous-driving/zhang-2022-rethinking.pdf
     arxiv: "https://arxiv.org/abs/2306.15713"
+    html: "https://arxiv.org/html/2306.15713"
   type: conference
 - key: liao2022gaussianbernoulli
   title: Gaussian-Bernoulli RBMs without tears
@@ -987,6 +1001,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2210.10318"
+    html: "https://arxiv.org/html/2210.10318"
   type: preprint
 - key: nam2022learning_wo
   title: Learning to reason with relational abstractions
@@ -1010,6 +1025,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2210.02615"
     pdf: 2022/learning-to-reason-with-relational-abstractions/nam-2022-learning.pdf
     dataset: "https://github.com/renmengye/grade-school-math-relational"
+    html: "https://arxiv.org/html/2210.02615"
   type: workshop
 - key: nam2022learning_pr
   title: Learning to reason with relational abstractions
@@ -1033,6 +1049,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2210.02615"
     pdf: 2022/learning-to-reason-with-relational-abstractions/nam-2022-learning.pdf
     dataset: "https://github.com/renmengye/grade-school-math-relational"
+    html: "https://arxiv.org/html/2210.02615"
   type: preprint
 - key: jones2022neural
   title: Neural network online training with sensitivity to multiscale temporal structure
@@ -1136,6 +1153,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2104.03956"
+    html: "https://arxiv.org/html/2104.03956"
   type: conference
 - key: tu2021exploring
   title: Exploring adversarial robustness of multi-sensor perception systems in self driving
@@ -1160,6 +1178,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2101.06784"
+    html: "https://arxiv.org/html/2101.06784"
   type: conference
 - key: tu2021adversarial
   title: Adversarial attacks on multi-agent communication
@@ -1183,6 +1202,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2101.06560"
+    html: "https://arxiv.org/html/2101.06560"
   type: conference
 - key: xiong2021selfsupervised
   title: Self-supervised representation learning from flow equivariance
@@ -1228,6 +1248,7 @@ publications:
   links:
     arxiv: "https://arxiv.org/abs/2101.06549"
     pdf: 2021/advsim-generating-safety-critical-scenarios-for-self-driving-vehicles/wang-2021-advsim.pdf
+    html: "https://arxiv.org/html/2101.06549"
   type: conference
 - key: tan2021scenegen
   title: "SceneGen: Learning to simulate realistic traffic scenes"
@@ -1252,6 +1273,7 @@ publications:
   links:
     arxiv: "https://arxiv.org/abs/2101.06541"
     pdf: 2021/scenegen-learning-to-generate-realistic-traffic-scenes/tan-2021-scenegen.pdf
+    html: "https://arxiv.org/html/2101.06541"
   type: conference
 - key: wei2021perceive
   title: "Perceive, attend and drive: Learning spatial attention for safe self-driving"
@@ -1386,6 +1408,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2101.06590"
     pdf: 2020/cost-efficient-online-hyperparameter-optimization/wang-2020-cost.pdf
     slides: "https://realworldml.github.io/files/slides/28_slide.pdf"
+    html: "https://arxiv.org/html/2101.06590"
   type: workshop
 - key: vadivelu2020learning
   title: Learning to communicate and correct pose errors
@@ -1407,6 +1430,7 @@ publications:
   links:
     arxiv: "https://arxiv.org/abs/2011.05289"
     video: "https://www.youtube.com/watch?v=Qu5KJofLRvs"
+    html: "https://arxiv.org/html/2011.05289"
   type: conference
 - key: sadat2020perceive
   title: "Perceive, predict, and plan: Safe motion planning through interpretable semantic representations"
@@ -1430,6 +1454,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2008.05930"
+    html: "https://arxiv.org/html/2008.05930"
   type: conference
 - key: li2020endtoend
   title: End-to-end contextual perception and prediction with interaction transformer
@@ -1452,6 +1477,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2008.05927"
+    html: "https://arxiv.org/html/2008.05927"
   type: conference
 - key: xiong2020loco
   title: "LoCo: Local contrastive representation learning"
@@ -1544,6 +1570,7 @@ publications:
   links:
     arxiv: "https://arxiv.org/abs/2004.00543"
     video: "https://www.youtube.com/watch?v=yP47irVRGZI"
+    html: "https://arxiv.org/html/2004.00543"
   type: conference
 - key: ren2020flexible_wo
   title: Flexible few-shot learning of contextual similarity
@@ -1641,6 +1668,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/1910.11296"
+    html: "https://arxiv.org/html/1910.11296"
   type: conference
 - key: xiong2019learning
   title: Learning to remember from a multi-task teacher
@@ -1661,6 +1689,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/1910.04650"
+    html: "https://arxiv.org/html/1910.04650"
   type: preprint
 - key: sadat2019jointly
   title: Jointly learnable behavior and trajectory planner for self-driving vehicles
@@ -1684,6 +1713,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/1910.04586"
+    html: "https://arxiv.org/html/1910.04586"
   type: conference
 - key: xiong2019deformable
   title: Deformable filter convolution for point cloud reasoning
@@ -1706,6 +1736,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/1907.13079"
+    html: "https://arxiv.org/html/1907.13079"
   type: workshop
 - key: ren2019incremental
   title: Incremental few-shot learning with attention attractor networks
@@ -1977,6 +2008,7 @@ publications:
     webpage: revnet/index.html
     arxiv: "https://arxiv.org/abs/1707.04585"
     code: "https://github.com/renmengye/revnet-public"
+    html: "https://arxiv.org/html/1707.04585"
   type: conference
 - key: ren2017normalizing
   title: "Normalizing the normalizers: Comparing and extending network normalization schemes"
@@ -2001,6 +2033,7 @@ publications:
     webpage: divnorm/index.html
     arxiv: "https://arxiv.org/abs/1611.04520"
     code: "https://github.com/renmengye/div-norm"
+    html: "https://arxiv.org/html/1611.04520"
   type: conference
 - key: ren2017endtoend
   title: End-to-end instance segmentation with recurrent attention
@@ -2021,6 +2054,7 @@ publications:
     arxiv: "https://arxiv.org/abs/1605.09410"
     code: "https://github.com/renmengye/rec-attend-public"
     video: "https://www.youtube.com/watch?v=oHgUowLph7E"
+    html: "https://arxiv.org/html/1605.09410"
   type: conference
 - key: ren2015exploring
   title: Exploring models and data for image question answering
@@ -2044,6 +2078,7 @@ publications:
     dataset: imageqa/data/cocoqa
     code: "https://github.com/renmengye/imageqa-public"
     code2: "https://github.com/renmengye/imageqa-qgen"
+    html: "https://arxiv.org/html/1505.02074"
   type: conference
 - key: ren2015exploring_wo
   title: Exploring models and data for image question answering
@@ -2067,4 +2102,5 @@ publications:
     dataset: imageqa/data/cocoqa
     code: "https://github.com/renmengye/imageqa-public"
     code2: "https://github.com/renmengye/imageqa-qgen"
+    html: "https://arxiv.org/html/1505.02074"
   type: workshop
