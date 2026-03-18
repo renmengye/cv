@@ -21,7 +21,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/temporal-straightening/"
     arxiv: "https://arxiv.org/abs/2603.12231"
-    html: "https://arxiv.org/html/2603.12231"
+    html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
   type: workshop
 - key: wang2026temporal_preprint
   type: preprint
@@ -46,7 +46,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/temporal-straightening/"
     arxiv: "https://arxiv.org/abs/2603.12231"
-    html: "https://arxiv.org/html/2603.12231"
+    html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
 - key: kim2026maego
   type: preprint
   title: "MA-EgoQA: Question answering over egocentric videos from multiple embodied agents"
@@ -69,7 +69,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2603.09827"
-    html: "https://arxiv.org/html/2603.09827"
+    html: "https://agenticlearning.ai/research/ma-egoqa#full-paper"
 - key: sprague2026skillfactory
   title: "SkillFactory: Self-distillation for learning cognitive behaviors"
   authors:
@@ -112,7 +112,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2512.02304"
-    html: "https://arxiv.org/html/2512.02304"
+    html: "https://agenticlearning.ai/research/llm-verification#full-paper"
   type: workshop
 - key: wu2026local
   title: Local reinforcement learning with action-conditioned root mean squared Q-functions
@@ -131,7 +131,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/arq/"
     arxiv: "https://arxiv.org/abs/2510.06649"
-    html: "https://arxiv.org/html/2510.06649"
+    html: "https://agenticlearning.ai/research/arq#full-paper"
   type: conference
 - key: hoang2026midway
   title: "Midway Network: Learning representations for recognition and motion from latent dynamics"
@@ -150,7 +150,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/midway-network/"
     arxiv: "https://arxiv.org/abs/2510.05558"
-    html: "https://arxiv.org/html/2510.05558"
+    html: "https://agenticlearning.ai/research/midway-network#full-paper"
   type: conference
 - key: abdulsalam2026lamo
   title: "LaMo: A latent motion world model for long-horizon prediction"
@@ -211,7 +211,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2512.02304"
-    html: "https://arxiv.org/html/2512.02304"
+    html: "https://agenticlearning.ai/research/llm-verification#full-paper"
   type: preprint
 - key: wang2025incontext
   title: In-context clustering with large language models
@@ -231,7 +231,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/icc/"
     arxiv: "https://arxiv.org/abs/2510.08466"
-    html: "https://arxiv.org/html/2510.08466"
+    html: "https://agenticlearning.ai/research/icc#full-paper"
   type: preprint
 - key: yang2025streammem
   title: "StreamMem: Query-agnostic KV cache memory for streaming video understanding"
@@ -255,7 +255,7 @@ publications:
   links:
     webpage: "https://yangyanl.ai/streammem/"
     arxiv: "https://arxiv.org/abs/2508.15717"
-    html: "https://arxiv.org/html/2508.15717"
+    html: "https://agenticlearning.ai/research/stream-mem#full-paper"
   type: preprint
 - key: lu2025context_wo
   title: Context tuning for in-context optimization
@@ -276,7 +276,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/context-tuning/"
     arxiv: "https://arxiv.org/abs/2507.04221"
-    html: "https://arxiv.org/html/2507.04221"
+    html: "https://agenticlearning.ai/research/context-tuning#full-paper"
   type: workshop
 - key: lu2025context_pr
   title: Context tuning for in-context optimization
@@ -297,7 +297,7 @@ publications:
   links:
     webpage: "https://agenticlearning.ai/context-tuning/"
     arxiv: "https://arxiv.org/abs/2507.04221"
-    html: "https://arxiv.org/html/2507.04221"
+    html: "https://agenticlearning.ai/research/context-tuning#full-paper"
   type: preprint
 - key: baek2025discrete
   title: "Discrete JEPA: Learning discrete token representations without reconstruction"
@@ -318,7 +318,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2506.14373"
-    html: "https://arxiv.org/html/2506.14373"
+    html: "https://agenticlearning.ai/research/discrete-jepa#full-paper"
   type: workshop
 - key: mahdaviyeh2025replay
   title: Replay can provably increase forgetting
@@ -340,7 +340,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2506.04377"
-    html: "https://arxiv.org/html/2506.04377"
+    html: "https://agenticlearning.ai/research/replay-can-provably-increase-forgetting#full-paper"
   type: conference
 - key: yang2025memory
   title: "Memory Storyboard: Leveraging temporal segmentation for streaming self-supervised learning from egocentric videos"
@@ -360,7 +360,7 @@ publications:
     webpage: "https://agenticlearning.ai/memory-storyboard/"
     arxiv: "https://arxiv.org/abs/2501.12254"
     code: "https://github.com/agentic-learning-ai-lab/memory-storyboard"
-    html: "https://arxiv.org/html/2501.12254"
+    html: "https://agenticlearning.ai/research/memory-storyboard#full-paper"
   type: conference
 - key: singhal2025a
   title: A general framework for inference-time scaling and steering of diffusion models
@@ -408,7 +408,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2411.08324"
     code: "https://github.com/agentic-learning-ai-lab/daily-oracle"
     dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/daily-oracle"
-    html: "https://arxiv.org/html/2411.08324"
+    html: "https://agenticlearning.ai/research/are-llms-prescient#full-paper"
   type: conference
 - key: wang2025poodle
   title: "PooDLe: Pooled and dense self-supervised learning from naturalistic videos"
@@ -521,7 +521,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2411.08324"
     code: "https://github.com/agentic-learning-ai-lab/daily-oracle"
     dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/daily-oracle"
-    html: "https://arxiv.org/html/2411.08324"
+    html: "https://agenticlearning.ai/research/are-llms-prescient#full-paper"
   type: workshop
 - key: lu2024procreate
   title: "ProCreate, don't reproduce! Propulsive energy diffusion for creative generation"
