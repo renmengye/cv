@@ -1,0 +1,472 @@
+# Talks sorted by date descending (newest first).
+# To add a talk: copy an existing entry, edit fields, insert by date.
+
+talks:
+- title: Lifelong concept learning
+  venue: New York University CDS Seminar
+  location: "New York, New York, USA"
+  date: '2026-02-13'
+  links: {}
+  selected: false
+  on_website: true
+- title: Lifelong concept learning
+  venue: Korea Advanced Institute of Science and Technology (KAIST)
+  location: "Seoul, Korea"
+  date: '2025-10-31'
+  links: {}
+  selected: false
+  on_website: true
+- title: Lifelong concept learning
+  venue: Seoul National University
+  location: "Seoul, Korea"
+  date: '2025-10-30'
+  links: {}
+  selected: false
+  on_website: true
+- title: Lifelong concept learning
+  venue: Global AI Frontiers Symposium
+  location: "Seoul, Korea"
+  date: '2025-10-27'
+  links:
+    slides: "https://drive.google.com/file/d/1N7pnjNNDytHlr7s0QrJy63kPumNY3RUP/view?usp=sharing"
+    video: "https://drive.google.com/file/d/1HncCS2-hQk2ONbV2v47m0vM5WfwABGud/view?usp=drive_link"
+  selected: false
+  on_website: true
+- title: Lifelong concept learning
+  venue: University of Calgary. Department of Electrical and Software Engineering
+  location: "Calgary, Alberta, Canada"
+  date: '2025-06-16'
+  links:
+    slides: "https://drive.google.com/file/d/1yNDBklNSBHrZ0o8YuRlk2O2GLPTb0hjt/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Lifelong concept learning
+  venue: IITP AI Education Program
+  location: "New York, New York, USA"
+  date: '2025-06-02'
+  links:
+    slides: "https://drive.google.com/file/d/1P48-BHCn-RZmhMh-ZsM4fA3bGQfxXY66/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Lifelong concept learning for machines
+  venue: New York University. Department of Psychology ConCats Seminar
+  location: "New York, New York, USA"
+  date: '2025-04-04'
+  links:
+    slides: "https://drive.google.com/file/d/1OGOcdZUXmQb3QQeKGY9ly15S8ELuLwEE/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Lifelong and human-like learning in foundation models
+  venue: Seoul National University. Guest Lecture at SNU AI Seminar
+  location: "Seoul, Korea"
+  date: '2024-12-05'
+  links:
+    slides: "https://drive.google.com/file/d/11lz37VrYFCVLVZBXKAYt1F-4fL20Bndn/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Lifelong and human-like learning in foundation models
+  venue: Columbia University. NSF AI Institute for Artificial and Natural Intelligence
+  location: "New York, New York, USA"
+  date: '2024-09-13'
+  links:
+    slides: "https://drive.google.com/file/d/12uFgAk282KBuiDFCm4VQoKZVIoXpSFDB/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: "Computer Vision and Deep Learning: A Primer"
+  venue: NYU AI Summer School. New York University
+  location: "New York, New York, USA"
+  date: '2024-06-04'
+  links:
+    slides: "https://drive.google.com/file/d/1NtrZSkg1WUGevqWtjMKBseLT8jM2CtjW/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Lifelong and human-like learning in foundation models
+  venue: Machine Learning Seminar. Flatiron Institute
+  location: "New York, New York, USA"
+  date: '2024-04-30'
+  links:
+    slides: "https://drive.google.com/file/d/1r2veZmRrQb3QI29m446e9QDjeR-cILl8/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Lifelong and human-like learning in foundation models
+  venue: "Smart Minds meet Smart Machines: AI for Science and Public Good. German Consulate General in New York"
+  location: "New York, New York, USA"
+  date: '2024-04-08'
+  links:
+    slides: "https://drive.google.com/file/d/1kg_jqdLS1ztTcwEn9Oe235xIjULPN7G2/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Lifelong learning in structured environments
+  venue: "American Statistical Association, Statistical Learning and Data Science Webinar"
+  location: Virtual
+  date: '2023-10-01'
+  links:
+    slides: "https://drive.google.com/file/d/11vaeustbBEDfFpc9LH_M2Ke3M6UJuJ68/view?usp=sharing"
+    video: "https://youtu.be/XRro25Am0JE"
+  selected: true
+  on_website: true
+- title: Scaling forward gradient with local losses
+  venue: "Baylor College of Medicine, Journal Club Invited Talk"
+  location: "Houston, Texas, USA"
+  date: '2023-06-01'
+  links:
+    slides: "https://drive.google.com/file/d/1-sWBTjUcoE2ZbrSJSBXRE0B1Kwj22hCN/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Biologically plausible learning using local activity perturbation
+  venue: University of British Columbia. Invited Talk
+  location: "Vancouver, British Columbia, Canada"
+  date: '2023-06-01'
+  links:
+    slides: "https://drive.google.com/file/d/1301oth8RCRoulsC0ds80ABOdwuKrKz3Q/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Meta-learning within a lifetime
+  venue: "NeurIPS 2022 MetaLearn Workshop, Invited Talk"
+  location: "New Orleans, Louisiana, USA"
+  date: '2022-12-01'
+  links:
+    slides: "https://drive.google.com/file/d/1gA968oKiO1ufAtX3ogGsQbqJVkW0ztry/view?usp=sharing"
+    video: "https://youtu.be/bYZ_lO8nNf0"
+  selected: false
+  on_website: true
+- title: Biologically plausible learning using local activity perturbation
+  venue: NYU CDS Lunch Seminar
+  location: "New York, New York, USA"
+  date: '2022-10-01'
+  links:
+    slides: "https://drive.google.com/file/d/1dR9eHXZPVBh6T_2R_eFZ1vU6fQt42yK-/view?usp=sharing"
+    video: "https://youtu.be/tJN0eC3lyWA"
+  selected: true
+  on_website: true
+- title: Visual learning in the open world
+  venue: "19th Conference on Vision and Robotics (CRV), Invited Symposium"
+  location: "Toronto, Ontario, Canada"
+  date: '2022-06-01'
+  links:
+    slides: "https://drive.google.com/file/d/1cWMBA3nsrwXCuCOCIf5PuYjPSXf25nVa/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Visual learning in the open world
+  venue: University of Oxford
+  location: "Oxford, UK"
+  date: '2021-11-01'
+  links:
+    slides: "https://drive.google.com/file/d/10_vWl_ETc_dNXFNcyt6Ft-4uvRyxaLAM/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Visual learning in the open world
+  venue: Google Brain
+  location: "Toronto, Ontario, Canada"
+  date: '2021-11-01'
+  links:
+    slides: "https://drive.google.com/file/d/10AQdRPe6va2-FxCrPM3bhqKW3FMRvMHU/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Visual learning in the open world
+  venue: Stanford University
+  location: "Stanford, California, USA"
+  date: '2021-10-01'
+  links:
+    slides: "https://drive.google.com/file/d/10-WWd-GQ3Udf_IL_d6TIlq738tj_MKtt/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Steps towards making machine learning more natural
+  venue: École Polytechnique Fédérale de Lausanne
+  location: "Lausanne, Switzerland"
+  date: '2021-04-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: University of Michigan
+  location: "Ann Arbor, Michigan, USA"
+  date: '2021-03-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: Université de Montréal
+  location: "Montréal, Québec, Canada"
+  date: '2021-03-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: "University of North Carolina, Chapel Hill"
+  location: "Chapel Hill, North Carolina, USA"
+  date: '2021-03-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: University of Chicago
+  location: "Chicago, Illinois, USA"
+  date: '2021-03-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: University of British Columbia
+  location: "Vancouver, British Columbia, Canada"
+  date: '2021-03-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: University of Waterloo
+  location: "Waterloo, Ontario, Canada"
+  date: '2021-03-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: New York University
+  location: "New York, New York, USA"
+  date: '2021-03-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: University of Edinburgh
+  location: "Edinburgh, UK"
+  date: '2021-03-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: "University of Maryland, College Park"
+  location: "College Park, Maryland, USA"
+  date: '2021-02-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: false
+- title: Steps towards making machine learning more natural
+  venue: Job talk
+  location: ''
+  date: '2021-02-01'
+  links:
+    slides: "https://drive.google.com/file/d/178bE_0I_ZdSaxm6OsoxEVNJ9d12XCECS/view?usp=sharing"
+  selected: false
+  on_website: true
+  on_cv: false
+- title: A tutorial on few-shot learning and unsupervised representation learning
+  venue: Vector Institute
+  location: "Toronto, Ontario, Canada"
+  date: '2021-01-01'
+  links:
+    slides: "https://drive.google.com/file/d/1T-pBg9otkmsJIU6aCaaSEnQ7Ty0Gvhj2/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: How can we apply few-shot learning?
+  venue: Vector Institute
+  location: "Toronto, Ontario, Canada"
+  date: '2020-10-01'
+  links:
+    slides: "https://drive.google.com/file/d/1ih28GXJmf18EpghEq716sIL0F4BkghJS/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Towards continual and compositional few-shot learning
+  venue: Stanford University
+  location: "Stanford, California, USA"
+  date: '2020-10-01'
+  links:
+    slides: "https://drive.google.com/file/d/1Y8jXp0wTlWqn9pBE97btRJX7FutQOqP1/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Towards continual and compositional few-shot learning
+  venue: Brown University
+  location: "Providence, Rhode Island, USA"
+  date: '2020-09-01'
+  links:
+    slides: "https://drive.google.com/file/d/1GjiRkDnMol3PdoxLKb5q7Oy4rDMnC0kT/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Towards continual and compositional few-shot learning
+  venue: MIT
+  location: "Cambridge, Massachusetts, USA"
+  date: '2020-09-01'
+  links:
+    slides: "https://drive.google.com/file/d/16GXux_cX6AahqQ2yLQIWtEP8AdpDKezA/view?usp=sharing"
+    video: "https://www.youtube.com/watch?v=PhKBAkINm40"
+  selected: true
+  on_website: true
+- title: Towards continual and compositional few-shot learning
+  venue: Mila
+  location: "Montréal, Québec, Canada"
+  date: '2020-08-01'
+  links:
+    slides: "https://drive.google.com/file/d/1LNXPTJEPhzK-wNPJrev-9EaButZrYRfr/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Towards continual and compositional few-shot learning
+  venue: Uber ATG
+  location: "Toronto, Ontario, Canada"
+  date: '2020-08-01'
+  links:
+    slides: "https://drive.google.com/file/d/1Y8jXp0wTlWqn9pBE97btRJX7FutQOqP1/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: "Wandering within a world: Online contextualized few-shot learning"
+  venue: Google Brain
+  location: "Montréal, Québec, Canada"
+  date: '2020-08-01'
+  links:
+    slides: "https://drive.google.com/file/d/1a3ceBDpyMqs8oF9WzSLjAj8-RGALdu4h/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: "Wandering within a world: Online contextualized few-shot learning"
+  venue: ICML 2020 Lifelong Learning Workshop
+  location: ''
+  date: '2020-07-01'
+  links:
+    slides: "https://drive.google.com/file/d/1SJusk2ILF-I3q3RGSU2nEz_6BYG6GY_Q/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: "Wandering within a world: Online contextualized few-shot learning"
+  venue: ICML 2020 Continual Learning Workshop
+  location: ''
+  date: '2020-07-01'
+  links:
+    slides: "https://drive.google.com/file/d/1HhXSVx7pJsSp1LO7W880BqMZfFSo48od/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Jointly learnable behavior and trajectory planner for autonomous driving
+  venue: IROS 2019
+  location: "Macau, China"
+  date: '2019-11-01'
+  links:
+    slides: "https://drive.google.com/file/d/1QzrgV5uHaoEpEMUrbPrlHE_nERHfuNvT/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Meta-learning for more human-like learning algorithms
+  venue: Columbia University
+  location: "New York, New York, USA"
+  date: '2019-10-01'
+  links:
+    slides: "https://drive.google.com/file/d/1S6HgdAMx8_QYz5hcSf4B7tj_ZzwDd1t_/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: Learning to reweight examples for robust deep learning
+  venue: CIFAR deep learning and reinforcement learning summer school
+  location: "Toronto, Ontario, Canada"
+  date: '2018-08-01'
+  links:
+    slides: "https://drive.google.com/file/d/1jWGJHjpFwjMeHrAtx6vMJ2yg973_hx3t/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Learning to reweight examples for robust deep learning
+  venue: ICML 2018
+  location: "Stockholm, Sweden"
+  date: '2018-07-01'
+  links:
+    slides: "https://drive.google.com/file/d/1jWGJHjpFwjMeHrAtx6vMJ2yg973_hx3t/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Meta-learning for weakly supervised learning
+  venue: INRIA Grenoble - Rhône-Alpes
+  location: "Grenoble, France"
+  date: '2018-07-01'
+  links:
+    slides: "https://drive.google.com/file/d/1ePaNOzThOL_F7B5SZPPNWpj2IkXcNdkE/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Meta-learning for weakly supervised learning
+  venue: NEC Laboratories America
+  location: "Princeton, New Jersey, USA"
+  date: '2018-07-01'
+  links:
+    slides: "https://drive.google.com/file/d/1ePaNOzThOL_F7B5SZPPNWpj2IkXcNdkE/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: Meta-learning and learning to reweight examples
+  venue: Max Planck Institute for Intelligent Systems
+  location: "Tübingen, Germany"
+  date: '2018-06-01'
+  links:
+    slides: "https://drive.google.com/file/d/1nUqYGh1QKv5eyXsEStBo4bf5pQRbhFsF/view?usp=sharing"
+  selected: false
+  on_website: true
+- title: "SBNet: Sparse blocks network for fast inference"
+  venue: CVPR 2018
+  location: "Salt Lake City, Utah, USA"
+  date: '2018-06-01'
+  links:
+    slides: "https://docs.google.com/presentation/d/1mTo8Dv3BjQwh2lNerLnwQgsa4YTrDb-O8kkAN4lcCI4/edit?usp=sharing"
+  selected: false
+  on_website: true
+- title: "SBNet: Sparse blocks network for fast inference"
+  venue: Borealis AI Lab (RBC Research)
+  location: "Toronto, Ontario, Canada"
+  date: '2018-02-01'
+  links:
+    slides: "https://docs.google.com/presentation/d/1mTo8Dv3BjQwh2lNerLnwQgsa4YTrDb-O8kkAN4lcCI4/edit?usp=sharing"
+  selected: false
+  on_website: true
+- title: Meta-learning for semi-supervised few-shot classification
+  venue: Vector Institute
+  location: "Toronto, Ontario, Canada"
+  date: '2017-11-01'
+  links:
+    slides: "https://docs.google.com/presentation/d/16im80t2tl1mJHyvTrgMmqqWbCvPBBCmALK4tbTJFq-o/edit?usp=sharing"
+  selected: false
+  on_website: true
+- title: End-to-end instance segmentation with recurrent attention
+  venue: CVPR 2017
+  location: "Honolulu, Hawaii, USA"
+  date: '2017-07-01'
+  links:
+    slides: "https://drive.google.com/file/d/1SgLf0Llf9dJWx9YAQAJccVffmhahP6V3/view?usp=sharing"
+    video: "https://www.youtube.com/watch?v=oHgUowLph7E"
+  selected: false
+  on_website: true
+- title: Sequence-to-sequence deep learning with recurrent attention
+  venue: "Queen's University"
+  location: "Kingston, Ontario, Canada"
+  date: '2017-05-01'
+  links:
+    slides: "https://docs.google.com/presentation/d/1lAKvNL4RWk00Ad4aAInniAkiWxaEwJn7cLoCFVwQuMs/edit?usp=sharing"
+  selected: false
+  on_website: true
+- title: Recurrent neural networks
+  venue: "CSC 2541: Sport Analytics Guest Lecture. University of Toronto"
+  location: "Toronto, Ontario, Canada"
+  date: '2017-01-01'
+  links:
+    slides: "https://docs.google.com/presentation/d/1cTfhrPa5EFtRsbKXSKv4AAmAi9lZoe0vq0Yt4oZtElc/edit?usp=sharing"
+  selected: false
+  on_website: true
+- title: Deep dashboard tutorial
+  venue: University of Guelph
+  location: "Guelph, Ontario, Canada"
+  date: '2016-03-01'
+  links:
+    slides: "https://docs.google.com/presentation/d/1hWINp0UY6aAINjgmWqHmYg_Qtt13DsHL8X6J6xGq1jc/edit?usp=sharing"
+  selected: false
+  on_website: true
+- title: Deep dashboard tutorial
+  venue: University of Toronto
+  location: "Toronto, Ontario, Canada"
+  date: '2016-02-01'
+  links:
+    slides: "https://docs.google.com/presentation/d/1hWINp0UY6aAINjgmWqHmYg_Qtt13DsHL8X6J6xGq1jc/edit?usp=sharing"
+  selected: false
+  on_website: true
+- title: Exploring data and models for image question answering
+  venue: ICML 2015 Deep Learning Workshop
+  location: "Lille, France"
+  date: '2015-07-01'
+  links:
+    slides: "https://docs.google.com/presentation/d/1jEtaqod5-QgHuK09pQv2U1HrkCxFHiRbBL7a-2C6dfw/edit?usp=sharing"
+  selected: false
+  on_website: true

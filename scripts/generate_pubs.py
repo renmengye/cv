@@ -215,10 +215,93 @@ def generate_select_pubs_tex(all_entries):
     return '\n'.join(lines) + '\n'
 
 
+# ============================================================
+# Talks
+# ============================================================
+
+def load_talks():
+    talks_path = CV_DIR / 'talks.yaml'
+    if not talks_path.exists():
+        return []
+    with open(talks_path) as f:
+        data = yaml.safe_load(f)
+    return data.get('talks', [])
+
+
+def format_talk_date(d):
+    """Format date string for LaTeX: '2025-10-31' -> 'Oct 31, 2025'."""
+    months = ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+              'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
+    parts = d.split('-')
+    y, m = int(parts[0]), int(parts[1])
+    day = int(parts[2]) if len(parts) > 2 else 0
+    if day and day != 1:
+        return f'{months[m]} {day}, {y}'
+    return f'{months[m]} {y}'
+
+
+def generate_talks_tex(talks):
+    lines = []
+    lines.append('% AUTO-GENERATED from talks.yaml -- do not edit manually.')
+    lines.append('% !TEX root = ../cv_mengye_ren.tex')
+    lines.append(r'\if\shortcv0')
+    lines.append(r'\section{\sc Invited Talks}')
+    lines.append('')
+
+    cv_talks = [t for t in talks if t.get('on_cv', True)]
+    total = len(cv_talks)
+    by_year = OrderedDict()
+    for t in cv_talks:
+        y = t['date'][:4]
+        by_year.setdefault(y, []).append(t)
+
+    counter = total
+    for year, year_talks in by_year.items():
+        lines.append(f'\\textbf{{{year}}}')
+        lines.append(f'\\begin{{etaremune}}[start={counter}]')
+        lines.append(r'\renewcommand\labelenumi{T\theenumi}')
+        for t in year_talks:
+            venue = t.get('venue', '')
+            location = t.get('location', '')
+            date_str = format_talk_date(t['date'])
+            loc_part = f'. {location}' if location else ''
+            lines.append(f'\\item {t["title"]}. {venue}{loc_part}. {date_str}.\n')
+        counter -= len(year_talks)
+        lines.append(r'\end{etaremune}')
+        lines.append('')
+
+    lines.append(r'\fi')
+    return '\n'.join(lines) + '\n'
+
+
+def generate_select_talks_tex(talks):
+    selected = [t for t in talks if t.get('selected')]
+    # Deduplicate by title (keep first occurrence = newest)
+    seen = set()
+    deduped = []
+    for t in selected:
+        norm = t['title'].lower().strip()
+        if norm not in seen:
+            seen.add(norm)
+            deduped.append(t)
+
+    lines = []
+    lines.append('% AUTO-GENERATED from talks.yaml -- do not edit manually.')
+    lines.append('% !TEX root = ../cv_mengye_ren_short.tex')
+    lines.append(r'\if\shortcv1')
+    lines.append(r'\section{\sc Selected Talks}')
+    lines.append(r'\begin{list2}')
+    for t in deduped:
+        year = t['date'][:4]
+        lines.append(f'\\item {t["title"]} \\hfill {year}')
+    lines.append(r'\end{list2}')
+    lines.append(r'\fi')
+    return '\n'.join(lines) + '\n'
+
+
 def main():
     entries = load_data()
     if isinstance(entries, dict):
-        # Old format with categories as keys
         flat = []
         for cat in ['conference', 'workshop', 'preprint', 'patent']:
             for e in entries.get(cat, []):
@@ -241,6 +324,21 @@ def main():
     for t in ['conference', 'workshop', 'preprint', 'patent']:
         n = counts.get(t, 0)
         print(f'  {t}: {n}')
+
+    # Talks
+    talks = load_talks()
+    if talks:
+        talks_path = CV_DIR / 'sections' / 'talks.tex'
+        with open(talks_path, 'w') as f:
+            f.write(generate_talks_tex(talks))
+        cv_count = sum(1 for t in talks if t.get('on_cv', True))
+        print(f'Wrote {talks_path} ({cv_count} talks on CV, {len(talks)} total)')
+
+        select_talks_path = CV_DIR / 'sections' / 'select_talks.tex'
+        with open(select_talks_path, 'w') as f:
+            f.write(generate_select_talks_tex(talks))
+        selected_count = len(set(t['title'].lower() for t in talks if t.get('selected')))
+        print(f'Wrote {select_talks_path} ({selected_count} selected)')
 
 
 if __name__ == '__main__':
