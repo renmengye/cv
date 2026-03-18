@@ -106,7 +106,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: &id001
+  links:
     arxiv: "https://arxiv.org/abs/2512.02304"
   type: workshop
 - key: wu2026local
@@ -201,7 +201,8 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: *id001
+  links:
+    arxiv: "https://arxiv.org/abs/2512.02304"
   type: preprint
 - key: wang2025incontext
   title: In-context clustering with large language models
@@ -261,7 +262,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: &id002
+  links:
     webpage: "https://agenticlearning.ai/context-tuning/"
     arxiv: "https://arxiv.org/abs/2507.04221"
   type: workshop
@@ -281,7 +282,9 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: *id002
+  links:
+    webpage: "https://agenticlearning.ai/context-tuning/"
+    arxiv: "https://arxiv.org/abs/2507.04221"
   type: preprint
 - key: baek2025discrete
   title: "Discrete JEPA: Learning discrete token representations without reconstruction"
@@ -383,7 +386,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: &id003
+  links:
     webpage: "https://agenticlearning.ai/daily-oracle/"
     arxiv: "https://arxiv.org/abs/2411.08324"
     code: "https://github.com/agentic-learning-ai-lab/daily-oracle"
@@ -495,7 +498,11 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: *id003
+  links:
+    webpage: "https://agenticlearning.ai/daily-oracle/"
+    arxiv: "https://arxiv.org/abs/2411.08324"
+    code: "https://github.com/agentic-learning-ai-lab/daily-oracle"
+    dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/daily-oracle"
   type: workshop
 - key: lu2024procreate
   title: "ProCreate, don't reproduce! Propulsive energy diffusion for creative generation"
@@ -535,7 +542,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: 2024/integrating-present-and-past-in-unsupervised-continual-learning
-  links: &id004
+  links:
     arxiv: "https://arxiv.org/abs/2404.19132"
     pdf: 2024/integrating-present-and-past-in-unsupervised-continual-learning/zhang-2024-integrating.pdf
     html: 2024/integrating-present-and-past-in-unsupervised-continual-learning
@@ -556,7 +563,10 @@ publications:
   selected: false
   on_website: true
   webpage_path: 2024/integrating-present-and-past-in-unsupervised-continual-learning
-  links: *id004
+  links:
+    arxiv: "https://arxiv.org/abs/2404.19132"
+    pdf: 2024/integrating-present-and-past-in-unsupervised-continual-learning/zhang-2024-integrating.pdf
+    html: 2024/integrating-present-and-past-in-unsupervised-continual-learning
   type: workshop
 - key: teehan2024college
   title: "CoLLEGe: Concept embedding generation for large language models"
@@ -770,7 +780,7 @@ publications:
   - A Pokrovsky
   - Y-C Lin
   - E Yumer
-  links: &id008
+  links:
     arxiv: "https://arxiv.org/abs/1910.04586"
   webpage_path: null
   type: patent
@@ -987,7 +997,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: &id005
+  links:
     arxiv: "https://arxiv.org/abs/2210.02615"
     pdf: 2022/learning-to-reason-with-relational-abstractions/nam-2022-learning.pdf
     dataset: "https://github.com/renmengye/grade-school-math-relational"
@@ -1010,7 +1020,10 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: *id005
+  links:
+    arxiv: "https://arxiv.org/abs/2210.02615"
+    pdf: 2022/learning-to-reason-with-relational-abstractions/nam-2022-learning.pdf
+    dataset: "https://github.com/renmengye/grade-school-math-relational"
   type: preprint
 - key: jones2022neural
   title: Neural network online training with sensitivity to multiscale temporal structure
@@ -1318,7 +1331,7 @@ publications:
   selected: true
   on_website: true
   webpage_path: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
-  links: &id006
+  links:
     arxiv: "https://arxiv.org/abs/2007.04546"
     pdf: 2021/wandering-within-a-world-online-contextualized-few-shot-learning/ren-2021-wandering.pdf
     code: "https://github.com/renmengye/oc-fewshot-public"
@@ -1492,7 +1505,12 @@ publications:
   selected: true
   on_website: true
   webpage_path: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
-  links: *id006
+  links:
+    arxiv: "https://arxiv.org/abs/2007.04546"
+    pdf: 2021/wandering-within-a-world-online-contextualized-few-shot-learning/ren-2021-wandering.pdf
+    code: "https://github.com/renmengye/oc-fewshot-public"
+    video: "https://slideslive.com/38931573/wandering-within-a-world-online-contextualized-fewshot-learning"
+    html: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
   type: workshop
 - key: tu2020physically
   title: Physically realizable adversarial examples for LiDAR object detection
@@ -1542,7 +1560,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: &id007
+  links:
     pdf: "https://meta-learn.github.io/2020/papers/49_paper.pdf"
     video: "https://slideslive.at/38941548/flexible-fewshot-learning-of-contextual-similarities"
   type: workshop
@@ -1591,7 +1609,9 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: *id007
+  links:
+    pdf: "https://meta-learn.github.io/2020/papers/49_paper.pdf"
+    video: "https://slideslive.at/38941548/flexible-fewshot-learning-of-contextual-similarities"
   type: preprint
 - key: wong2019identifying
   title: Identifying unknown instances for autonomous driving
@@ -1653,7 +1673,8 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: *id008
+  links:
+    arxiv: "https://arxiv.org/abs/1910.04586"
   type: conference
 - key: xiong2019deformable
   title: Deformable filter convolution for point cloud reasoning
@@ -1693,7 +1714,7 @@ publications:
   selected: true
   on_website: true
   webpage_path: 2019/incremental-few-shot-learning-with-attention-attractor-networks
-  links: &id009
+  links:
     arxiv: "https://arxiv.org/abs/1810.07218"
     code: "https://github.com/renmengye/inc-few-shot-attractor-public"
     html: 2019/incremental-few-shot-learning-with-attention-attractor-networks
@@ -1713,7 +1734,7 @@ publications:
   selected: true
   on_website: true
   webpage_path: 2019/graph-hypernetworks-for-neural-architecture-search
-  links: &id010
+  links:
     arxiv: "https://arxiv.org/abs/1810.05749"
     html: 2019/graph-hypernetworks-for-neural-architecture-search
   type: conference
@@ -1751,7 +1772,10 @@ publications:
   selected: true
   on_website: true
   webpage_path: 2019/incremental-few-shot-learning-with-attention-attractor-networks
-  links: *id009
+  links:
+    arxiv: "https://arxiv.org/abs/1810.07218"
+    code: "https://github.com/renmengye/inc-few-shot-attractor-public"
+    html: 2019/incremental-few-shot-learning-with-attention-attractor-networks
   type: workshop
 - key: zhang2018graph
   title: Graph hypernetworks for neural architecture search
@@ -1768,7 +1792,9 @@ publications:
   selected: true
   on_website: true
   webpage_path: 2019/graph-hypernetworks-for-neural-architecture-search
-  links: *id010
+  links:
+    arxiv: "https://arxiv.org/abs/1810.05749"
+    html: 2019/graph-hypernetworks-for-neural-architecture-search
   type: workshop
 - key: ren2018learning
   title: Learning to reweight examples for robust deep learning
@@ -1809,7 +1835,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
-  links: &id011
+  links:
     webpage: metaoptim/index.html
     arxiv: "https://arxiv.org/abs/1803.02021"
     code: "https://github.com/renmengye/meta-optim-public"
@@ -1837,7 +1863,7 @@ publications:
   selected: true
   on_website: true
   webpage_path: 2018/meta-learning-for-semi-supervised-few-shot-classification
-  links: &id012
+  links:
     webpage: fewshotssl/index.html
     arxiv: "https://arxiv.org/abs/1803.00676"
     code: "https://github.com/renmengye/few-shot-ssl-public"
@@ -1886,7 +1912,11 @@ publications:
   selected: false
   on_website: true
   webpage_path: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
-  links: *id011
+  links:
+    webpage: metaoptim/index.html
+    arxiv: "https://arxiv.org/abs/1803.02021"
+    code: "https://github.com/renmengye/meta-optim-public"
+    html: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
   type: workshop
 - key: ren2017metalearning
   title: Meta-learning for semi-supervised few-shot classification
@@ -1910,7 +1940,11 @@ publications:
   selected: true
   on_website: true
   webpage_path: 2018/meta-learning-for-semi-supervised-few-shot-classification
-  links: *id012
+  links:
+    webpage: fewshotssl/index.html
+    arxiv: "https://arxiv.org/abs/1803.00676"
+    code: "https://github.com/renmengye/few-shot-ssl-public"
+    html: 2018/meta-learning-for-semi-supervised-few-shot-classification
   type: workshop
 - key: gomez2017the
   title: "The reversible residual network: Backpropagation without storing activations"
@@ -1994,7 +2028,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: &id013
+  links:
     webpage: imageqa/index.html
     arxiv: "https://arxiv.org/abs/1505.02074"
     results: imageqa/results
@@ -2017,5 +2051,11 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: *id013
+  links:
+    webpage: imageqa/index.html
+    arxiv: "https://arxiv.org/abs/1505.02074"
+    results: imageqa/results
+    dataset: imageqa/data/cocoqa
+    code: "https://github.com/renmengye/imageqa-public"
+    code2: "https://github.com/renmengye/imageqa-qgen"
   type: workshop
