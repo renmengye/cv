@@ -1,4 +1,20 @@
 publications:
+- key: ren2026self
+  title: The self requires learning
+  authors:
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: null
+  venue_short: null
+  venue_location: null
+  year: 2026
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    pdf: 2026/the-self-requires-learning/paper.pdf
+  type: preprint
 - key: wang2026temporal
   title: Temporal straightening for latent planning
   authors:
