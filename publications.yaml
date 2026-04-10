@@ -14,6 +14,7 @@ publications:
   webpage_path: null
   links:
     pdf: 2026/the-self-requires-learning/paper.pdf
+    philpapers: https://philpapers.org/rec/RENTSR
   type: preprint
 - key: wang2026temporal
   title: Temporal straightening for latent planning
