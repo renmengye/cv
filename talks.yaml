@@ -2,6 +2,14 @@
 # To add a talk: copy an existing entry, edit fields, insert by date.
 
 talks:
+- title: The always-learning machine
+  venue: Columbia University
+  location: "New York, New York, USA"
+  date: "2026-04-09"
+  links: 
+    slides: "https://drive.google.com/file/d/1_x_C6ckQ-bdGCS5wxFMtlSZC4EP2Uo5J/view?usp=sharing"
+  selected: true
+  on_website: true
 - title: Lifelong concept learning
   venue: New York University CDS Seminar
   location: "New York, New York, USA"
