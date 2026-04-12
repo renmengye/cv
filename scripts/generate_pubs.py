@@ -63,7 +63,10 @@ def format_authors(entry, abbreviate=False):
 def format_venue(entry, short=False):
     v = entry.get('venue_short' if short else 'venue_full', '')
     if not v:
-        return ''
+        if entry.get('type') == 'preprint':
+            v = 'Preprint'
+        else:
+            return ''
     return r'\textit{' + v + '}'
 
 
