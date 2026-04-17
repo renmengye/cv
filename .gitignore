@@ -126,3 +126,6 @@ sympy-plots-for-*.tex/
 *.sav
 .DS_Store
 __pycache__/
+
+# CV build output
+cv_mengye_ren.pdf
