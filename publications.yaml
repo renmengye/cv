@@ -16,6 +16,27 @@ publications:
     pdf: 2026/the-self-requires-learning/paper.pdf
     philpapers: https://philpapers.org/rec/RENTSR
   type: preprint
+- key: kim2026mtl
+  type: preprint
+  title: "Memory Transfer Learning: How memories are transferred across domains in coding agents"
+  authors:
+  - Kangsan Kim
+  - Minki Kang
+  - Taeil Kim
+  - Yanlai Yang
+  - Mengye Ren
+  - Sung Ju Hwang
+  equal_contribution: []
+  venue_full: "arXiv preprint arXiv:2604.14004"
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2026
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2604.14004"
 - key: wang2026temporal
   title: Temporal straightening for latent planning
   authors:
