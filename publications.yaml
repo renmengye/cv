@@ -61,6 +61,25 @@ publications:
     arxiv: "https://arxiv.org/abs/2603.12231"
     html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
   type: workshop
+- key: jiang2026babyclip
+  type: workshop
+  title: "BabyCLIP: Continual language grounding through the experience of a single child"
+  authors:
+  - Xiaoyang Jiang
+  - Yanlai Yang
+  - Kenneth A. Norman
+  - Brenden Lake
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "CVPR 2026 Workshop on Computer Vision for Children (CV4CHL)"
+  venue_short: "CVPR 2026 Workshop on Computer Vision for Children"
+  venue_location: "Denver, Colorado, USA"
+  year: 2026
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links: {}
 - key: wang2026temporal_preprint
   type: preprint
   title: Temporal straightening for latent planning
