@@ -28,21 +28,21 @@ talks:
   on_website: true
 - title: Lifelong concept learning
   venue: Korea Advanced Institute of Science and Technology (KAIST)
-  location: "Seoul, Korea"
+  location: "Seoul, South Korea"
   date: '2025-10-31'
   links: {}
   selected: false
   on_website: true
 - title: Lifelong concept learning
   venue: Seoul National University
-  location: "Seoul, Korea"
+  location: "Seoul, South Korea"
   date: '2025-10-30'
   links: {}
   selected: false
   on_website: true
 - title: Lifelong concept learning
   venue: Global AI Frontiers Symposium
-  location: "Seoul, Korea"
+  location: "Seoul, South Korea"
   date: '2025-10-27'
   links:
     slides: "https://drive.google.com/file/d/1N7pnjNNDytHlr7s0QrJy63kPumNY3RUP/view?usp=sharing"
@@ -75,7 +75,7 @@ talks:
   on_website: true
 - title: Lifelong and human-like learning in foundation models
   venue: Seoul National University. Guest Lecture at SNU AI Seminar
-  location: "Seoul, Korea"
+  location: "Seoul, South Korea"
   date: '2024-12-05'
   links:
     slides: "https://drive.google.com/file/d/11lz37VrYFCVLVZBXKAYt1F-4fL20Bndn/view?usp=sharing"
