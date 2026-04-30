@@ -37,30 +37,6 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2604.14004"
-- key: wang2026temporal
-  title: Temporal straightening for latent planning
-  authors:
-  - Ying Wang
-  - Oumayma Bounou
-  - Gaoyue Zhou
-  - Randall Balestriero
-  - Tim G. J. Rudner
-  - Yann LeCun
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: World Modeling Workshop
-  venue_short: World Modeling Workshop
-  venue_location: "Montréal, Québec, Canada"
-  year: 2026
-  note: oral
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://agenticlearning.ai/temporal-straightening/"
-    arxiv: "https://arxiv.org/abs/2603.12231"
-    html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
-  type: workshop
 - key: jiang2026babyclip
   type: workshop
   title: "BabyCLIP: Continual language grounding through the experience of a single child"
@@ -80,8 +56,8 @@ publications:
   on_website: true
   webpage_path: null
   links: {}
-- key: wang2026temporal_preprint
-  type: preprint
+- key: wang2026temporal
+  type: conference
   title: Temporal straightening for latent planning
   authors:
   - Ying Wang
@@ -92,9 +68,9 @@ publications:
   - Yann LeCun
   - Mengye Ren
   equal_contribution: []
-  venue_full: "arXiv preprint arXiv:2603.12231"
-  venue_short: arXiv preprint
-  venue_location: ''
+  venue_full: Proceedings of the 43rd International Conference on Machine Learning (ICML)
+  venue_short: ICML
+  venue_location: 'Seoul, Korea'
   year: 2026
   note: null
   selected: false
@@ -104,6 +80,27 @@ publications:
     webpage: "https://agenticlearning.ai/temporal-straightening/"
     arxiv: "https://arxiv.org/abs/2603.12231"
     html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
+- key: lu2025context
+  title: Context tuning for in-context optimization
+  authors:
+  - Jack Lu
+  - Ryan Teehan
+  - Zhenbang Yang
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Proceedings of the 43rd International Conference on Machine Learning (ICML)
+  venue_short: ICML
+  venue_location: ''
+  year: 2026
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/context-tuning/"
+    arxiv: "https://arxiv.org/abs/2507.04221"
+    html: "https://agenticlearning.ai/research/context-tuning#full-paper"
+  type: conference
 - key: kim2026maego
   type: preprint
   title: "MA-EgoQA: Question answering over egocentric videos from multiple embodied agents"
@@ -226,6 +223,30 @@ publications:
   webpage_path: null
   links: {}
   type: workshop
+- key: wang2026temporal_workshop
+  title: Temporal straightening for latent planning
+  authors:
+  - Ying Wang
+  - Oumayma Bounou
+  - Gaoyue Zhou
+  - Randall Balestriero
+  - Tim G. J. Rudner
+  - Yann LeCun
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: World Modeling Workshop
+  venue_short: World Modeling Workshop
+  venue_location: "Montréal, Québec, Canada"
+  year: 2026
+  note: oral
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/temporal-straightening/"
+    arxiv: "https://arxiv.org/abs/2603.12231"
+    html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
+  type: workshop
 - key: su2025opinion
   title: "Opinion: Learning intuitive physics requires more than visual data"
   authors:
@@ -335,27 +356,6 @@ publications:
     arxiv: "https://arxiv.org/abs/2507.04221"
     html: "https://agenticlearning.ai/research/context-tuning#full-paper"
   type: workshop
-- key: lu2025context_pr
-  title: Context tuning for in-context optimization
-  authors:
-  - Jack Lu
-  - Ryan Teehan
-  - Zhenbang Yang
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: "arXiv preprint arXiv:2507.04221"
-  venue_short: arXiv preprint
-  venue_location: ''
-  year: 2025
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://agenticlearning.ai/context-tuning/"
-    arxiv: "https://arxiv.org/abs/2507.04221"
-    html: "https://agenticlearning.ai/research/context-tuning#full-paper"
-  type: preprint
 - key: baek2025discrete
   title: "Discrete JEPA: Learning discrete token representations without reconstruction"
   authors:

@@ -2,6 +2,15 @@
 # To add a talk: copy an existing entry, edit fields, insert by date.
 
 talks:
+- title: Does your LLM agent have a self?
+  venue: ICML 2026 MemAgents Workshop
+  location: "Rio de Janeiro, Brazil"
+  date: "2026-04-27"
+  links: 
+    slides: "https://drive.google.com/file/d/1YcNVgORYu2ISiUL0TwAaxZKACZFDUsHE/view?usp=sharing"
+    video: "https://www.youtube.com/watch?v=NhFM_YoXMXM"
+  selected: true
+  on_website: true
 - title: The always-learning machine
   venue: Columbia University
   location: "New York, New York, USA"
@@ -37,7 +46,7 @@ talks:
   date: '2025-10-27'
   links:
     slides: "https://drive.google.com/file/d/1N7pnjNNDytHlr7s0QrJy63kPumNY3RUP/view?usp=sharing"
-    video: "https://drive.google.com/file/d/1HncCS2-hQk2ONbV2v47m0vM5WfwABGud/view?usp=drive_link"
+    video: "https://www.youtube.com/watch?v=113UPCBXQEs"
   selected: false
   on_website: true
 - title: Lifelong concept learning

@@ -268,7 +268,9 @@ def generate_talks_tex(talks):
             location = t.get('location', '')
             date_str = format_talk_date(t['date'])
             loc_part = f'. {location}' if location else ''
-            lines.append(f'\\item {t["title"]}. {venue}{loc_part}. {date_str}.\n')
+            title = t["title"]
+            title_sep = '' if title.endswith(('?', '!', '.')) else '.'
+            lines.append(f'\\item {title}{title_sep} {venue}{loc_part}. {date_str}.\n')
         counter -= len(year_talks)
         lines.append(r'\end{etaremune}')
         lines.append('')
