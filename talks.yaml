@@ -47,7 +47,7 @@ talks:
   links:
     slides: "https://drive.google.com/file/d/1N7pnjNNDytHlr7s0QrJy63kPumNY3RUP/view?usp=sharing"
     video: "https://www.youtube.com/watch?v=113UPCBXQEs"
-  selected: false
+  selected: true
   on_website: true
 - title: Lifelong concept learning
   venue: University of Calgary. Department of Electrical and Software Engineering
@@ -103,7 +103,7 @@ talks:
   date: '2024-04-30'
   links:
     slides: "https://drive.google.com/file/d/1r2veZmRrQb3QI29m446e9QDjeR-cILl8/view?usp=sharing"
-  selected: false
+  selected: true
   on_website: true
 - title: Lifelong and human-like learning in foundation models
   venue: "Smart Minds meet Smart Machines: AI for Science and Public Good. German Consulate General in New York"
@@ -299,7 +299,7 @@ talks:
   date: '2020-10-01'
   links:
     slides: "https://drive.google.com/file/d/1Y8jXp0wTlWqn9pBE97btRJX7FutQOqP1/view?usp=sharing"
-  selected: true
+  selected: false
   on_website: true
 - title: Towards continual and compositional few-shot learning
   venue: Brown University
@@ -307,7 +307,7 @@ talks:
   date: '2020-09-01'
   links:
     slides: "https://drive.google.com/file/d/1GjiRkDnMol3PdoxLKb5q7Oy4rDMnC0kT/view?usp=sharing"
-  selected: true
+  selected: false
   on_website: true
 - title: Towards continual and compositional few-shot learning
   venue: MIT
@@ -316,7 +316,7 @@ talks:
   links:
     slides: "https://drive.google.com/file/d/16GXux_cX6AahqQ2yLQIWtEP8AdpDKezA/view?usp=sharing"
     video: "https://www.youtube.com/watch?v=PhKBAkINm40"
-  selected: true
+  selected: false
   on_website: true
 - title: Towards continual and compositional few-shot learning
   venue: Mila
@@ -324,7 +324,7 @@ talks:
   date: '2020-08-01'
   links:
     slides: "https://drive.google.com/file/d/1LNXPTJEPhzK-wNPJrev-9EaButZrYRfr/view?usp=sharing"
-  selected: true
+  selected: false
   on_website: true
 - title: Towards continual and compositional few-shot learning
   venue: Uber ATG
@@ -332,7 +332,7 @@ talks:
   date: '2020-08-01'
   links:
     slides: "https://drive.google.com/file/d/1Y8jXp0wTlWqn9pBE97btRJX7FutQOqP1/view?usp=sharing"
-  selected: true
+  selected: false
   on_website: true
 - title: "Wandering within a world: Online contextualized few-shot learning"
   venue: Google Brain
@@ -372,7 +372,7 @@ talks:
   date: '2019-10-01'
   links:
     slides: "https://drive.google.com/file/d/1S6HgdAMx8_QYz5hcSf4B7tj_ZzwDd1t_/view?usp=sharing"
-  selected: true
+  selected: false
   on_website: true
 - title: Learning to reweight examples for robust deep learning
   venue: CIFAR deep learning and reinforcement learning summer school

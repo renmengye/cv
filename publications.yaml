@@ -16,6 +16,21 @@ publications:
     pdf: 2026/the-self-requires-learning/paper.pdf
     philpapers: https://philpapers.org/rec/RENTSR
   type: preprint
+- key: ren2026creativity
+  type: preprint
+  title: 'Seeking the Unfamiliar but Learnable: Conceptual Creativity as Meta Learning'
+  authors:
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: null
+  venue_short: in submission
+  venue_location: null
+  year: 2026
+  note: null
+  selected: true
+  on_website: true
+  webpage_path: null
+  links: {}
 - key: kim2026mtl
   type: preprint
   title: "Memory Transfer Learning: How memories are transferred across domains in coding agents"
@@ -32,7 +47,7 @@ publications:
   venue_location: ''
   year: 2026
   note: null
-  selected: false
+  selected: true
   on_website: true
   webpage_path: null
   links:
@@ -118,7 +133,7 @@ publications:
   venue_location: ''
   year: 2026
   note: null
-  selected: false
+  selected: true
   on_website: true
   webpage_path: null
   links:
@@ -457,7 +472,7 @@ publications:
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2025
   note: null
-  selected: false
+  selected: true
   on_website: true
   webpage_path: null
   links:
@@ -656,7 +671,7 @@ publications:
   venue_location: "Philadelphia, Pennsylvania, USA"
   year: 2024
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2024/college-concept-embedding-generation-for-large-language-models
   links:
@@ -725,7 +740,7 @@ publications:
   venue_location: "Vienna, Austria"
   year: 2024
   note: null
-  selected: false
+  selected: true
   on_website: true
   webpage_path: 2024/learning-and-forgetting-unsafe-examples-in-large-language-models
   links:
@@ -830,7 +845,7 @@ publications:
   venue_location: "Kigali, Rwanda"
   year: 2023
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2023/scaling-forward-gradient-with-local-losses
   links:
@@ -1274,7 +1289,7 @@ publications:
   venue_location: ''
   year: 2021
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2021/self-supervised-representation-learning-from-flow-equivariance
   links:
@@ -1416,7 +1431,7 @@ publications:
   venue_location: ''
   year: 2021
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
   links:
@@ -1594,7 +1609,7 @@ publications:
   venue_location: "Vienna, Austria"
   year: 2020
   note: oral
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
   links:
@@ -1808,7 +1823,7 @@ publications:
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2019
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2019/incremental-few-shot-learning-with-attention-attractor-networks
   links:
@@ -1828,7 +1843,7 @@ publications:
   venue_location: "New Orleans, Louisiana, USA"
   year: 2019
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2019/graph-hypernetworks-for-neural-architecture-search
   links:
@@ -1866,7 +1881,7 @@ publications:
   venue_location: "Montréal, Québec, Canada"
   year: 2018
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2019/incremental-few-shot-learning-with-attention-attractor-networks
   links:
@@ -1886,7 +1901,7 @@ publications:
   venue_location: "Montréal, Québec, Canada"
   year: 2018
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2019/graph-hypernetworks-for-neural-architecture-search
   links:
@@ -1906,7 +1921,7 @@ publications:
   venue_location: "Stockholm, Sweden"
   year: 2018
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2018/learning-to-reweight-examples-for-robust-deep-learning
   links:
@@ -1957,7 +1972,7 @@ publications:
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2018
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2018/meta-learning-for-semi-supervised-few-shot-classification
   links:
@@ -2034,7 +2049,7 @@ publications:
   venue_location: "Long Beach, California, USA"
   year: 2017
   note: null
-  selected: true
+  selected: false
   on_website: true
   webpage_path: 2018/meta-learning-for-semi-supervised-few-shot-classification
   links:
@@ -2103,7 +2118,7 @@ publications:
   venue_location: "Honolulu, Hawaii, USA"
   year: 2017
   note: spotlight
-  selected: true
+  selected: false
   on_website: true
   webpage_path: null
   links:
