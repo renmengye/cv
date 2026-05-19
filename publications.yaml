@@ -18,19 +18,20 @@ publications:
   type: preprint
 - key: ren2026creativity
   type: preprint
-  title: 'Seeking the unfamiliar but learnable: Conceptual creativity as meta learning'
+  title: 'Seeking the unfamiliar but memorable: Conceptual creativity as meta-learning'
   authors:
   - Mengye Ren
   equal_contribution: []
-  venue_full: null
-  venue_short: in submission
-  venue_location: null
+  venue_full: "arXiv preprint arXiv:2605.16477"
+  venue_short: arXiv preprint
+  venue_location: ''
   year: 2026
   note: null
   selected: true
   on_website: true
   webpage_path: null
-  links: {}
+  links:
+    arxiv: "https://arxiv.org/abs/2605.16477"
 - key: kim2026mtl
   type: preprint
   title: "Memory Transfer Learning: How memories are transferred across domains in coding agents"
@@ -71,6 +72,30 @@ publications:
   on_website: true
   webpage_path: null
   links: {}
+- key: yang2025streammem
+  title: "StreamMem: Query-agnostic KV cache memory for streaming video understanding"
+  authors:
+  - Yanlai Yang
+  - Zhuokai Zhao
+  - Satya Narayan Shukla
+  - Aashu Singh
+  - Shlok Kumar Mishra
+  - Lizhu Zhang
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "CVPR 2026 Workshop on Video Large Language Models (VidLLMs)"
+  venue_short: "CVPR 2026 Workshop on Video LLMs"
+  venue_location: "Denver, Colorado, USA"
+  year: 2026
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://yangyanl.ai/streammem/"
+    arxiv: "https://arxiv.org/abs/2508.15717"
+    html: "https://agenticlearning.ai/research/stream-mem#full-paper"
+  type: workshop
 - key: wang2026temporal
   type: conference
   title: Temporal straightening for latent planning
@@ -325,30 +350,6 @@ publications:
     webpage: "https://agenticlearning.ai/icc/"
     arxiv: "https://arxiv.org/abs/2510.08466"
     html: "https://agenticlearning.ai/research/icc#full-paper"
-  type: preprint
-- key: yang2025streammem
-  title: "StreamMem: Query-agnostic KV cache memory for streaming video understanding"
-  authors:
-  - Yanlai Yang
-  - Zhuokai Zhao
-  - Satya Narayan Shukla
-  - Aashu Singh
-  - Shlok Kumar Mishra
-  - Lizhu Zhang
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: "arXiv preprint arXiv:2508.15717"
-  venue_short: arXiv preprint
-  venue_location: .
-  year: 2025
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://yangyanl.ai/streammem/"
-    arxiv: "https://arxiv.org/abs/2508.15717"
-    html: "https://agenticlearning.ai/research/stream-mem#full-paper"
   type: preprint
 - key: lu2025context_wo
   title: Context tuning for in-context optimization
