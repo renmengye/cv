@@ -8,6 +8,7 @@ publications:
   venue_short: null
   venue_location: null
   year: 2026
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -26,12 +27,29 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2026
+  month: 5
   note: null
   selected: true
   on_website: true
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2605.16477"
+- key: ren2026creativity_wo
+  type: workshop
+  title: 'Seeking the unfamiliar but memorable: Conceptual creativity as meta-learning'
+  authors:
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "ICML 2026 Workshop on Generative AI, Creativity, and Human-AI Co-Creation"
+  venue_short: "ICML 2026 GenAICreativity Workshop"
+  venue_location: 'Seoul, South Korea'
+  year: 2026
+  month: 7
+  note: null
+  selected: false
+  on_website: false
+  webpage_path: null
+  links: {}
 - key: kim2026mtl
   type: preprint
   title: "Memory Transfer Learning: How memories are transferred across domains in coding agents"
@@ -47,6 +65,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2026
+  month: 4
   note: null
   selected: true
   on_website: true
@@ -67,6 +86,7 @@ publications:
   venue_short: "CVPR 2026 Workshop on Computer Vision for Children"
   venue_location: "Denver, Colorado, USA"
   year: 2026
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -87,6 +107,7 @@ publications:
   venue_short: "CVPR 2026 Workshop on Video LLMs"
   venue_location: "Denver, Colorado, USA"
   year: 2026
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -112,6 +133,7 @@ publications:
   venue_short: ICML
   venue_location: 'Seoul, South Korea'
   year: 2026
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -132,6 +154,7 @@ publications:
   venue_short: ICML
   venue_location: 'Seoul, South Korea'
   year: 2026
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -141,6 +164,29 @@ publications:
     arxiv: "https://arxiv.org/abs/2507.04221"
     html: "https://agenticlearning.ai/research/context-tuning#full-paper"
   type: conference
+- key: lu2026deleting
+  title: The surprising effectiveness of deleting weights in LLM reasoning and adaptation
+  authors:
+  - Jack Lu
+  - Zhenbang Yang
+  - Mike Lasby
+  - Tejas Pote
+  - Yani Ioannou
+  - Mengye Ren
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: "ICML 2026 Workshop on Foundations of Deep Generative Models: Understanding Memorization, Generalization, and Reasoning"
+  venue_short: "ICML 2026 FoGen Workshop"
+  venue_location: 'Seoul, South Korea'
+  year: 2026
+  month: 7
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links: {}
+  type: workshop
 - key: kim2026maego
   type: preprint
   title: "MA-EgoQA: Question answering over egocentric videos from multiple embodied agents"
@@ -157,6 +203,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2026
+  month: 3
   note: null
   selected: true
   on_website: true
@@ -178,6 +225,7 @@ publications:
   venue_short: ICLR
   venue_location: "Rio de Janeiro, Brazil"
   year: 2026
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -200,6 +248,7 @@ publications:
   venue_short: ICLR 2026 Workshop on AI with Recursive Self-Improvement
   venue_location: "Rio de Janeiro, Brazil"
   year: 2026
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -218,6 +267,7 @@ publications:
   venue_short: ICLR
   venue_location: "Rio de Janeiro, Brazil"
   year: 2026
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -237,6 +287,7 @@ publications:
   venue_short: ICLR
   venue_location: "Rio de Janeiro, Brazil"
   year: 2026
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -257,6 +308,7 @@ publications:
   venue_short: "ICLR 2026 the 2nd Workshop on World Models: Understanding, Modelling and Scaling"
   venue_location: "Rio de Janeiro, Brazil"
   year: 2026
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -278,6 +330,7 @@ publications:
   venue_short: World Modeling Workshop
   venue_location: "Montréal, Québec, Canada"
   year: 2026
+  month: 2
   note: oral
   selected: false
   on_website: true
@@ -288,7 +341,7 @@ publications:
     html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
   type: workshop
 - key: su2025opinion
-  title: "Opinion: Learning intuitive physics requires more than visual data"
+  title: "Opinion: Learning intuitive physics may require more than visual data"
   authors:
   - Ellen Su
   - Solim LeGris
@@ -301,6 +354,7 @@ publications:
   venue_short: NeurIPS 2025 Workshop on Embodied World Models for Decision Making
   venue_location: "San Diego, California, USA"
   year: 2025
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -321,8 +375,9 @@ publications:
   - 1
   venue_full: "arXiv preprint arXiv:2512.02304"
   venue_short: arXiv preprint
-  venue_location: .
+  venue_location: ''
   year: 2025
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -340,8 +395,9 @@ publications:
   equal_contribution: []
   venue_full: "arXiv preprint arXiv:2510.08466"
   venue_short: arXiv preprint
-  venue_location: .
+  venue_location: ''
   year: 2025
+  month: 10
   note: null
   selected: false
   on_website: true
@@ -363,6 +419,7 @@ publications:
   venue_short: "Second Workshop on Test-Time Adaptation: Putting Updates to the Test! at ICML 2025"
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2025
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -385,6 +442,7 @@ publications:
   venue_short: "WoTok: Workshop on Tokenization at ICML 2025"
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2025
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -407,6 +465,7 @@ publications:
   venue_short: CoLLAs
   venue_location: "Philadelphia, Pennsylvania, USA"
   year: 2025
+  month: 8
   note: null
   selected: false
   on_website: true
@@ -425,6 +484,7 @@ publications:
   venue_short: CoLLAs
   venue_location: "Philadelphia, Pennsylvania, USA"
   year: 2025
+  month: 8
   note: oral
   selected: false
   on_website: true
@@ -453,6 +513,7 @@ publications:
   venue_short: ICML
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2025
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -472,6 +533,7 @@ publications:
   venue_short: ICML
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2025
+  month: 7
   note: null
   selected: true
   on_website: true
@@ -498,6 +560,7 @@ publications:
   venue_short: ICLR
   venue_location: Singapore
   year: 2025
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -585,6 +648,7 @@ publications:
   venue_short: AFM
   venue_location: ''
   year: 2024
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -607,6 +671,7 @@ publications:
   venue_short: ECCV
   venue_location: "Milan, Italy"
   year: 2024
+  month: 9
   note: null
   selected: false
   on_website: true
@@ -630,6 +695,7 @@ publications:
   venue_short: CoLLAs
   venue_location: "Pisa, Italy"
   year: 2024
+  month: 7
   note: oral
   selected: false
   on_website: true
@@ -651,6 +717,7 @@ publications:
   venue_short: CLVision
   venue_location: "Seattle, Washington, USA"
   year: 2024
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -671,6 +738,7 @@ publications:
   venue_short: COLM
   venue_location: "Philadelphia, Pennsylvania, USA"
   year: 2024
+  month: 10
   note: null
   selected: false
   on_website: true
@@ -694,6 +762,7 @@ publications:
   venue_short: NeurIPS
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2024
+  month: 12
   note: null
   selected: true
   on_website: true
@@ -708,7 +777,7 @@ publications:
 - key: orhan2024selfsupervised
   title: Self-supervised learning of video representations from a child’s perspective
   authors:
-  - Emin Orhan
+  - A. Emin Orhan
   - Wentao Wang
   - Alex N. Wang
   - Mengye Ren
@@ -718,6 +787,7 @@ publications:
   venue_short: CogSci
   venue_location: "Rotterdam, the Netherlands"
   year: 2024
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -740,6 +810,7 @@ publications:
   venue_short: ICML
   venue_location: "Vienna, Austria"
   year: 2024
+  month: 7
   note: null
   selected: true
   on_website: true
@@ -778,6 +849,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2023
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -799,6 +871,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2023
+  month: 11
   note: null
   selected: false
   on_website: true
@@ -822,6 +895,7 @@ publications:
   venue_short: CVPR
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2023
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -845,6 +919,7 @@ publications:
   venue_short: ICLR
   venue_location: "Kigali, Rwanda"
   year: 2023
+  month: 5
   note: null
   selected: false
   on_website: true
@@ -894,6 +969,7 @@ publications:
   venue_short: ICLR
   venue_location: "Kigali, Rwanda"
   year: 2023
+  month: 5
   note: null
   selected: false
   on_website: true
@@ -916,6 +992,7 @@ publications:
   venue_short: CogSci
   venue_location: "Sydney, Australia"
   year: 2023
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -936,6 +1013,7 @@ publications:
   venue_short: 3rd International Ego4D Workshop at CVPR
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2023
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -946,7 +1024,7 @@ publications:
 - key: patent_US11780472B2
   title: Systems and methods for generating motion forecast data for a plurality of actors with respect to an autonomous vehicle
   authors:
-  - LingYun Li
+  - Lingyun (Luke) Li
   - Bin Yang
   - Wenyuan Zeng
   - Ming Liang
@@ -968,7 +1046,7 @@ publications:
 - key: patent_US11691650B2
   title: Systems and methods for generating motion forecast data for a plurality of actors with respect to an autonomous vehicle
   authors:
-  - LingYun Li
+  - Lingyun (Luke) Li
   - Bin Yang
   - Ming Liang
   - Wenyuan Zeng
@@ -1046,6 +1124,7 @@ publications:
   venue_short: ECCV
   venue_location: "Tel-Aviv, Israel"
   year: 2022
+  month: 10
   note: null
   selected: false
   on_website: true
@@ -1068,6 +1147,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2022
+  month: 10
   note: null
   selected: false
   on_website: true
@@ -1090,6 +1170,7 @@ publications:
   venue_short: 2nd Workshop on MATH-AI at NeurIPS
   venue_location: "New Orleans, Louisiana, USA"
   year: 2022
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1114,6 +1195,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2022
+  month: 10
   note: null
   selected: false
   on_website: true
@@ -1139,6 +1221,7 @@ publications:
   venue_short: Memory in Artificial and Real Intelligence Workshop at NeurIPS
   venue_location: "New Orleans, Louisiana, USA"
   year: 2022
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1156,6 +1239,7 @@ publications:
   venue_short: "Ph.D. Thesis, University of Toronto"
   venue_location: ''
   year: 2022
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -1193,6 +1277,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2021
+  month: 9
   note: null
   selected: false
   on_website: true
@@ -1220,6 +1305,7 @@ publications:
   venue_short: CoRL
   venue_location: "London, United Kingdom"
   year: 2021
+  month: 11
   note: null
   selected: false
   on_website: true
@@ -1245,6 +1331,7 @@ publications:
   venue_short: CoRL
   venue_location: "London, United Kingdom"
   year: 2021
+  month: 11
   note: null
   selected: false
   on_website: true
@@ -1269,6 +1356,7 @@ publications:
   venue_short: ICCV
   venue_location: ''
   year: 2021
+  month: 10
   note: null
   selected: false
   on_website: true
@@ -1289,6 +1377,7 @@ publications:
   venue_short: ICCV
   venue_location: ''
   year: 2021
+  month: 10
   note: null
   selected: false
   on_website: true
@@ -1314,6 +1403,7 @@ publications:
   venue_short: CVPR
   venue_location: ''
   year: 2021
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -1339,6 +1429,7 @@ publications:
   venue_short: CVPR
   venue_location: ''
   year: 2021
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -1364,6 +1455,7 @@ publications:
   venue_short: ICRA
   venue_location: "Xi'an, China"
   year: 2021
+  month: 5
   note: oral
   selected: false
   on_website: true
@@ -1387,6 +1479,7 @@ publications:
   venue_short: ICLR
   venue_location: ''
   year: 2021
+  month: 5
   note: null
   selected: false
   on_website: true
@@ -1410,6 +1503,7 @@ publications:
   venue_short: ICML
   venue_location: ''
   year: 2021
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -1431,6 +1525,7 @@ publications:
   venue_short: ICLR
   venue_location: ''
   year: 2021
+  month: 5
   note: null
   selected: false
   on_website: true
@@ -1473,6 +1568,7 @@ publications:
   venue_short: ICML RealML Workshop
   venue_location: "Vienna, Austria"
   year: 2020
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -1496,6 +1592,7 @@ publications:
   venue_short: CoRL
   venue_location: "Cambridge, Massachusetts, USA"
   year: 2020
+  month: 11
   note: null
   selected: false
   on_website: true
@@ -1521,6 +1618,7 @@ publications:
   venue_short: ECCV
   venue_location: "Glasgow, United Kingdom"
   year: 2020
+  month: 8
   note: null
   selected: false
   on_website: true
@@ -1544,6 +1642,7 @@ publications:
   venue_short: IROS
   venue_location: "Las Vegas, Nevada, USA"
   year: 2020
+  month: 10
   note: oral
   selected: false
   on_website: true
@@ -1563,6 +1662,7 @@ publications:
   venue_short: NeurIPS
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2020
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1586,6 +1686,7 @@ publications:
   venue_short: ICML
   venue_location: "Vienna, Austria"
   year: 2020
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -1609,6 +1710,7 @@ publications:
   venue_short: "ICML Continual Learning Workshop \\& Lifelong Learning Workshop \\& Workshop on Learning in Artificial Open Worlds"
   venue_location: "Vienna, Austria"
   year: 2020
+  month: 7
   note: oral
   selected: false
   on_website: true
@@ -1636,6 +1738,7 @@ publications:
   venue_short: CVPR
   venue_location: "Seattle, Washington, USA"
   year: 2020
+  month: 6
   note: null
   selected: false
   on_website: true
@@ -1665,6 +1768,7 @@ publications:
   venue_short: NeurIPS Meta-Learning Workshop
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2020
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1687,6 +1791,7 @@ publications:
   venue_short: Medical Imaging Meets NeurIPS Workshop
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2020
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1714,6 +1819,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2020
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1735,6 +1841,7 @@ publications:
   venue_short: CoRL
   venue_location: "Osaka, Japan"
   year: 2019
+  month: 10
   note: spotlight
   selected: false
   on_website: true
@@ -1756,6 +1863,7 @@ publications:
   venue_short: arXiv preprint
   venue_location: ''
   year: 2019
+  month: 10
   note: null
   selected: false
   on_website: true
@@ -1780,6 +1888,7 @@ publications:
   venue_short: IROS
   venue_location: "Macau, China"
   year: 2019
+  month: 11
   note: oral
   selected: false
   on_website: true
@@ -1788,7 +1897,7 @@ publications:
     arxiv: "https://arxiv.org/abs/1910.04586"
     html: "https://arxiv.org/html/1910.04586"
   type: conference
-- key: xiong2019deformable
+- key: xiong2019deformable_pr
   title: Deformable filter convolution for point cloud reasoning
   authors:
   - Yuwen Xiong
@@ -1801,8 +1910,33 @@ publications:
   - 1
   venue_full: "arXiv preprint arXiv:1907.13079"
   venue_short: arXiv preprint
-  venue_location: ". In \\textit{NeurIPS Workshop on Sets \\& Partitions}, Vancouver, British Columbia, Canada"
+  venue_location: ''
   year: 2019
+  month: 7
+  note: null
+  selected: false
+  on_website: false
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/1907.13079"
+    html: "https://arxiv.org/html/1907.13079"
+  type: preprint
+- key: xiong2019deformable_wo
+  title: Deformable filter convolution for point cloud reasoning
+  authors:
+  - Yuwen Xiong
+  - Mengye Ren
+  - Renjie Liao
+  - Kelvin Wong
+  - Raquel Urtasun
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: "NeurIPS Workshop on Sets \\& Partitions"
+  venue_short: "NeurIPS Workshop on Sets \\& Partitions"
+  venue_location: "Vancouver, British Columbia, Canada"
+  year: 2019
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1823,6 +1957,7 @@ publications:
   venue_short: NeurIPS
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2019
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1843,6 +1978,7 @@ publications:
   venue_short: ICLR
   venue_location: "New Orleans, Louisiana, USA"
   year: 2019
+  month: 5
   note: null
   selected: false
   on_website: true
@@ -1860,8 +1996,9 @@ publications:
   equal_contribution: []
   venue_full: NeurIPS Workshop on Machine Learning with Guarantees
   venue_short: NeurIPS Workshop on Machine Learning with Guarantees
-  venue_location: "Vancouver British Columbia, Canada"
+  venue_location: "Vancouver, British Columbia, Canada"
   year: 2019
+  month: 12
   note: oral
   selected: false
   on_website: true
@@ -1881,6 +2018,7 @@ publications:
   venue_short: NeurIPS Meta-Learning Workshop
   venue_location: "Montréal, Québec, Canada"
   year: 2018
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1901,6 +2039,7 @@ publications:
   venue_short: NeurIPS Meta-Learning Workshop
   venue_location: "Montréal, Québec, Canada"
   year: 2018
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -1921,6 +2060,7 @@ publications:
   venue_short: ICML
   venue_location: "Stockholm, Sweden"
   year: 2018
+  month: 7
   note: null
   selected: false
   on_website: true
@@ -1931,7 +2071,7 @@ publications:
     html: 2018/learning-to-reweight-examples-for-robust-deep-learning
   type: conference
 - key: wu2018understanding
-  title: Understanding short-horizon bias in meta optimization
+  title: Understanding short-horizon bias in stochastic meta-optimization
   authors:
   - Yuhuai Wu
   - Mengye Ren
@@ -1944,6 +2084,7 @@ publications:
   venue_short: ICLR
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2018
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -1972,6 +2113,7 @@ publications:
   venue_short: ICLR
   venue_location: "Vancouver, British Columbia, Canada"
   year: 2018
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -1997,6 +2139,7 @@ publications:
   venue_short: CVPR
   venue_location: "Salt Lake City, Utah, USA"
   year: 2018
+  month: 6
   note: spotlight
   selected: false
   on_website: true
@@ -2008,7 +2151,7 @@ publications:
     html: 2018/sbnet-sparse-blocks-network-for-fast-inference
   type: conference
 - key: wu2017understanding
-  title: Understanding short-horizon bias in meta optimization
+  title: Understanding short-horizon bias in stochastic meta-optimization
   authors:
   - Yuhuai Wu
   - Mengye Ren
@@ -2021,6 +2164,7 @@ publications:
   venue_short: NIPS
   venue_location: "Long Beach, California, USA"
   year: 2017
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -2049,6 +2193,7 @@ publications:
   venue_short: NIPS
   venue_location: "Long Beach, California, USA"
   year: 2017
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -2070,9 +2215,10 @@ publications:
   - 0
   - 1
   venue_full: Advances in Neural Information Processing Systems 30 (NIPS)
-  venue_short: NeurIPS
+  venue_short: NIPS
   venue_location: "Long Beach, California, USA"
   year: 2017
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -2098,6 +2244,7 @@ publications:
   venue_short: ICLR
   venue_location: "Toulon, France"
   year: 2017
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -2118,6 +2265,7 @@ publications:
   venue_short: CVPR
   venue_location: "Honolulu, Hawaii, USA"
   year: 2017
+  month: 7
   note: spotlight
   selected: false
   on_website: true
@@ -2140,6 +2288,7 @@ publications:
   venue_short: NeurIPS
   venue_location: "Montréal, Québec, Canada"
   year: 2015
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -2164,6 +2313,7 @@ publications:
   venue_short: ICML Deep Learning Workshop
   venue_location: "Lille, France"
   year: 2015
+  month: 7
   note: oral
   selected: false
   on_website: true

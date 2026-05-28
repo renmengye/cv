@@ -120,8 +120,16 @@ def format_patent_item(entry, short=False):
     return f'\\item {author_str}. {title}. {patent_number}, \\textit{{U.S. Patent}}, {year}.\n'
 
 
-def year_grouped_blocks(entries, prefix):
-    """Generate etaremune blocks grouped by year with correct reverse counters."""
+def by_month_desc(entry):
+    """Sort key: reverse-chronological within a year. Missing month sorts last."""
+    return -(entry.get('month') or 0)
+
+
+def year_grouped_blocks(entries, prefix, sort_within_year=None):
+    """Generate etaremune blocks grouped by year with correct reverse counters.
+
+    sort_within_year: optional key function to reorder entries within each year.
+    """
     lines = []
     total = len(entries)
     by_year = OrderedDict()
@@ -130,6 +138,8 @@ def year_grouped_blocks(entries, prefix):
 
     counter = total
     for year, year_entries in by_year.items():
+        if sort_within_year is not None:
+            year_entries = sorted(year_entries, key=sort_within_year)
         lines.append(f'\\textbf{{{year}}}')
         lines.append(f'\\begin{{etaremune}}[start={counter}]')
         lines.append(f'\\renewcommand\\labelenumi{{{prefix}\\theenumi}}')
@@ -156,20 +166,21 @@ def generate_pubs_tex(all_entries):
     lines.append(r'\section{\sc Peer-Reviewed Conference Publications}')
     lines.append('(*=equal contribution)')
     lines.append('')
-    lines.extend(year_grouped_blocks(conf, 'C'))
+    lines.extend(year_grouped_blocks(conf, 'C', sort_within_year=by_month_desc))
 
     lines.append(r'\section{\sc Peer-Reviewed Workshop Papers}')
     lines.append('')
-    lines.extend(year_grouped_blocks(work, 'W'))
+    lines.extend(year_grouped_blocks(work, 'W', sort_within_year=by_month_desc))
     lines.append(r'\vspace{0.1in}')
     lines.append(r'\fi')
     lines.append('')
 
-    # Preprints (both CV versions)
+    # Preprints (both CV versions): reverse-chrono by (year, month).
+    prep_sorted = sorted(prep, key=lambda e: (-(e.get('year') or 0), -(e.get('month') or 0)))
     lines.append(r'\section{\sc Preprints \& Tech Reports}')
-    lines.append(f'\\begin{{etaremune}}[start={len(prep)}]')
+    lines.append(f'\\begin{{etaremune}}[start={len(prep_sorted)}]')
     lines.append(r'\renewcommand\labelenumi{R\theenumi}')
-    for e in prep:
+    for e in prep_sorted:
         lines.append(format_item(e))
     lines.append(r'\end{etaremune}')
     lines.append('')
