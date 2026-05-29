@@ -92,6 +92,24 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2604.14004"
+- key: yeung2026canon
+  type: workshop
+  title: "CANON: Canonical observation pretraining for visuomotor control"
+  authors:
+  - Yuen-Hei Yeung
+  - Christopher Hoang
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "CVPR 2026 Workshop on Bridging Vision, Language, and Action: What’s Missing in Actionable Visual Perception for Robotics"
+  venue_short: "CVPR 2026 ActiVis Workshop"
+  venue_location: "Denver, Colorado, USA"
+  year: 2026
+  month: 6
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links: {}
 - key: jiang2026babyclip
   type: workshop
   title: "BabyCLIP: Continual language grounding through the experience of a single child"
