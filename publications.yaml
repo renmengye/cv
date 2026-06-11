@@ -110,6 +110,27 @@ publications:
   on_website: true
   webpage_path: null
   links: {}
+- key: jiang2026babyclip
+  type: preprint
+  title: Continual visual and verbal learning through a child’s egocentric input
+  authors:
+  - Xiaoyang Jiang
+  - Yanlai Yang
+  - Kenneth A. Norman
+  - Brenden Lake
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "arXiv preprint arXiv:2606.05115"
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2026
+  month: 6
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2606.05115"
 - key: jiang2026babyclip_wo
   type: workshop
   title: "BabyCLIP: Continual language grounding through the experience of a single child"
@@ -127,9 +148,10 @@ publications:
   month: 6
   note: null
   selected: false
-  on_website: true
+  on_website: false
   webpage_path: null
-  links: {}
+  links:
+    arxiv: "https://arxiv.org/abs/2606.05115"
 - key: yang2025streammem_wo
   title: "StreamMem: Query-agnostic KV cache memory for streaming video understanding"
   authors:
