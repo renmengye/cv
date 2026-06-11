@@ -225,6 +225,44 @@ publications:
   webpage_path: null
   links: {}
   type: workshop
+- key: dai2026aligning_wo
+  type: workshop
+  title: 'Aligning LLMs with human uncertainty: A Beta-Bernoulli calibrator for LLM forecasting'
+  authors:
+  - Hui Dai
+  - Ryan Teehan
+  - Parsa Torabian
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "ICML 2026 Workshop on Forecasting as a New Frontier of Intelligence"
+  venue_short: "ICML 2026 AI Forecasting Workshop"
+  venue_location: 'Seoul, South Korea'
+  year: 2026
+  month: 7
+  note: null
+  selected: false
+  on_website: false
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2605.27668"
+- key: wu2026alive
+  type: workshop
+  title: 'Alive and predicting: A live evaluation of multi-step forecasting agents'
+  authors:
+  - Will Wu
+  - Hui Dai
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "ICML 2026 Workshop on Forecasting as a New Frontier of Intelligence"
+  venue_short: "ICML 2026 AI Forecasting Workshop"
+  venue_location: 'Seoul, South Korea'
+  year: 2026
+  month: 7
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links: {}
 - key: kim2026maego
   type: preprint
   title: "MA-EgoQA: Question answering over egocentric videos from multiple embodied agents"
