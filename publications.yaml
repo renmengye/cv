@@ -92,7 +92,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2604.14004"
-- key: yeung2026canon
+- key: yeung2026canon_wo
   type: workshop
   title: "CANON: Canonical observation pretraining for visuomotor control"
   authors:
@@ -110,7 +110,7 @@ publications:
   on_website: true
   webpage_path: null
   links: {}
-- key: jiang2026babyclip
+- key: jiang2026babyclip_wo
   type: workshop
   title: "BabyCLIP: Continual language grounding through the experience of a single child"
   authors:
@@ -130,7 +130,7 @@ publications:
   on_website: true
   webpage_path: null
   links: {}
-- key: yang2025streammem
+- key: yang2025streammem_wo
   title: "StreamMem: Query-agnostic KV cache memory for streaming video understanding"
   authors:
   - Yanlai Yang
@@ -202,7 +202,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2507.04221"
     html: "https://agenticlearning.ai/research/context-tuning#full-paper"
   type: conference
-- key: lu2026deleting
+- key: lu2026deleting_wo
   title: The surprising effectiveness of deleting weights in LLM reasoning and adaptation
   authors:
   - Jack Lu
@@ -245,7 +245,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2605.27668"
-- key: wu2026alive
+- key: wu2026alive_wo
   type: workshop
   title: 'Alive and predicting: A live evaluation of multi-step forecasting agents'
   authors:
@@ -310,7 +310,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2512.04072"
     html: "https://arxiv.org/html/2512.04072"
   type: conference
-- key: lu2026when
+- key: lu2026when_wo
   title: When does verification pay off? A closer look at LLMs as solution verifiers
   authors:
   - Jack Lu
@@ -373,7 +373,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2510.05558"
     html: "https://agenticlearning.ai/research/midway-network#full-paper"
   type: conference
-- key: abdulsalam2026lamo
+- key: abdulsalam2026lamo_wo
   title: "LaMo: A latent motion world model for long-horizon prediction"
   authors:
   - Azwar Abdulsalam
@@ -391,7 +391,7 @@ publications:
   webpage_path: null
   links: {}
   type: workshop
-- key: wang2026temporal_workshop
+- key: wang2026temporal_wo
   title: Temporal straightening for latent planning
   authors:
   - Ying Wang
@@ -416,7 +416,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2603.12231"
     html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
   type: workshop
-- key: su2025opinion
+- key: su2025opinion_wo
   title: "Opinion: Learning intuitive physics may require more than visual data"
   authors:
   - Ellen Su
@@ -505,7 +505,7 @@ publications:
     arxiv: "https://arxiv.org/abs/2507.04221"
     html: "https://agenticlearning.ai/research/context-tuning#full-paper"
   type: workshop
-- key: baek2025discrete
+- key: baek2025discrete_wo
   title: "Discrete JEPA: Learning discrete token representations without reconstruction"
   authors:
   - Junyeob Baek
@@ -713,7 +713,7 @@ publications:
   - S Manivasagam
   - R Urtasun
   type: patent
-- key: dai2024are
+- key: dai2024are_wo
   title: Are LLMs prescient? A continuous evaluation using daily news as the oracle
   authors:
   - Hui Dai
@@ -1076,7 +1076,7 @@ publications:
   links:
     pdf: 2023/multitask-learning-via-interleaving-a-neural-network-investigation/mayo-2023-multitask.pdf
   type: conference
-- key: wang2023egocentric
+- key: wang2023egocentric_wo
   title: Egocentric video comprehension via large language model inner speech
   authors:
   - Ying Wang
@@ -1282,7 +1282,7 @@ publications:
     dataset: "https://github.com/renmengye/grade-school-math-relational"
     html: "https://arxiv.org/html/2210.02615"
   type: preprint
-- key: jones2022neural
+- key: jones2022neural_wo
   title: Neural network online training with sensitivity to multiscale temporal structure
   authors:
   - Matt Jones
@@ -1629,7 +1629,7 @@ publications:
   - A Pokrovsky
   - B Yang
   type: patent
-- key: wang2020costefficient
+- key: wang2020costefficient_wo
   title: Cost-efficient online hyperparameter optimization
   authors:
   - Jingkang Wang
@@ -1774,7 +1774,7 @@ publications:
     video: "https://slideslive.com/38927801/multiagent-routing-value-iteration-network-marvin"
     html: 2020/multi-agent-routing-value-iteration-network
   type: conference
-- key: ren2020wandering
+- key: ren2020wandering_wo
   title: "Wandering within a world: Online contextualized few-shot learning"
   authors:
   - Mengye Ren
@@ -1853,7 +1853,7 @@ publications:
     pdf: "https://meta-learn.github.io/2020/papers/49_paper.pdf"
     video: "https://slideslive.at/38941548/flexible-fewshot-learning-of-contextual-similarities"
   type: workshop
-- key: seyyedkalantari2020multilabel
+- key: seyyedkalantari2020multilabel_wo
   title: Multi-label incremental few-shot learning for medical image pathology classifiers
   authors:
   - Laleh Seyyed-Kalantari
@@ -2063,7 +2063,7 @@ publications:
     arxiv: "https://arxiv.org/abs/1810.05749"
     html: 2019/graph-hypernetworks-for-neural-architecture-search
   type: conference
-- key: lucas2019informationtheoretic
+- key: lucas2019informationtheoretic_wo
   title: Information-theoretic limitations on novel task generalization
   authors:
   - James Lucas
@@ -2082,7 +2082,7 @@ publications:
   links:
     pdf: "https://drive.google.com/file/d/10pNGWyVYruL-yjjF3NVoKp6GjLZDWj8U/view"
   type: workshop
-- key: ren2018incremental
+- key: ren2018incremental_wo
   title: Incremental few-shot learning with attention attractor networks
   authors:
   - Mengye Ren
@@ -2104,7 +2104,7 @@ publications:
     code: "https://github.com/renmengye/inc-few-shot-attractor-public"
     html: 2019/incremental-few-shot-learning-with-attention-attractor-networks
   type: workshop
-- key: zhang2018graph
+- key: zhang2018graph_wo
   title: Graph hypernetworks for neural architecture search
   authors:
   - Chris Zhang
@@ -2226,7 +2226,7 @@ publications:
     code: "https://github.com/uber/sbnet"
     html: 2018/sbnet-sparse-blocks-network-for-fast-inference
   type: conference
-- key: wu2017understanding
+- key: wu2017understanding_wo
   title: Understanding short-horizon bias in stochastic meta-optimization
   authors:
   - Yuhuai Wu
@@ -2251,7 +2251,7 @@ publications:
     code: "https://github.com/renmengye/meta-optim-public"
     html: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
   type: workshop
-- key: ren2017metalearning
+- key: ren2017metalearning_wo
   title: Meta-learning for semi-supervised few-shot classification
   authors:
   - Mengye Ren
