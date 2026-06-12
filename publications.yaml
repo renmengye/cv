@@ -54,6 +54,28 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2605.27668"
+- key: baek2026generative
+  type: preprint
+  title: Generative recursive reasoning
+  authors:
+  - Junyeob Baek
+  - Mingyu Jo
+  - Minsu Kim
+  - Mengye Ren
+  - Yoshua Bengio
+  - Sungjin Ahn
+  equal_contribution: []
+  venue_full: "arXiv preprint arXiv:2605.19376"
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2026
+  month: 5
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2605.19376"
 - key: ren2026creativity_wo
   type: workshop
   title: 'Seeking the unfamiliar but memorable: Conceptual creativity as meta-learning'
