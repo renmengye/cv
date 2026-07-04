@@ -4,6 +4,9 @@ PYTHON=python3
 pubs:
 	$(PYTHON) scripts/generate_pubs.py
 
+bib:
+	$(PYTHON) scripts/generate_bib.py
+
 cv: pubs
 	$(LATEXMK) cv_mengye_ren.tex -pdf
 
