@@ -1,46 +1,4 @@
 publications:
-- key: dai2026aligning_wo
-  type: workshop
-  title: 'Aligning LLMs with human uncertainty: A Beta-Bernoulli calibrator for LLM forecasting'
-  authors:
-  - Hui Dai
-  - Ryan Teehan
-  - Parsa Torabian
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: "ICML 2026 Workshop on Forecasting as a New Frontier of Intelligence"
-  venue_short: "ICML 2026 AI Forecasting Workshop"
-  venue_location: 'Seoul, South Korea'
-  year: 2026
-  month: 7
-  note: null
-  selected: false
-  on_website: false
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2605.27668"
-- key: lu2025context
-  title: Context tuning for in-context optimization
-  authors:
-  - Jack Lu
-  - Ryan Teehan
-  - Zhenbang Yang
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: Proceedings of the 43rd International Conference on Machine Learning (ICML)
-  venue_short: ICML
-  venue_location: 'Seoul, South Korea'
-  year: 2026
-  month: 7
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://agenticlearning.ai/context-tuning/"
-    arxiv: "https://arxiv.org/abs/2507.04221"
-    html: "https://agenticlearning.ai/research/context-tuning#full-paper"
-  type: conference
 - key: lu2026deleting_wo
   title: The surprising effectiveness of deleting weights in LLM reasoning and adaptation
   authors:
@@ -80,31 +38,6 @@ publications:
   on_website: false
   webpage_path: null
   links: {}
-- key: wang2026temporal
-  type: conference
-  title: Temporal straightening for latent planning
-  authors:
-  - Ying Wang
-  - Oumayma Bounou
-  - Gaoyue Zhou
-  - Randall Balestriero
-  - Tim G. J. Rudner
-  - Yann LeCun
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: Proceedings of the 43rd International Conference on Machine Learning (ICML)
-  venue_short: ICML
-  venue_location: 'Seoul, South Korea'
-  year: 2026
-  month: 7
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://agenticlearning.ai/temporal-straightening/"
-    arxiv: "https://arxiv.org/abs/2603.12231"
-    html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
 - key: wu2026alive_wo
   type: workshop
   title: 'Alive and predicting: A live evaluation of multi-step forecasting agents'
@@ -123,6 +56,26 @@ publications:
   on_website: true
   webpage_path: null
   links: {}
+- key: wang2026adajepa
+  type: preprint
+  title: 'AdaJEPA: An adaptive latent world model'
+  authors:
+  - Ying Wang
+  - Oumayma Bounou
+  - Yann LeCun
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "arXiv preprint arXiv:2606.32026"
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2026
+  month: 6
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2606.32026"
 - key: jiang2026babyclip
   type: preprint
   title: Continual visual and verbal learning through a child’s egocentric input
@@ -165,51 +118,6 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2606.05115"
-- key: wang2026adajepa
-  type: preprint
-  title: 'AdaJEPA: An adaptive latent world model'
-  authors:
-  - Ying Wang
-  - Oumayma Bounou
-  - Yann LeCun
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: "arXiv preprint arXiv:2606.32026"
-  venue_short: arXiv preprint
-  venue_location: ''
-  year: 2026
-  month: 6
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2606.32026"
-- key: yang2025streammem_wo
-  title: "StreamMem: Query-agnostic KV cache memory for streaming video understanding"
-  authors:
-  - Yanlai Yang
-  - Zhuokai Zhao
-  - Satya Narayan Shukla
-  - Aashu Singh
-  - Shlok Kumar Mishra
-  - Lizhu Zhang
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: "CVPR 2026 Workshop on Video Large Language Models (VidLLMs)"
-  venue_short: "CVPR 2026 Workshop on Video LLMs"
-  venue_location: "Denver, Colorado, USA"
-  year: 2026
-  month: 6
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://yangyanl.ai/streammem/"
-    arxiv: "https://arxiv.org/abs/2508.15717"
-    html: "https://agenticlearning.ai/research/stream-mem#full-paper"
-  type: workshop
 - key: yeung2026canon_wo
   type: workshop
   title: "CANON: Canonical observation pretraining for visuomotor control"
@@ -228,6 +136,46 @@ publications:
   on_website: true
   webpage_path: null
   links: {}
+- key: dai2026aligning
+  type: preprint
+  title: 'Aligning LLMs with human uncertainty: A Beta-Bernoulli calibrator for LLM forecasting'
+  authors:
+  - Hui Dai
+  - Ryan Teehan
+  - Parsa Torabian
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "arXiv preprint arXiv:2605.27668"
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2026
+  month: 5
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2605.27668"
+- key: dai2026aligning_wo
+  type: workshop
+  title: 'Aligning LLMs with human uncertainty: A Beta-Bernoulli calibrator for LLM forecasting'
+  authors:
+  - Hui Dai
+  - Ryan Teehan
+  - Parsa Torabian
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "ICML 2026 Workshop on Forecasting as a New Frontier of Intelligence"
+  venue_short: "ICML 2026 AI Forecasting Workshop"
+  venue_location: 'Seoul, South Korea'
+  year: 2026
+  month: 7
+  note: null
+  selected: false
+  on_website: false
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2605.27668"
 - key: baek2026generative
   type: preprint
   title: Generative recursive reasoning
@@ -250,26 +198,6 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2605.19376"
-- key: dai2026aligning
-  type: preprint
-  title: 'Aligning LLMs with human uncertainty: A Beta-Bernoulli calibrator for LLM forecasting'
-  authors:
-  - Hui Dai
-  - Ryan Teehan
-  - Parsa Torabian
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: "arXiv preprint arXiv:2605.27668"
-  venue_short: arXiv preprint
-  venue_location: ''
-  year: 2026
-  month: 5
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2605.27668"
 - key: ren2026creativity
   type: preprint
   title: 'Seeking the unfamiliar but memorable: Conceptual creativity as meta-learning'
@@ -287,44 +215,6 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2605.16477"
-- key: abdulsalam2026lamo_wo
-  title: "LaMo: A latent motion world model for long-horizon prediction"
-  authors:
-  - Azwar Abdulsalam
-  - Christopher Hoang
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: "ICLR 2026 the 2nd Workshop on World Models: Understanding, Modelling and Scaling"
-  venue_short: "ICLR 2026 the 2nd Workshop on World Models: Understanding, Modelling and Scaling"
-  venue_location: "Rio de Janeiro, Brazil"
-  year: 2026
-  month: 4
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links: {}
-  type: workshop
-- key: hoang2026midway
-  title: "Midway Network: Learning representations for recognition and motion from latent dynamics"
-  authors:
-  - Christopher Hoang
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: Proceedings of the 14th International Conference on Learning Representations (ICLR)
-  venue_short: ICLR
-  venue_location: "Rio de Janeiro, Brazil"
-  year: 2026
-  month: 4
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://agenticlearning.ai/midway-network/"
-    arxiv: "https://arxiv.org/abs/2510.05558"
-    html: "https://agenticlearning.ai/research/midway-network#full-paper"
-  type: conference
 - key: kim2026mtl
   type: preprint
   title: "Memory Transfer Learning: How memories are transferred across domains in coding agents"
@@ -347,18 +237,15 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2604.14004"
-- key: lu2026when_wo
-  title: When does verification pay off? A closer look at LLMs as solution verifiers
+- key: abdulsalam2026lamo_wo
+  title: "LaMo: A latent motion world model for long-horizon prediction"
   authors:
-  - Jack Lu
-  - Ryan Teehan
-  - Jinran Jin
+  - Azwar Abdulsalam
+  - Christopher Hoang
   - Mengye Ren
-  equal_contribution:
-  - 0
-  - 1
-  venue_full: ICLR 2026 Workshop on AI with Recursive Self-Improvement
-  venue_short: ICLR 2026 Workshop on AI with Recursive Self-Improvement
+  equal_contribution: []
+  venue_full: "ICLR 2026 the 2nd Workshop on World Models: Understanding, Modelling and Scaling"
+  venue_short: "ICLR 2026 the 2nd Workshop on World Models: Understanding, Modelling and Scaling"
   venue_location: "Rio de Janeiro, Brazil"
   year: 2026
   month: 4
@@ -366,9 +253,7 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2512.02304"
-    html: "https://agenticlearning.ai/research/llm-verification#full-paper"
+  links: {}
   type: workshop
 - key: ren2026self
   title: The self requires learning
@@ -388,73 +273,31 @@ publications:
     pdf: 2026/the-self-requires-learning/paper.pdf
     philpapers: https://philpapers.org/rec/RENTSR
   type: preprint
-- key: sprague2026skillfactory
-  title: "SkillFactory: Self-distillation for learning cognitive behaviors"
+- key: wang2026temporal
+  type: conference
+  title: Temporal straightening for latent planning
   authors:
-  - Zayne Sprague
-  - Jack Lu
-  - Manya Wadhwa
-  - Sedrick Keh
+  - Ying Wang
+  - Oumayma Bounou
+  - Gaoyue Zhou
+  - Randall Balestriero
+  - Tim G. J. Rudner
+  - Yann LeCun
   - Mengye Ren
-  - Greg Durrett
   equal_contribution: []
-  venue_full: Proceedings of the 14th International Conference on Learning Representations (ICLR)
-  venue_short: ICLR
-  venue_location: "Rio de Janeiro, Brazil"
+  venue_full: Proceedings of the 43rd International Conference on Machine Learning (ICML)
+  venue_short: ICML
+  venue_location: 'Seoul, South Korea'
   year: 2026
-  month: 4
+  month: 7
   note: null
   selected: false
   on_website: true
   webpage_path: null
   links:
-    arxiv: "https://arxiv.org/abs/2512.04072"
-    html: "https://arxiv.org/html/2512.04072"
-  type: conference
-- key: wu2026local
-  title: Local reinforcement learning with action-conditioned root mean squared Q-functions
-  authors:
-  - Frank (Zequan) Wu
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: Proceedings of the 14th International Conference on Learning Representations (ICLR)
-  venue_short: ICLR
-  venue_location: "Rio de Janeiro, Brazil"
-  year: 2026
-  month: 4
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://agenticlearning.ai/arq/"
-    arxiv: "https://arxiv.org/abs/2510.06649"
-    html: "https://agenticlearning.ai/research/arq#full-paper"
-  type: conference
-- key: kim2026maego
-  type: preprint
-  title: "MA-EgoQA: Question answering over egocentric videos from multiple embodied agents"
-  authors:
-  - Kangsan Kim
-  - Yanlai Yang
-  - Suji Kim
-  - Woongyeong Yeo
-  - Youngwan Lee
-  - Mengye Ren
-  - Sung Ju Hwang
-  equal_contribution: []
-  venue_full: "arXiv preprint arXiv:2603.09827"
-  venue_short: arXiv preprint
-  venue_location: ''
-  year: 2026
-  month: 3
-  note: null
-  selected: true
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2603.09827"
-    html: "https://agenticlearning.ai/research/ma-egoqa#full-paper"
+    webpage: "https://agenticlearning.ai/temporal-straightening/"
+    arxiv: "https://arxiv.org/abs/2603.12231"
+    html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
 - key: wang2026temporal_wo
   title: Temporal straightening for latent planning
   authors:
@@ -480,7 +323,54 @@ publications:
     arxiv: "https://arxiv.org/abs/2603.12231"
     html: "https://agenticlearning.ai/research/temporal-straightening#full-paper"
   type: workshop
-- key: lu2025when
+- key: kim2026maego
+  type: preprint
+  title: "MA-EgoQA: Question answering over egocentric videos from multiple embodied agents"
+  authors:
+  - Kangsan Kim
+  - Yanlai Yang
+  - Suji Kim
+  - Woongyeong Yeo
+  - Youngwan Lee
+  - Mengye Ren
+  - Sung Ju Hwang
+  equal_contribution: []
+  venue_full: "arXiv preprint arXiv:2603.09827"
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2026
+  month: 3
+  note: null
+  selected: true
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2603.09827"
+    html: "https://agenticlearning.ai/research/ma-egoqa#full-paper"
+- key: sprague2026skillfactory
+  title: "SkillFactory: Self-distillation for learning cognitive behaviors"
+  authors:
+  - Zayne Sprague
+  - Jack Lu
+  - Manya Wadhwa
+  - Sedrick Keh
+  - Mengye Ren
+  - Greg Durrett
+  equal_contribution: []
+  venue_full: Proceedings of the 14th International Conference on Learning Representations (ICLR)
+  venue_short: ICLR
+  venue_location: "Rio de Janeiro, Brazil"
+  year: 2026
+  month: 4
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2512.04072"
+    html: "https://arxiv.org/html/2512.04072"
+  type: conference
+- key: lu2026when_wo
   title: When does verification pay off? A closer look at LLMs as solution verifiers
   authors:
   - Jack Lu
@@ -490,11 +380,11 @@ publications:
   equal_contribution:
   - 0
   - 1
-  venue_full: "arXiv preprint arXiv:2512.02304"
-  venue_short: arXiv preprint
-  venue_location: ''
-  year: 2025
-  month: 12
+  venue_full: ICLR 2026 Workshop on AI with Recursive Self-Improvement
+  venue_short: ICLR 2026 Workshop on AI with Recursive Self-Improvement
+  venue_location: "Rio de Janeiro, Brazil"
+  year: 2026
+  month: 4
   note: null
   selected: false
   on_website: true
@@ -502,7 +392,94 @@ publications:
   links:
     arxiv: "https://arxiv.org/abs/2512.02304"
     html: "https://agenticlearning.ai/research/llm-verification#full-paper"
-  type: preprint
+  type: workshop
+- key: wu2026local
+  title: Local reinforcement learning with action-conditioned root mean squared Q-functions
+  authors:
+  - Frank (Zequan) Wu
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Proceedings of the 14th International Conference on Learning Representations (ICLR)
+  venue_short: ICLR
+  venue_location: "Rio de Janeiro, Brazil"
+  year: 2026
+  month: 4
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/arq/"
+    arxiv: "https://arxiv.org/abs/2510.06649"
+    html: "https://agenticlearning.ai/research/arq#full-paper"
+  type: conference
+- key: hoang2026midway
+  title: "Midway Network: Learning representations for recognition and motion from latent dynamics"
+  authors:
+  - Christopher Hoang
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Proceedings of the 14th International Conference on Learning Representations (ICLR)
+  venue_short: ICLR
+  venue_location: "Rio de Janeiro, Brazil"
+  year: 2026
+  month: 4
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/midway-network/"
+    arxiv: "https://arxiv.org/abs/2510.05558"
+    html: "https://agenticlearning.ai/research/midway-network#full-paper"
+  type: conference
+- key: yang2025streammem_wo
+  title: "StreamMem: Query-agnostic KV cache memory for streaming video understanding"
+  authors:
+  - Yanlai Yang
+  - Zhuokai Zhao
+  - Satya Narayan Shukla
+  - Aashu Singh
+  - Shlok Kumar Mishra
+  - Lizhu Zhang
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "CVPR 2026 Workshop on Video Large Language Models (VidLLMs)"
+  venue_short: "CVPR 2026 Workshop on Video LLMs"
+  venue_location: "Denver, Colorado, USA"
+  year: 2026
+  month: 6
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://yangyanl.ai/streammem/"
+    arxiv: "https://arxiv.org/abs/2508.15717"
+    html: "https://agenticlearning.ai/research/stream-mem#full-paper"
+  type: workshop
+- key: lu2025context
+  title: Context tuning for in-context optimization
+  authors:
+  - Jack Lu
+  - Ryan Teehan
+  - Zhenbang Yang
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Proceedings of the 43rd International Conference on Machine Learning (ICML)
+  venue_short: ICML
+  venue_location: 'Seoul, South Korea'
+  year: 2026
+  month: 7
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/context-tuning/"
+    arxiv: "https://arxiv.org/abs/2507.04221"
+    html: "https://agenticlearning.ai/research/context-tuning#full-paper"
+  type: conference
 - key: su2025opinion_wo
   title: "Opinion: Learning intuitive physics may require more than visual data"
   authors:
@@ -526,6 +503,29 @@ publications:
     arxiv: "https://arxiv.org/abs/2512.06232"
     html: "https://arxiv.org/html/2512.06232"
   type: workshop
+- key: lu2025when
+  title: When does verification pay off? A closer look at LLMs as solution verifiers
+  authors:
+  - Jack Lu
+  - Ryan Teehan
+  - Jinran Jin
+  - Mengye Ren
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: "arXiv preprint arXiv:2512.02304"
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2025
+  month: 12
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2512.02304"
+    html: "https://agenticlearning.ai/research/llm-verification#full-paper"
+  type: preprint
 - key: wang2025incontext
   title: In-context clustering with large language models
   authors:
@@ -547,6 +547,50 @@ publications:
     arxiv: "https://arxiv.org/abs/2510.08466"
     html: "https://agenticlearning.ai/research/icc#full-paper"
   type: preprint
+- key: lu2025context_wo
+  title: Context tuning for in-context optimization
+  authors:
+  - Jack Lu
+  - Ryan Teehan
+  - Zhenbang Yang
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "Second Workshop on Test-Time Adaptation: Putting Updates to the Test! at ICML 2025"
+  venue_short: "Second Workshop on Test-Time Adaptation: Putting Updates to the Test! at ICML 2025"
+  venue_location: "Vancouver, British Columbia, Canada"
+  year: 2025
+  month: 7
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/context-tuning/"
+    arxiv: "https://arxiv.org/abs/2507.04221"
+    html: "https://agenticlearning.ai/research/context-tuning#full-paper"
+  type: workshop
+- key: baek2025discrete_wo
+  title: "Discrete JEPA: Learning discrete token representations without reconstruction"
+  authors:
+  - Junyeob Baek
+  - Hosung Lee
+  - Christopher Hoang
+  - Mengye Ren
+  - Sungjin Ahn
+  equal_contribution: []
+  venue_full: "WoTok: Workshop on Tokenization at ICML 2025"
+  venue_short: "WoTok: Workshop on Tokenization at ICML 2025"
+  venue_location: "Vancouver, British Columbia, Canada"
+  year: 2025
+  month: 7
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2506.14373"
+    html: "https://agenticlearning.ai/research/discrete-jepa#full-paper"
+  type: workshop
 - key: mahdaviyeh2025replay
   title: Replay can provably increase forgetting
   authors:
@@ -591,73 +635,6 @@ publications:
     code: "https://github.com/agentic-learning-ai-lab/memory-storyboard"
     html: "https://agenticlearning.ai/research/memory-storyboard#full-paper"
   type: conference
-- key: baek2025discrete_wo
-  title: "Discrete JEPA: Learning discrete token representations without reconstruction"
-  authors:
-  - Junyeob Baek
-  - Hosung Lee
-  - Christopher Hoang
-  - Mengye Ren
-  - Sungjin Ahn
-  equal_contribution: []
-  venue_full: "WoTok: Workshop on Tokenization at ICML 2025"
-  venue_short: "WoTok: Workshop on Tokenization at ICML 2025"
-  venue_location: "Vancouver, British Columbia, Canada"
-  year: 2025
-  month: 7
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2506.14373"
-    html: "https://agenticlearning.ai/research/discrete-jepa#full-paper"
-  type: workshop
-- key: dai2025are
-  title: Are LLMs prescient? A continuous evaluation using daily news as the oracle
-  authors:
-  - Hui Dai
-  - Ryan Teehan
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: Proceedings of the 42nd International Conference on Machine Learning (ICML)
-  venue_short: ICML
-  venue_location: "Vancouver, British Columbia, Canada"
-  year: 2025
-  month: 7
-  note: null
-  selected: true
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://agenticlearning.ai/daily-oracle/"
-    arxiv: "https://arxiv.org/abs/2411.08324"
-    code: "https://github.com/agentic-learning-ai-lab/daily-oracle"
-    dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/daily-oracle"
-    html: "https://agenticlearning.ai/research/are-llms-prescient#full-paper"
-  type: conference
-- key: lu2025context_wo
-  title: Context tuning for in-context optimization
-  authors:
-  - Jack Lu
-  - Ryan Teehan
-  - Zhenbang Yang
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: "Second Workshop on Test-Time Adaptation: Putting Updates to the Test! at ICML 2025"
-  venue_short: "Second Workshop on Test-Time Adaptation: Putting Updates to the Test! at ICML 2025"
-  venue_location: "Vancouver, British Columbia, Canada"
-  year: 2025
-  month: 7
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: "https://agenticlearning.ai/context-tuning/"
-    arxiv: "https://arxiv.org/abs/2507.04221"
-    html: "https://agenticlearning.ai/research/context-tuning#full-paper"
-  type: workshop
 - key: singhal2025a
   title: A general framework for inference-time scaling and steering of diffusion models
   authors:
@@ -684,34 +661,6 @@ publications:
   links:
     arxiv: "https://arxiv.org/abs/2501.06848"
     html: "https://arxiv.org/html/2501.06848"
-  type: conference
-- key: wang2025poodle
-  title: "PooDLe: Pooled and dense self-supervised learning from naturalistic videos"
-  authors:
-  - Alex N. Wang
-  - Christopher Hoang
-  - Yuwen Xiong
-  - Yann LeCun
-  - Mengye Ren
-  equal_contribution:
-  - 0
-  - 1
-  venue_full: Proceedings of the 13th International Conference on Learning Representations (ICLR)
-  venue_short: ICLR
-  venue_location: Singapore
-  year: 2025
-  month: 4
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2025/poodle-pooled-and-dense-self-supervised-learning-from-naturalistic-videos
-  links:
-    webpage: "https://agenticlearning.ai/poodle/"
-    arxiv: "https://arxiv.org/abs/2408.11208"
-    code: "https://github.com/agentic-learning-ai-lab/poodle"
-    dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/Walking-Tours-Semantic"
-    pdf: 2025/poodle-pooled-and-dense-self-supervised-learning-from-naturalistic-videos/wang-2025-poodle.pdf
-    html: 2025/poodle-pooled-and-dense-self-supervised-learning-from-naturalistic-videos
   type: conference
 - key: patent_US12214801B2
   title: Generating autonomous vehicle testing data through perturbations and adversarial loss functions
@@ -777,6 +726,57 @@ publications:
   - M Liang
   - B Yang
   type: patent
+- key: dai2025are
+  title: Are LLMs prescient? A continuous evaluation using daily news as the oracle
+  authors:
+  - Hui Dai
+  - Ryan Teehan
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Proceedings of the 42nd International Conference on Machine Learning (ICML)
+  venue_short: ICML
+  venue_location: "Vancouver, British Columbia, Canada"
+  year: 2025
+  month: 7
+  note: null
+  selected: true
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/daily-oracle/"
+    arxiv: "https://arxiv.org/abs/2411.08324"
+    code: "https://github.com/agentic-learning-ai-lab/daily-oracle"
+    dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/daily-oracle"
+    html: "https://agenticlearning.ai/research/are-llms-prescient#full-paper"
+  type: conference
+- key: wang2025poodle
+  title: "PooDLe: Pooled and dense self-supervised learning from naturalistic videos"
+  authors:
+  - Alex N. Wang
+  - Christopher Hoang
+  - Yuwen Xiong
+  - Yann LeCun
+  - Mengye Ren
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: Proceedings of the 13th International Conference on Learning Representations (ICLR)
+  venue_short: ICLR
+  venue_location: Singapore
+  year: 2025
+  month: 4
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2025/poodle-pooled-and-dense-self-supervised-learning-from-naturalistic-videos
+  links:
+    webpage: "https://agenticlearning.ai/poodle/"
+    arxiv: "https://arxiv.org/abs/2408.11208"
+    code: "https://github.com/agentic-learning-ai-lab/poodle"
+    dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/Walking-Tours-Semantic"
+    pdf: 2025/poodle-pooled-and-dense-self-supervised-learning-from-naturalistic-videos/wang-2025-poodle.pdf
+    html: 2025/poodle-pooled-and-dense-self-supervised-learning-from-naturalistic-videos
+  type: conference
 - key: dai2024are_wo
   title: Are LLMs prescient? A continuous evaluation using daily news as the oracle
   authors:
@@ -800,6 +800,96 @@ publications:
     dataset: "https://huggingface.co/datasets/agentic-learning-ai-lab/daily-oracle"
     html: "https://agenticlearning.ai/research/are-llms-prescient#full-paper"
   type: workshop
+- key: lu2024procreate
+  title: "ProCreate, don't reproduce! Propulsive energy diffusion for creative generation"
+  authors:
+  - Jack Lu
+  - Ryan Teehan
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Computer Vision -- the 18th European Conference (ECCV)
+  venue_short: ECCV
+  venue_location: "Milan, Italy"
+  year: 2024
+  month: 9
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2024/procreate-dont-reproduce-propulsive-energy-diffusion-for-creative-generation
+  links:
+    webpage: "https://agenticlearning.ai/procreate-diffusion/"
+    arxiv: "https://arxiv.org/abs/2408.02226"
+    code: "https://github.com/agentic-learning-ai-lab/procreate-diffusion"
+    pdf: 2024/procreate-dont-reproduce-propulsive-energy-diffusion-for-creative-generation/lu-2024-procreate.pdf
+    html: 2024/procreate-dont-reproduce-propulsive-energy-diffusion-for-creative-generation
+  type: conference
+- key: zhang2024integrating
+  title: Integrating present and past in unsupervised continual learning
+  authors:
+  - Yipeng Zhang
+  - Laurent Charlin
+  - Richard Zemel
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Proceedings of the 3rd Conference on Lifelong Learning Agents (CoLLAs)
+  venue_short: CoLLAs
+  venue_location: "Pisa, Italy"
+  year: 2024
+  month: 7
+  note: oral
+  selected: false
+  on_website: true
+  webpage_path: 2024/integrating-present-and-past-in-unsupervised-continual-learning
+  links:
+    arxiv: "https://arxiv.org/abs/2404.19132"
+    pdf: 2024/integrating-present-and-past-in-unsupervised-continual-learning/zhang-2024-integrating.pdf
+    html: 2024/integrating-present-and-past-in-unsupervised-continual-learning
+  type: conference
+- key: zhang2024integrating_wo
+  title: Integrating present and past in unsupervised continual learning
+  authors:
+  - Yipeng Zhang
+  - Laurent Charlin
+  - Richard Zemel
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: 5th CVPR Workshop on Continual Learning (CLVision)
+  venue_short: CLVision
+  venue_location: "Seattle, Washington, USA"
+  year: 2024
+  month: 6
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2024/integrating-present-and-past-in-unsupervised-continual-learning
+  links:
+    arxiv: "https://arxiv.org/abs/2404.19132"
+    pdf: 2024/integrating-present-and-past-in-unsupervised-continual-learning/zhang-2024-integrating.pdf
+    html: 2024/integrating-present-and-past-in-unsupervised-continual-learning
+  type: workshop
+- key: teehan2024college
+  title: "CoLLEGe: Concept embedding generation for large language models"
+  authors:
+  - Ryan Teehan
+  - Brenden M. Lake
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Proceedings of the 1st Conference on Language Modeling (COLM)
+  venue_short: COLM
+  venue_location: "Philadelphia, Pennsylvania, USA"
+  year: 2024
+  month: 10
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2024/college-concept-embedding-generation-for-large-language-models
+  links:
+    webpage: "https://agenticlearning.ai/college/"
+    arxiv: "https://arxiv.org/abs/2403.15362"
+    code: "https://github.com/agentic-learning-ai-lab/college"
+    pdf: 2024/college-concept-embedding-generation-for-large-language-models/teehan-2024-college.pdf
+    html: 2024/college-concept-embedding-generation-for-large-language-models
+  type: conference
 - key: yang2024reawakening
   title: "Reawakening knowledge: Anticipatory recovery from catastrophic interference via structured training"
   authors:
@@ -824,52 +914,6 @@ publications:
     pdf: 2024/reawakening-knowledge-anticipatory-recovery-from-catastrophic-interference-via-structured-training/yang-2024-reawakening.pdf
     html: 2024/reawakening-knowledge-anticipatory-recovery-from-catastrophic-interference-via-structured-training
   type: conference
-- key: teehan2024college
-  title: "CoLLEGe: Concept embedding generation for large language models"
-  authors:
-  - Ryan Teehan
-  - Brenden M. Lake
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: Proceedings of the 1st Conference on Language Modeling (COLM)
-  venue_short: COLM
-  venue_location: "Philadelphia, Pennsylvania, USA"
-  year: 2024
-  month: 10
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2024/college-concept-embedding-generation-for-large-language-models
-  links:
-    webpage: "https://agenticlearning.ai/college/"
-    arxiv: "https://arxiv.org/abs/2403.15362"
-    code: "https://github.com/agentic-learning-ai-lab/college"
-    pdf: 2024/college-concept-embedding-generation-for-large-language-models/teehan-2024-college.pdf
-    html: 2024/college-concept-embedding-generation-for-large-language-models
-  type: conference
-- key: lu2024procreate
-  title: "ProCreate, don't reproduce! Propulsive energy diffusion for creative generation"
-  authors:
-  - Jack Lu
-  - Ryan Teehan
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: Computer Vision -- the 18th European Conference (ECCV)
-  venue_short: ECCV
-  venue_location: "Milan, Italy"
-  year: 2024
-  month: 9
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2024/procreate-dont-reproduce-propulsive-energy-diffusion-for-creative-generation
-  links:
-    webpage: "https://agenticlearning.ai/procreate-diffusion/"
-    arxiv: "https://arxiv.org/abs/2408.02226"
-    code: "https://github.com/agentic-learning-ai-lab/procreate-diffusion"
-    pdf: 2024/procreate-dont-reproduce-propulsive-energy-diffusion-for-creative-generation/lu-2024-procreate.pdf
-    html: 2024/procreate-dont-reproduce-propulsive-energy-diffusion-for-creative-generation
-  type: conference
 - key: orhan2024selfsupervised
   title: Self-supervised learning of video representations from a child’s perspective
   authors:
@@ -893,28 +937,24 @@ publications:
     pdf: 2024/self-supervised-learning-of-video-representations-from-a-childs-perspective/orhan-2024-self.pdf
     html: 2024/self-supervised-learning-of-video-representations-from-a-childs-perspective/orhan-2024-self
   type: conference
-- key: zhang2024integrating
-  title: Integrating present and past in unsupervised continual learning
+- key: patent_US12127085B2
+  title: Systems and methods for mitigating vehicle pose error across an aggregated feature map
   authors:
-  - Yipeng Zhang
-  - Laurent Charlin
-  - Richard Zemel
+  - Nicholas Baskar Vadivelu
   - Mengye Ren
-  equal_contribution: []
-  venue_full: Proceedings of the 3rd Conference on Lifelong Learning Agents (CoLLAs)
-  venue_short: CoLLAs
-  venue_location: "Pisa, Italy"
+  - Xuanyuan Tu
+  - Raquel Urtasun
+  - Jingkang Wang
+  patent_number: "US 12,127,085 B2"
   year: 2024
-  month: 7
-  note: oral
-  selected: false
-  on_website: true
-  webpage_path: 2024/integrating-present-and-past-in-unsupervised-continual-learning
-  links:
-    arxiv: "https://arxiv.org/abs/2404.19132"
-    pdf: 2024/integrating-present-and-past-in-unsupervised-continual-learning/zhang-2024-integrating.pdf
-    html: 2024/integrating-present-and-past-in-unsupervised-continual-learning
-  type: conference
+  on_website: false
+  authors_short:
+  - NB Vadivelu
+  - M Ren
+  - X Tu
+  - R Urtasun
+  - J Wang
+  type: patent
 - key: zhao2024learning
   title: Learning and forgetting unsafe examples in large language models
   authors:
@@ -938,46 +978,6 @@ publications:
     pdf: 2024/learning-and-forgetting-unsafe-examples-in-large-language-models/zhao-2024-learning.pdf
     html: 2024/learning-and-forgetting-unsafe-examples-in-large-language-models
   type: conference
-- key: zhang2024integrating_wo
-  title: Integrating present and past in unsupervised continual learning
-  authors:
-  - Yipeng Zhang
-  - Laurent Charlin
-  - Richard Zemel
-  - Mengye Ren
-  equal_contribution: []
-  venue_full: 5th CVPR Workshop on Continual Learning (CLVision)
-  venue_short: CLVision
-  venue_location: "Seattle, Washington, USA"
-  year: 2024
-  month: 6
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2024/integrating-present-and-past-in-unsupervised-continual-learning
-  links:
-    arxiv: "https://arxiv.org/abs/2404.19132"
-    pdf: 2024/integrating-present-and-past-in-unsupervised-continual-learning/zhang-2024-integrating.pdf
-    html: 2024/integrating-present-and-past-in-unsupervised-continual-learning
-  type: workshop
-- key: patent_US12127085B2
-  title: Systems and methods for mitigating vehicle pose error across an aggregated feature map
-  authors:
-  - Nicholas Baskar Vadivelu
-  - Mengye Ren
-  - Xuanyuan Tu
-  - Raquel Urtasun
-  - Jingkang Wang
-  patent_number: "US 12,127,085 B2"
-  year: 2024
-  on_website: false
-  authors_short:
-  - NB Vadivelu
-  - M Ren
-  - X Tu
-  - R Urtasun
-  - J Wang
-  type: patent
 - key: wang2023lifelongmemory
   title: "LifelongMemory: Leveraging LLMs for answering queries in long-form egocentric videos"
   authors:
@@ -1020,6 +1020,33 @@ publications:
     arxiv: "https://arxiv.org/abs/2311.17218"
     html: "https://arxiv.org/html/2311.17218"
   type: preprint
+- key: zhang2023towards
+  title: Towards unsupervised object detection from LiDAR point clouds
+  authors:
+  - Lunjun Zhang
+  - Anqi Joyce Yang
+  - Yuwen Xiong
+  - Sergio Casas
+  - Bin Yang
+  - Mengye Ren
+  - Raquel Urtasun
+  equal_contribution: []
+  venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+  venue_short: CVPR
+  venue_location: "Vancouver, British Columbia, Canada"
+  year: 2023
+  month: 6
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2311.02007"
+    pdf: 2023/towards-unsupervised-object-detection-from-lidar-point-clouds/zhang-2023-towards.pdf
+    video: "https://research-assets.waabi.ai/wp-content/uploads/2023/05/oyster_video-2.mp4"
+    webpage: "https://waabi.ai/oyster"
+    html: "https://arxiv.org/html/2311.02007"
+  type: conference
 - key: mayo2023multitask
   title: "Multitask learning via interleaving: A neural network investigation"
   authors:
@@ -1064,33 +1091,6 @@ publications:
   links:
     pdf: 2023/egocentric-video-comprehension-via-large-language-model-inner-speech/wang-2023-egocentric.pdf
   type: workshop
-- key: zhang2023towards
-  title: Towards unsupervised object detection from LiDAR point clouds
-  authors:
-  - Lunjun Zhang
-  - Anqi Joyce Yang
-  - Yuwen Xiong
-  - Sergio Casas
-  - Bin Yang
-  - Mengye Ren
-  - Raquel Urtasun
-  equal_contribution: []
-  venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-  venue_short: CVPR
-  venue_location: "Vancouver, British Columbia, Canada"
-  year: 2023
-  month: 6
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2311.02007"
-    pdf: 2023/towards-unsupervised-object-detection-from-lidar-point-clouds/zhang-2023-towards.pdf
-    video: "https://research-assets.waabi.ai/wp-content/uploads/2023/05/oyster_video-2.mp4"
-    webpage: "https://waabi.ai/oyster"
-    html: "https://arxiv.org/html/2311.02007"
-  type: conference
 - key: jones2023learning
   title: Learning in temporally structured environments
   authors:
@@ -1113,29 +1113,6 @@ publications:
   webpage_path: null
   links:
     pdf: 2023/learning-in-temporally-structured-environments/jones-2023-learning.pdf
-  type: conference
-- key: ren2023scaling
-  title: Scaling forward gradient with local losses
-  authors:
-  - Mengye Ren
-  - Simon Kornblith
-  - Renjie Liao
-  - Geoffrey Hinton
-  equal_contribution: []
-  venue_full: Proceedings of the 11th International Conference on Learning Representations (ICLR)
-  venue_short: ICLR
-  venue_location: "Kigali, Rwanda"
-  year: 2023
-  month: 5
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2023/scaling-forward-gradient-with-local-losses
-  links:
-    arxiv: "https://arxiv.org/abs/2210.03310"
-    pdf: 2023/scaling-forward-gradient-with-local-losses/ren-2023-scaling.pdf
-    code: "https://github.com/google-research/google-research/tree/master/local_forward_gradient"
-    html: 2023/scaling-forward-gradient-with-local-losses
   type: conference
 - key: patent_US11580851B2
   title: Systems and methods for simulating traffic scenes
@@ -1199,6 +1176,51 @@ publications:
   - S Segal
   - R Urtasun
   type: patent
+- key: patent_US11780472B2
+  title: Systems and methods for generating motion forecast data for a plurality of actors with respect to an autonomous vehicle
+  authors:
+  - Lingyun (Luke) Li
+  - Bin Yang
+  - Wenyuan Zeng
+  - Ming Liang
+  - Mengye Ren
+  - Sean Segal
+  - Raquel Urtasun
+  patent_number: "US 11,780,472 B2"
+  year: 2023
+  on_website: false
+  authors_short:
+  - LY Li
+  - B Yang
+  - W Zeng
+  - M Liang
+  - M Ren
+  - S Segal
+  - R Urtasun
+  type: patent
+- key: ren2023scaling
+  title: Scaling forward gradient with local losses
+  authors:
+  - Mengye Ren
+  - Simon Kornblith
+  - Renjie Liao
+  - Geoffrey Hinton
+  equal_contribution: []
+  venue_full: Proceedings of the 11th International Conference on Learning Representations (ICLR)
+  venue_short: ICLR
+  venue_location: "Kigali, Rwanda"
+  year: 2023
+  month: 5
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2023/scaling-forward-gradient-with-local-losses
+  links:
+    arxiv: "https://arxiv.org/abs/2210.03310"
+    pdf: 2023/scaling-forward-gradient-with-local-losses/ren-2023-scaling.pdf
+    code: "https://github.com/google-research/google-research/tree/master/local_forward_gradient"
+    html: 2023/scaling-forward-gradient-with-local-losses
+  type: conference
 - key: patent_US11755014B2
   title: Jointly learnable behavior and trajectory planning for autonomous vehicles
   authors:
@@ -1223,28 +1245,35 @@ publications:
     html: "https://arxiv.org/html/1910.04586"
   webpage_path: null
   type: patent
-- key: patent_US11780472B2
-  title: Systems and methods for generating motion forecast data for a plurality of actors with respect to an autonomous vehicle
+- key: zhang2022rethinking
+  title: Rethinking closed-loop training for autonomous driving
   authors:
-  - Lingyun (Luke) Li
-  - Bin Yang
+  - Chris Zhang
+  - Runsheng Guo
   - Wenyuan Zeng
-  - Ming Liang
+  - Yuwen Xiong
+  - Binbin Dai
+  - Rui Hu
   - Mengye Ren
-  - Sean Segal
   - Raquel Urtasun
-  patent_number: "US 11,780,472 B2"
-  year: 2023
-  on_website: false
-  authors_short:
-  - LY Li
-  - B Yang
-  - W Zeng
-  - M Liang
-  - M Ren
-  - S Segal
-  - R Urtasun
-  type: patent
+  equal_contribution:
+  - 0
+  - 1
+  - 2
+  venue_full: Computer Vision -- the 17th European Conference (ECCV)
+  venue_short: ECCV
+  venue_location: "Tel-Aviv, Israel"
+  year: 2022
+  month: 10
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    pdf: 2022/rethinking-closed-loop-training-for-autonomous-driving/zhang-2022-rethinking.pdf
+    arxiv: "https://arxiv.org/abs/2306.15713"
+    html: "https://arxiv.org/html/2306.15713"
+  type: conference
 - key: jones2022neural_wo
   title: Neural network online training with sensitivity to multiscale temporal structure
   authors:
@@ -1267,31 +1296,6 @@ publications:
   webpage_path: null
   links:
     pdf: 2022/neural-network-online-training-with-sensitivity-to-multiscale-temporal-structure/jones-2022-neural.pdf
-  type: workshop
-- key: nam2022learning_wo
-  title: Learning to reason with relational abstractions
-  authors:
-  - Andrew J. Nam
-  - Mengye Ren
-  - Chelsea Finn
-  - James L. McClelland
-  equal_contribution:
-  - 0
-  - 1
-  venue_full: 2nd Workshop on MATH-AI at NeurIPS
-  venue_short: 2nd Workshop on MATH-AI at NeurIPS
-  venue_location: "New Orleans, Louisiana, USA"
-  year: 2022
-  month: 12
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2210.02615"
-    pdf: 2022/learning-to-reason-with-relational-abstractions/nam-2022-learning.pdf
-    dataset: "https://github.com/renmengye/grade-school-math-relational"
-    html: "https://arxiv.org/html/2210.02615"
   type: workshop
 - key: liao2022gaussianbernoulli
   title: Gaussian-Bernoulli RBMs without tears
@@ -1340,35 +1344,31 @@ publications:
     dataset: "https://github.com/renmengye/grade-school-math-relational"
     html: "https://arxiv.org/html/2210.02615"
   type: preprint
-- key: zhang2022rethinking
-  title: Rethinking closed-loop training for autonomous driving
+- key: nam2022learning_wo
+  title: Learning to reason with relational abstractions
   authors:
-  - Chris Zhang
-  - Runsheng Guo
-  - Wenyuan Zeng
-  - Yuwen Xiong
-  - Binbin Dai
-  - Rui Hu
+  - Andrew J. Nam
   - Mengye Ren
-  - Raquel Urtasun
+  - Chelsea Finn
+  - James L. McClelland
   equal_contribution:
   - 0
   - 1
-  - 2
-  venue_full: Computer Vision -- the 17th European Conference (ECCV)
-  venue_short: ECCV
-  venue_location: "Tel-Aviv, Israel"
+  venue_full: 2nd Workshop on MATH-AI at NeurIPS
+  venue_short: 2nd Workshop on MATH-AI at NeurIPS
+  venue_location: "New Orleans, Louisiana, USA"
   year: 2022
-  month: 10
+  month: 12
   note: null
   selected: false
   on_website: true
   webpage_path: null
   links:
-    pdf: 2022/rethinking-closed-loop-training-for-autonomous-driving/zhang-2022-rethinking.pdf
-    arxiv: "https://arxiv.org/abs/2306.15713"
-    html: "https://arxiv.org/html/2306.15713"
-  type: conference
+    arxiv: "https://arxiv.org/abs/2210.02615"
+    pdf: 2022/learning-to-reason-with-relational-abstractions/nam-2022-learning.pdf
+    dataset: "https://github.com/renmengye/grade-school-math-relational"
+    html: "https://arxiv.org/html/2210.02615"
+  type: workshop
 - key: ren2022thesis
   type: thesis
   title: Open-world machine learning with limited labeled data
@@ -1404,6 +1404,30 @@ publications:
   - M Ren
   - M Liang
   type: patent
+- key: ren2021online
+  title: Online unsupervised learning of visual representations and categories
+  authors:
+  - Mengye Ren
+  - Tyler R. Scott
+  - Michael L. Iuzzolino
+  - Michael C. Mozer
+  - Richard Zemel
+  equal_contribution: []
+  venue_full: "arXiv preprint arXiv:2109.05675"
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2021
+  month: 9
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2022/online-unsupervised-learning-of-visual-representations-and-categories
+  links:
+    arxiv: "https://arxiv.org/abs/2109.05675"
+    pdf: 2022/online-unsupervised-learning-of-visual-representations-and-categories/ren-2022-online.pdf
+    code: "https://github.com/renmengye/online-unsup-proto-net"
+    html: 2022/online-unsupervised-learning-of-visual-representations-and-categories
+  type: preprint
 - key: segal2021just
   title: "Just label what you need: Fine-grained active selection for perception and prediction through partially labeled scenes"
   authors:
@@ -1503,52 +1527,31 @@ publications:
     pdf: 2021/self-supervised-representation-learning-from-flow-equivariance/xiong-2021-self.pdf
     html: 2021/self-supervised-representation-learning-from-flow-equivariance
   type: conference
-- key: ren2021online
-  title: Online unsupervised learning of visual representations and categories
+- key: wang2021advsim
+  title: "AdvSim: Generating safety-critical scenarios for self-driving vehicles"
   authors:
+  - Jingkang Wang
+  - Ava Pun
+  - James Tu
+  - Abbas Sadat
+  - Sergio Casas
+  - Sivabalan Manivasagam
   - Mengye Ren
-  - Tyler R. Scott
-  - Michael L. Iuzzolino
-  - Michael C. Mozer
-  - Richard Zemel
+  - Raquel Urtasun
   equal_contribution: []
-  venue_full: "arXiv preprint arXiv:2109.05675"
-  venue_short: arXiv preprint
+  venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+  venue_short: CVPR
   venue_location: ''
   year: 2021
-  month: 9
+  month: 6
   note: null
   selected: false
   on_website: true
-  webpage_path: 2022/online-unsupervised-learning-of-visual-representations-and-categories
+  webpage_path: null
   links:
-    arxiv: "https://arxiv.org/abs/2109.05675"
-    pdf: 2022/online-unsupervised-learning-of-visual-representations-and-categories/ren-2022-online.pdf
-    code: "https://github.com/renmengye/online-unsup-proto-net"
-    html: 2022/online-unsupervised-learning-of-visual-representations-and-categories
-  type: preprint
-- key: wang2021sketchembednet
-  title: "SketchEmbedNet: Learning novel concepts by imitating drawings"
-  authors:
-  - Alexander Wang
-  - Mengye Ren
-  - Richard S. Zemel
-  equal_contribution:
-  - 0
-  - 1
-  venue_full: Proceedings of the 38th International Conference on Machine Learning (ICML)
-  venue_short: ICML
-  venue_location: ''
-  year: 2021
-  month: 7
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2021/sketch-embed-net-learning-novel-concepts-by-imitating-drawings
-  links:
-    arxiv: "https://arxiv.org/abs/2009.04806"
-    pdf: 2021/sketch-embed-net-learning-novel-concepts-by-imitating-drawings/wang-2021-sketch.pdf
-    html: 2021/sketch-embed-net-learning-novel-concepts-by-imitating-drawings
+    arxiv: "https://arxiv.org/abs/2101.06549"
+    pdf: 2021/advsim-generating-safety-critical-scenarios-for-self-driving-vehicles/wang-2021-advsim.pdf
+    html: "https://arxiv.org/html/2101.06549"
   type: conference
 - key: tan2021scenegen
   title: "SceneGen: Learning to simulate realistic traffic scenes"
@@ -1576,80 +1579,22 @@ publications:
     pdf: 2021/scenegen-learning-to-generate-realistic-traffic-scenes/tan-2021-scenegen.pdf
     html: "https://arxiv.org/html/2101.06541"
   type: conference
-- key: wang2021advsim
-  title: "AdvSim: Generating safety-critical scenarios for self-driving vehicles"
+- key: patent_US11061402B2
+  title: Sparse convolutional neural networks
   authors:
-  - Jingkang Wang
-  - Ava Pun
-  - James Tu
-  - Abbas Sadat
-  - Sergio Casas
-  - Sivabalan Manivasagam
-  - Mengye Ren
   - Raquel Urtasun
-  equal_contribution: []
-  venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-  venue_short: CVPR
-  venue_location: ''
-  year: 2021
-  month: 6
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2101.06549"
-    pdf: 2021/advsim-generating-safety-critical-scenarios-for-self-driving-vehicles/wang-2021-advsim.pdf
-    html: "https://arxiv.org/html/2101.06549"
-  type: conference
-- key: lucas2021theoretical
-  title: Theoretical bounds on estimation error for meta learning
-  authors:
-  - James Lucas
   - Mengye Ren
-  - Irene Kameni
-  - Toniann Pitassi
-  - Richard S. Zemel
-  equal_contribution: []
-  venue_full: Proceedings of the 9th International Conference on Learning Representations (ICLR)
-  venue_short: ICLR
-  venue_location: ''
+  - Andrei Pokrovsky
+  - Bin Yang
+  patent_number: "US 11,061,402 B2"
   year: 2021
-  month: 5
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2021/theoretical-bounds-on-estimation-error-for-meta-learning
-  links:
-    arxiv: "https://arxiv.org/abs/2010.07140"
-    pdf: 2021/theoretical-bounds-on-estimation-error-for-meta-learning/lucas-2021-theoretical.pdf
-    video: "https://slideslive.com/38954221/theoretical-bounds-on-estimation-error-for-metalearning"
-    html: 2021/theoretical-bounds-on-estimation-error-for-meta-learning
-  type: conference
-- key: ren2021wandering
-  title: "Wandering within a world: Online contextualized few-shot learning"
-  authors:
-  - Mengye Ren
-  - Michael L. Iuzzolino
-  - Michael C. Mozer
-  - Richard S. Zemel
-  equal_contribution: []
-  venue_full: Proceedings of the 9th International Conference on Learning Representations (ICLR)
-  venue_short: ICLR
-  venue_location: ''
-  year: 2021
-  month: 5
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
-  links:
-    arxiv: "https://arxiv.org/abs/2007.04546"
-    pdf: 2021/wandering-within-a-world-online-contextualized-few-shot-learning/ren-2021-wandering.pdf
-    code: "https://github.com/renmengye/oc-fewshot-public"
-    video: "https://slideslive.com/38931573/wandering-within-a-world-online-contextualized-fewshot-learning"
-    html: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
-  type: conference
+  on_website: false
+  authors_short:
+  - R Urtasun
+  - M Ren
+  - A Pokrovsky
+  - B Yang
+  type: patent
 - key: wei2021perceive
   title: "Perceive, attend and drive: Learning spatial attention for safe self-driving"
   authors:
@@ -1677,22 +1622,103 @@ publications:
     video: "https://youtu.be/3ffaQ2PIQCM"
     html: 2021/perceive-attend-and-drive-learning-spatial-attention-for-safe-self-driving
   type: conference
-- key: patent_US11061402B2
-  title: Sparse convolutional neural networks
+- key: lucas2021theoretical
+  title: Theoretical bounds on estimation error for meta learning
   authors:
-  - Raquel Urtasun
+  - James Lucas
   - Mengye Ren
-  - Andrei Pokrovsky
-  - Bin Yang
-  patent_number: "US 11,061,402 B2"
+  - Irene Kameni
+  - Toniann Pitassi
+  - Richard S. Zemel
+  equal_contribution: []
+  venue_full: Proceedings of the 9th International Conference on Learning Representations (ICLR)
+  venue_short: ICLR
+  venue_location: ''
   year: 2021
-  on_website: false
-  authors_short:
-  - R Urtasun
-  - M Ren
-  - A Pokrovsky
-  - B Yang
-  type: patent
+  month: 5
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2021/theoretical-bounds-on-estimation-error-for-meta-learning
+  links:
+    arxiv: "https://arxiv.org/abs/2010.07140"
+    pdf: 2021/theoretical-bounds-on-estimation-error-for-meta-learning/lucas-2021-theoretical.pdf
+    video: "https://slideslive.com/38954221/theoretical-bounds-on-estimation-error-for-metalearning"
+    html: 2021/theoretical-bounds-on-estimation-error-for-meta-learning
+  type: conference
+- key: wang2021sketchembednet
+  title: "SketchEmbedNet: Learning novel concepts by imitating drawings"
+  authors:
+  - Alexander Wang
+  - Mengye Ren
+  - Richard S. Zemel
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: Proceedings of the 38th International Conference on Machine Learning (ICML)
+  venue_short: ICML
+  venue_location: ''
+  year: 2021
+  month: 7
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2021/sketch-embed-net-learning-novel-concepts-by-imitating-drawings
+  links:
+    arxiv: "https://arxiv.org/abs/2009.04806"
+    pdf: 2021/sketch-embed-net-learning-novel-concepts-by-imitating-drawings/wang-2021-sketch.pdf
+    html: 2021/sketch-embed-net-learning-novel-concepts-by-imitating-drawings
+  type: conference
+- key: ren2021wandering
+  title: "Wandering within a world: Online contextualized few-shot learning"
+  authors:
+  - Mengye Ren
+  - Michael L. Iuzzolino
+  - Michael C. Mozer
+  - Richard S. Zemel
+  equal_contribution: []
+  venue_full: Proceedings of the 9th International Conference on Learning Representations (ICLR)
+  venue_short: ICLR
+  venue_location: ''
+  year: 2021
+  month: 5
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
+  links:
+    arxiv: "https://arxiv.org/abs/2007.04546"
+    pdf: 2021/wandering-within-a-world-online-contextualized-few-shot-learning/ren-2021-wandering.pdf
+    code: "https://github.com/renmengye/oc-fewshot-public"
+    video: "https://slideslive.com/38931573/wandering-within-a-world-online-contextualized-fewshot-learning"
+    html: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
+  type: conference
+- key: wang2020costefficient_wo
+  title: Cost-efficient online hyperparameter optimization
+  authors:
+  - Jingkang Wang
+  - Mengye Ren
+  - Ilija Bogunovic
+  - Yuwen Xiong
+  - Raquel Urtasun
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: ICML RealML Workshop
+  venue_short: ICML RealML Workshop
+  venue_location: "Vienna, Austria"
+  year: 2020
+  month: 7
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2101.06590"
+    pdf: 2020/cost-efficient-online-hyperparameter-optimization/wang-2020-cost.pdf
+    slides: "https://realworldml.github.io/files/slides/28_slide.pdf"
+    html: "https://arxiv.org/html/2101.06590"
+  type: workshop
 - key: ren2020flexible_pr
   title: Flexible few-shot learning of contextual similarity
   authors:
@@ -1773,28 +1799,6 @@ publications:
   links:
     video: "https://slideslive.com/38942997/multilabel-incremental-fewshot-learning-for-medical-image-pathology-classifiers"
   type: workshop
-- key: xiong2020loco
-  title: "LoCo: Local contrastive representation learning"
-  authors:
-  - Yuwen Xiong
-  - Mengye Ren
-  - Raquel Urtasun
-  equal_contribution: []
-  venue_full: Advances in Neural Information Processing Systems 33 (NeurIPS)
-  venue_short: NeurIPS
-  venue_location: "Vancouver, British Columbia, Canada"
-  year: 2020
-  month: 12
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2020/loco-local-contrastive-representation-learning
-  links:
-    arxiv: "https://arxiv.org/abs/2008.01342"
-    pdf: 2020/loco-local-contrastive-representation-learning/xiong-2020-loco.pdf
-    video: "https://slideslive.com/38936405/loco-local-contrastive-representation-learning"
-    html: 2020/loco-local-contrastive-representation-learning
-  type: conference
 - key: vadivelu2020learning
   title: Learning to communicate and correct pose errors
   authors:
@@ -1817,30 +1821,6 @@ publications:
     arxiv: "https://arxiv.org/abs/2011.05289"
     video: "https://www.youtube.com/watch?v=Qu5KJofLRvs"
     html: "https://arxiv.org/html/2011.05289"
-  type: conference
-- key: li2020endtoend
-  title: End-to-end contextual perception and prediction with interaction transformer
-  authors:
-  - Lingyun (Luke) Li
-  - Bin Yang
-  - Ming Liang
-  - Wenyuan Zeng
-  - Mengye Ren
-  - Sean Segal
-  - Raquel Urtasun
-  equal_contribution: []
-  venue_full: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-  venue_short: IROS
-  venue_location: "Las Vegas, Nevada, USA"
-  year: 2020
-  month: 10
-  note: oral
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/2008.05927"
-    html: "https://arxiv.org/html/2008.05927"
   type: conference
 - key: sadat2020perceive
   title: "Perceive, predict, and plan: Safe motion planning through interpretable semantic representations"
@@ -1867,30 +1847,52 @@ publications:
     arxiv: "https://arxiv.org/abs/2008.05930"
     html: "https://arxiv.org/html/2008.05930"
   type: conference
-- key: ren2020wandering_wo
-  title: "Wandering within a world: Online contextualized few-shot learning"
+- key: li2020endtoend
+  title: End-to-end contextual perception and prediction with interaction transformer
   authors:
+  - Lingyun (Luke) Li
+  - Bin Yang
+  - Ming Liang
+  - Wenyuan Zeng
   - Mengye Ren
-  - Michael L. Iuzzolino
-  - Michael C. Mozer
-  - Richard S. Zemel
+  - Sean Segal
+  - Raquel Urtasun
   equal_contribution: []
-  venue_full: "ICML Continual Learning Workshop \\& Lifelong Learning Workshop \\& Workshop on Learning in Artificial Open Worlds"
-  venue_short: "ICML Continual Learning Workshop \\& Lifelong Learning Workshop \\& Workshop on Learning in Artificial Open Worlds"
-  venue_location: "Vienna, Austria"
+  venue_full: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  venue_short: IROS
+  venue_location: "Las Vegas, Nevada, USA"
   year: 2020
-  month: 7
+  month: 10
   note: oral
   selected: false
   on_website: true
-  webpage_path: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
+  webpage_path: null
   links:
-    arxiv: "https://arxiv.org/abs/2007.04546"
-    pdf: 2021/wandering-within-a-world-online-contextualized-few-shot-learning/ren-2021-wandering.pdf
-    code: "https://github.com/renmengye/oc-fewshot-public"
-    video: "https://slideslive.com/38931573/wandering-within-a-world-online-contextualized-fewshot-learning"
-    html: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
-  type: workshop
+    arxiv: "https://arxiv.org/abs/2008.05927"
+    html: "https://arxiv.org/html/2008.05927"
+  type: conference
+- key: xiong2020loco
+  title: "LoCo: Local contrastive representation learning"
+  authors:
+  - Yuwen Xiong
+  - Mengye Ren
+  - Raquel Urtasun
+  equal_contribution: []
+  venue_full: Advances in Neural Information Processing Systems 33 (NeurIPS)
+  venue_short: NeurIPS
+  venue_location: "Vancouver, British Columbia, Canada"
+  year: 2020
+  month: 12
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2020/loco-local-contrastive-representation-learning
+  links:
+    arxiv: "https://arxiv.org/abs/2008.01342"
+    pdf: 2020/loco-local-contrastive-representation-learning/xiong-2020-loco.pdf
+    video: "https://slideslive.com/38936405/loco-local-contrastive-representation-learning"
+    html: 2020/loco-local-contrastive-representation-learning
+  type: conference
 - key: sykora2020multiagent
   title: Multi-agent routing value iteration network
   authors:
@@ -1916,31 +1918,29 @@ publications:
     video: "https://slideslive.com/38927801/multiagent-routing-value-iteration-network-marvin"
     html: 2020/multi-agent-routing-value-iteration-network
   type: conference
-- key: wang2020costefficient_wo
-  title: Cost-efficient online hyperparameter optimization
+- key: ren2020wandering_wo
+  title: "Wandering within a world: Online contextualized few-shot learning"
   authors:
-  - Jingkang Wang
   - Mengye Ren
-  - Ilija Bogunovic
-  - Yuwen Xiong
-  - Raquel Urtasun
-  equal_contribution:
-  - 0
-  - 1
-  venue_full: ICML RealML Workshop
-  venue_short: ICML RealML Workshop
+  - Michael L. Iuzzolino
+  - Michael C. Mozer
+  - Richard S. Zemel
+  equal_contribution: []
+  venue_full: "ICML Continual Learning Workshop \\& Lifelong Learning Workshop \\& Workshop on Learning in Artificial Open Worlds"
+  venue_short: "ICML Continual Learning Workshop \\& Lifelong Learning Workshop \\& Workshop on Learning in Artificial Open Worlds"
   venue_location: "Vienna, Austria"
   year: 2020
   month: 7
-  note: null
+  note: oral
   selected: false
   on_website: true
-  webpage_path: null
+  webpage_path: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
   links:
-    arxiv: "https://arxiv.org/abs/2101.06590"
-    pdf: 2020/cost-efficient-online-hyperparameter-optimization/wang-2020-cost.pdf
-    slides: "https://realworldml.github.io/files/slides/28_slide.pdf"
-    html: "https://arxiv.org/html/2101.06590"
+    arxiv: "https://arxiv.org/abs/2007.04546"
+    pdf: 2021/wandering-within-a-world-online-contextualized-few-shot-learning/ren-2021-wandering.pdf
+    code: "https://github.com/renmengye/oc-fewshot-public"
+    video: "https://slideslive.com/38931573/wandering-within-a-world-online-contextualized-fewshot-learning"
+    html: 2021/wandering-within-a-world-online-contextualized-few-shot-learning
   type: workshop
 - key: tu2020physically
   title: Physically realizable adversarial examples for LiDAR object detection
@@ -1987,77 +1987,6 @@ publications:
   links:
     pdf: "https://drive.google.com/file/d/10pNGWyVYruL-yjjF3NVoKp6GjLZDWj8U/view"
   type: workshop
-- key: ren2019incremental
-  title: Incremental few-shot learning with attention attractor networks
-  authors:
-  - Mengye Ren
-  - Renjie Liao
-  - Ethan Fetaya
-  - Richard S. Zemel
-  equal_contribution: []
-  venue_full: Advances in Neural Information Processing Systems 32 (NeurIPS)
-  venue_short: NeurIPS
-  venue_location: "Vancouver, British Columbia, Canada"
-  year: 2019
-  month: 12
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: 2019/incremental-few-shot-learning-with-attention-attractor-networks
-  links:
-    arxiv: "https://arxiv.org/abs/1810.07218"
-    code: "https://github.com/renmengye/inc-few-shot-attractor-public"
-    html: 2019/incremental-few-shot-learning-with-attention-attractor-networks
-  type: conference
-- key: xiong2019deformable_wo
-  title: Deformable filter convolution for point cloud reasoning
-  authors:
-  - Yuwen Xiong
-  - Mengye Ren
-  - Renjie Liao
-  - Kelvin Wong
-  - Raquel Urtasun
-  equal_contribution:
-  - 0
-  - 1
-  venue_full: "NeurIPS Workshop on Sets \\& Partitions"
-  venue_short: "NeurIPS Workshop on Sets \\& Partitions"
-  venue_location: "Vancouver, British Columbia, Canada"
-  year: 2019
-  month: 12
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/1907.13079"
-    html: "https://arxiv.org/html/1907.13079"
-  type: workshop
-- key: sadat2019jointly
-  title: Jointly learnable behavior and trajectory planner for self-driving vehicles
-  authors:
-  - Abbas Sadat
-  - Mengye Ren
-  - Andrei Pokrovsky
-  - Yen-Chen Lin
-  - Ersin Yumer
-  - Raquel Urtasun
-  equal_contribution:
-  - 0
-  - 1
-  venue_full: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-  venue_short: IROS
-  venue_location: "Macau, China"
-  year: 2019
-  month: 11
-  note: oral
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    arxiv: "https://arxiv.org/abs/1910.04586"
-    html: "https://arxiv.org/html/1910.04586"
-  type: conference
 - key: wong2019identifying
   title: Identifying unknown instances for autonomous driving
   authors:
@@ -2102,6 +2031,31 @@ publications:
     arxiv: "https://arxiv.org/abs/1910.04650"
     html: "https://arxiv.org/html/1910.04650"
   type: preprint
+- key: sadat2019jointly
+  title: Jointly learnable behavior and trajectory planner for self-driving vehicles
+  authors:
+  - Abbas Sadat
+  - Mengye Ren
+  - Andrei Pokrovsky
+  - Yen-Chen Lin
+  - Ersin Yumer
+  - Raquel Urtasun
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+  venue_short: IROS
+  venue_location: "Macau, China"
+  year: 2019
+  month: 11
+  note: oral
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/1910.04586"
+    html: "https://arxiv.org/html/1910.04586"
+  type: conference
 - key: xiong2019deformable_pr
   title: Deformable filter convolution for point cloud reasoning
   authors:
@@ -2126,6 +2080,52 @@ publications:
     arxiv: "https://arxiv.org/abs/1907.13079"
     html: "https://arxiv.org/html/1907.13079"
   type: preprint
+- key: xiong2019deformable_wo
+  title: Deformable filter convolution for point cloud reasoning
+  authors:
+  - Yuwen Xiong
+  - Mengye Ren
+  - Renjie Liao
+  - Kelvin Wong
+  - Raquel Urtasun
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: "NeurIPS Workshop on Sets \\& Partitions"
+  venue_short: "NeurIPS Workshop on Sets \\& Partitions"
+  venue_location: "Vancouver, British Columbia, Canada"
+  year: 2019
+  month: 12
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/1907.13079"
+    html: "https://arxiv.org/html/1907.13079"
+  type: workshop
+- key: ren2019incremental
+  title: Incremental few-shot learning with attention attractor networks
+  authors:
+  - Mengye Ren
+  - Renjie Liao
+  - Ethan Fetaya
+  - Richard S. Zemel
+  equal_contribution: []
+  venue_full: Advances in Neural Information Processing Systems 32 (NeurIPS)
+  venue_short: NeurIPS
+  venue_location: "Vancouver, British Columbia, Canada"
+  year: 2019
+  month: 12
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: 2019/incremental-few-shot-learning-with-attention-attractor-networks
+  links:
+    arxiv: "https://arxiv.org/abs/1810.07218"
+    code: "https://github.com/renmengye/inc-few-shot-attractor-public"
+    html: 2019/incremental-few-shot-learning-with-attention-attractor-networks
+  type: conference
 - key: zhang2019graph
   title: Graph hypernetworks for neural architecture search
   authors:
@@ -2210,31 +2210,30 @@ publications:
     code: "https://github.com/uber-research/learning-to-reweight-examples"
     html: 2018/learning-to-reweight-examples-for-robust-deep-learning
   type: conference
-- key: ren2018sbnet
-  title: "SBNet: Sparse blocks network for fast inference"
+- key: wu2018understanding
+  title: Understanding short-horizon bias in stochastic meta-optimization
   authors:
+  - Yuhuai Wu
   - Mengye Ren
-  - Andrei Pokrovsky
-  - Bin Yang
-  - Raquel Urtasun
+  - Renjie Liao
+  - Roger B. Grosse
   equal_contribution:
   - 0
   - 1
-  - 2
-  venue_full: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-  venue_short: CVPR
-  venue_location: "Salt Lake City, Utah, USA"
+  venue_full: Proceedings of the 6th International Conference on Learning Representations (ICLR)
+  venue_short: ICLR
+  venue_location: "Vancouver, British Columbia, Canada"
   year: 2018
-  month: 6
-  note: spotlight
+  month: 4
+  note: null
   selected: false
   on_website: true
-  webpage_path: 2018/sbnet-sparse-blocks-network-for-fast-inference
+  webpage_path: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
   links:
-    webpage: sbnet/index.html
-    arxiv: "https://arxiv.org/abs/1801.02108"
-    code: "https://github.com/uber/sbnet"
-    html: 2018/sbnet-sparse-blocks-network-for-fast-inference
+    webpage: metaoptim/index.html
+    arxiv: "https://arxiv.org/abs/1803.02021"
+    code: "https://github.com/renmengye/meta-optim-public"
+    html: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
   type: conference
 - key: ren2018metalearning
   title: Meta-learning for semi-supervised few-shot classification
@@ -2265,7 +2264,33 @@ publications:
     code: "https://github.com/renmengye/few-shot-ssl-public"
     html: 2018/meta-learning-for-semi-supervised-few-shot-classification
   type: conference
-- key: wu2018understanding
+- key: ren2018sbnet
+  title: "SBNet: Sparse blocks network for fast inference"
+  authors:
+  - Mengye Ren
+  - Andrei Pokrovsky
+  - Bin Yang
+  - Raquel Urtasun
+  equal_contribution:
+  - 0
+  - 1
+  - 2
+  venue_full: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  venue_short: CVPR
+  venue_location: "Salt Lake City, Utah, USA"
+  year: 2018
+  month: 6
+  note: spotlight
+  selected: false
+  on_website: true
+  webpage_path: 2018/sbnet-sparse-blocks-network-for-fast-inference
+  links:
+    webpage: sbnet/index.html
+    arxiv: "https://arxiv.org/abs/1801.02108"
+    code: "https://github.com/uber/sbnet"
+    html: 2018/sbnet-sparse-blocks-network-for-fast-inference
+  type: conference
+- key: wu2017understanding_wo
   title: Understanding short-horizon bias in stochastic meta-optimization
   authors:
   - Yuhuai Wu
@@ -2275,11 +2300,11 @@ publications:
   equal_contribution:
   - 0
   - 1
-  venue_full: Proceedings of the 6th International Conference on Learning Representations (ICLR)
-  venue_short: ICLR
-  venue_location: "Vancouver, British Columbia, Canada"
-  year: 2018
-  month: 4
+  venue_full: NIPS Meta-Learning Workshop
+  venue_short: NIPS
+  venue_location: "Long Beach, California, USA"
+  year: 2017
+  month: 12
   note: null
   selected: false
   on_website: true
@@ -2289,32 +2314,7 @@ publications:
     arxiv: "https://arxiv.org/abs/1803.02021"
     code: "https://github.com/renmengye/meta-optim-public"
     html: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
-  type: conference
-- key: gomez2017the
-  title: "The reversible residual network: Backpropagation without storing activations"
-  authors:
-  - Aidan N. Gomez
-  - Mengye Ren
-  - Raquel Urtasun
-  - Roger B. Grosse
-  equal_contribution:
-  - 0
-  - 1
-  venue_full: Advances in Neural Information Processing Systems 30 (NIPS)
-  venue_short: NIPS
-  venue_location: "Long Beach, California, USA"
-  year: 2017
-  month: 12
-  note: null
-  selected: false
-  on_website: true
-  webpage_path: null
-  links:
-    webpage: revnet/index.html
-    arxiv: "https://arxiv.org/abs/1707.04585"
-    code: "https://github.com/renmengye/revnet-public"
-    html: "https://arxiv.org/html/1707.04585"
-  type: conference
+  type: workshop
 - key: ren2017metalearning_wo
   title: Meta-learning for semi-supervised few-shot classification
   authors:
@@ -2344,17 +2344,17 @@ publications:
     code: "https://github.com/renmengye/few-shot-ssl-public"
     html: 2018/meta-learning-for-semi-supervised-few-shot-classification
   type: workshop
-- key: wu2017understanding_wo
-  title: Understanding short-horizon bias in stochastic meta-optimization
+- key: gomez2017the
+  title: "The reversible residual network: Backpropagation without storing activations"
   authors:
-  - Yuhuai Wu
+  - Aidan N. Gomez
   - Mengye Ren
-  - Renjie Liao
+  - Raquel Urtasun
   - Roger B. Grosse
   equal_contribution:
   - 0
   - 1
-  venue_full: NIPS Meta-Learning Workshop
+  venue_full: Advances in Neural Information Processing Systems 30 (NIPS)
   venue_short: NIPS
   venue_location: "Long Beach, California, USA"
   year: 2017
@@ -2362,34 +2362,12 @@ publications:
   note: null
   selected: false
   on_website: true
-  webpage_path: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
-  links:
-    webpage: metaoptim/index.html
-    arxiv: "https://arxiv.org/abs/1803.02021"
-    code: "https://github.com/renmengye/meta-optim-public"
-    html: 2018/understanding-short-horizon-bias-in-stochastic-meta-optimization
-  type: workshop
-- key: ren2017endtoend
-  title: End-to-end instance segmentation with recurrent attention
-  authors:
-  - Mengye Ren
-  - Richard S. Zemel
-  equal_contribution: []
-  venue_full: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
-  venue_short: CVPR
-  venue_location: "Honolulu, Hawaii, USA"
-  year: 2017
-  month: 7
-  note: spotlight
-  selected: false
-  on_website: true
   webpage_path: null
   links:
-    webpage: recattend/index.html
-    arxiv: "https://arxiv.org/abs/1605.09410"
-    code: "https://github.com/renmengye/rec-attend-public"
-    video: "https://www.youtube.com/watch?v=oHgUowLph7E"
-    html: "https://arxiv.org/html/1605.09410"
+    webpage: revnet/index.html
+    arxiv: "https://arxiv.org/abs/1707.04585"
+    code: "https://github.com/renmengye/revnet-public"
+    html: "https://arxiv.org/html/1707.04585"
   type: conference
 - key: ren2017normalizing
   title: "Normalizing the normalizers: Comparing and extending network normalization schemes"
@@ -2416,6 +2394,28 @@ publications:
     arxiv: "https://arxiv.org/abs/1611.04520"
     code: "https://github.com/renmengye/div-norm"
     html: "https://arxiv.org/html/1611.04520"
+  type: conference
+- key: ren2017endtoend
+  title: End-to-end instance segmentation with recurrent attention
+  authors:
+  - Mengye Ren
+  - Richard S. Zemel
+  equal_contribution: []
+  venue_full: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+  venue_short: CVPR
+  venue_location: "Honolulu, Hawaii, USA"
+  year: 2017
+  month: 7
+  note: spotlight
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: recattend/index.html
+    arxiv: "https://arxiv.org/abs/1605.09410"
+    code: "https://github.com/renmengye/rec-attend-public"
+    video: "https://www.youtube.com/watch?v=oHgUowLph7E"
+    html: "https://arxiv.org/html/1605.09410"
   type: conference
 - key: ren2015exploring
   title: Exploring models and data for image question answering

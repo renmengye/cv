@@ -121,7 +121,11 @@ def format_patent_item(entry, short=False):
 
 
 def by_month_desc(entry):
-    """Sort key: reverse-chronological within a year. Missing month sorts last."""
+    """Sort key: reverse-chronological by venue month within a year.
+
+    Stable sort preserves yaml input order for ties (which is sorted by arXiv
+    chronology, so within-month ties come out in arXiv order).
+    """
     return -(entry.get('month') or 0)
 
 
