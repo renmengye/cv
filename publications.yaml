@@ -1,4 +1,24 @@
 publications:
+- key: kim2026hyperthink
+  type: conference
+  title: "HyperThink: Text-to-parameter hypernetworks for efficient reasoning"
+  authors:
+  - Donggyun Kim
+  - Jack Lu
+  - Chanwoo Kim
+  - Mengye Ren
+  - Seunghoon Hong
+  equal_contribution: []
+  venue_full: Proceedings of the 3rd Conference on Language Modeling (COLM)
+  venue_short: COLM
+  venue_location: "San Francisco, California, USA"
+  year: 2026
+  month: 10
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links: {}
 - key: lu2026deleting_wo
   title: The surprising effectiveness of deleting weights in LLM reasoning and adaptation
   authors:
