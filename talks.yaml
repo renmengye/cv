@@ -3,6 +3,13 @@
 
 talks:
 - title: The always learning machine
+  venue: Seoul National University
+  location: "Seoul, South Korea"
+  date: "2026-07-09"
+  links: {}
+  selected: true
+  on_website: true
+- title: The always learning machine
   venue: Global AI Frontiers Symposium
   location: "Seoul, South Korea"
   date: "2026-07-03"
