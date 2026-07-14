@@ -19,6 +19,23 @@ publications:
   on_website: true
   webpage_path: null
   links: {}
+- key: teehan2026latent_wo
+  type: workshop
+  title: Latent flow waypoints for latent planning
+  authors:
+  - Ryan Teehan
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "Chicago Booth 2026 Workshop on World Models"
+  venue_short: "WM@Booth"
+  venue_location: "Chicago, Illinois, USA"
+  year: 2026
+  month: 8
+  note: null
+  selected: false
+  on_website: false
+  webpage_path: null
+  links: {}
 - key: lu2026deleting_wo
   title: The surprising effectiveness of deleting weights in LLM reasoning and adaptation
   authors:
@@ -93,6 +110,26 @@ publications:
   note: null
   selected: false
   on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2606.32026"
+- key: wang2026adajepa_wo
+  type: workshop
+  title: 'AdaJEPA: An adaptive latent world model'
+  authors:
+  - Ying Wang
+  - Oumayma Bounou
+  - Yann LeCun
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "Chicago Booth 2026 Workshop on World Models"
+  venue_short: "WM@Booth"
+  venue_location: "Chicago, Illinois, USA"
+  year: 2026
+  month: 8
+  note: null
+  selected: false
+  on_website: false
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2606.32026"
