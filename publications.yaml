@@ -1110,7 +1110,7 @@ publications:
   - David Mayo
   - Tyler R Scott
   - Mengye Ren
-  - Gamaledin Elsayed
+  - Gamaleldin Elsayed
   - Katherine Hermann
   - Matt Jones
   - Michael Mozer
@@ -1653,7 +1653,7 @@ publications:
   - B Yang
   type: patent
 - key: wei2021perceive
-  title: "Perceive, attend and drive: Learning spatial attention for safe self-driving"
+  title: "Perceive, attend, and drive: Learning spatial attention for safe self-driving"
   authors:
   - Bob Wei
   - Mengye Ren
@@ -2089,7 +2089,7 @@ publications:
     html: "https://arxiv.org/html/1910.04650"
   type: preprint
 - key: sadat2019jointly
-  title: Jointly learnable behavior and trajectory planner for self-driving vehicles
+  title: Jointly learnable behavior and trajectory planning for self-driving vehicles
   authors:
   - Abbas Sadat
   - Mengye Ren
