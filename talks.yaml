@@ -3,10 +3,27 @@
 
 talks:
 - title: The always learning machine
+  venue: CUHK Multi-Modal and World Model Symposium 2026
+  location: "Hong Kong"
+  date: "2026-08-16"
+  links:
+    slides: "https://drive.google.com/file/d/1RtnSD4J6q0HIi7UnkOw9gFr9fvieRCsr/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: The always learning machine
+  venue: Mila
+  location: "Montréal, Québec, Canada"
+  date: "2026-07-23"
+  links:
+    slides: "https://drive.google.com/file/d/1Gl9RnaN3WcTvvXmF-iZ7zXtdAxpKuQH4/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: The always learning machine
   venue: Seoul National University
   location: "Seoul, South Korea"
   date: "2026-07-09"
-  links: {}
+  links:
+    slides: "https://drive.google.com/file/d/14INBzySyQSgKBD8DxNk4LDB4Fv8vmjIW/view?usp=sharing"
   selected: true
   on_website: true
 - title: The always learning machine
@@ -39,21 +56,24 @@ talks:
   venue: New York University CDS Seminar
   location: "New York, New York, USA"
   date: '2026-02-13'
-  links: {}
+  links:
+    slides: "https://drive.google.com/file/d/1_H52tYb5TYIYT5NG_6yvRvW2FwOVw16Q/view?usp=sharing"
   selected: false
   on_website: true
 - title: Lifelong concept learning
   venue: Korea Advanced Institute of Science and Technology (KAIST)
   location: "Seoul, South Korea"
   date: '2025-10-31'
-  links: {}
+  links:
+    slides: "https://drive.google.com/file/d/1y_hBVAEShEDXA0ECewQOYosCVVn5M-W0/view?usp=sharing"
   selected: false
   on_website: true
 - title: Lifelong concept learning
   venue: Seoul National University
   location: "Seoul, South Korea"
   date: '2025-10-30'
-  links: {}
+  links:
+    slides: "https://drive.google.com/file/d/1y_hBVAEShEDXA0ECewQOYosCVVn5M-W0/view?usp=sharing"
   selected: false
   on_website: true
 - title: Lifelong concept learning
