@@ -1,0 +1,46 @@
+% Sloan Research Fellowship 2027 CV — max 5 pages per Sloan spec.
+% Full-mode sections (teaching, funding, students, talks) with a curated
+% selected-publications list (sections/select_pubs_sloan.tex) in place of
+% the exhaustive pubs list, to fit the 5-page cap.
+\let\nofiles\relax
+\documentclass[margin,line]{res}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+\usepackage[english]{babel}
+\usepackage{palatino}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{etaremune}
+\usepackage{enumitem}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage{macro}
+\def\shortcv{0}
+\newcommand{\myspace}{\vspace{0.1in}}
+
+\begin{document}
+
+\pagestyle{fancy}
+\cfoot{}
+\rfoot{Page \thepage \ of \pageref{LastPage}}
+\name{
+Mengye Ren -- Curriculum Vit\ae \vspace*{.1in}}
+
+\begin{resume}
+
+\input{sections/contact}\myspace
+\input{sections/interests}\myspace
+\input{sections/education}\myspace
+\input{sections/work}\myspace
+\input{sections/teaching}\myspace
+\input{sections/select_pubs_sloan}\myspace
+\input{sections/awards}
+\input{sections/funding}
+\input{sections/service}
+\input{sections/software}
+\input{sections/select_talks_sloan}
+\input{sections/students}
+
+\end{resume}
+\end{document}
