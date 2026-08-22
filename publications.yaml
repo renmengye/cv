@@ -273,6 +273,28 @@ publications:
   links:
     arxiv: "https://arxiv.org/abs/2605.16477"
 - key: kim2026mtl
+  type: conference
+  title: "Memory Transfer Learning: How memories are transferred across domains in coding agents"
+  authors:
+  - Kangsan Kim
+  - Minki Kang
+  - Taeil Kim
+  - Yanlai Yang
+  - Mengye Ren
+  - Sung Ju Hwang
+  equal_contribution: []
+  venue_full: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+  venue_short: EMNLP
+  venue_location: ''
+  year: 2026
+  month: 11
+  note: null
+  selected: true
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2604.14004"
+- key: kim2026mtl_pr
   type: preprint
   title: "Memory Transfer Learning: How memories are transferred across domains in coding agents"
   authors:
@@ -289,8 +311,8 @@ publications:
   year: 2026
   month: 4
   note: null
-  selected: true
-  on_website: true
+  selected: false
+  on_website: false
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2604.14004"
