@@ -285,9 +285,9 @@ publications:
   equal_contribution: []
   venue_full: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
   venue_short: EMNLP
-  venue_location: ''
+  venue_location: "Budapest, Hungary"
   year: 2026
-  month: 11
+  month: 10
   note: null
   selected: true
   on_website: true
