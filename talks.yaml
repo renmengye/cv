@@ -3,6 +3,14 @@
 
 talks:
 - title: The always learning machine
+  venue: Boston University, CISE Seminar
+  location: "Boston, Massachusetts, USA"
+  date: "2026-09-04"
+  links:
+    slides: "https://drive.google.com/file/d/1XQKTCNw76n4xdJTZe-HoDMCdgpG6bGMM/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: The always learning machine
   venue: CoLLAs Monthly Seminar
   location: Virtual
   date: "2026-09-02"
