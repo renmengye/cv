@@ -1,4 +1,24 @@
 publications:
+- key: yang2026geometry
+  type: conference
+  title: On the geometry and latent-space composition of hypernetwork-generated LoRAs
+  authors:
+  - Yanlai Yang
+  - Minki Kang
+  - Divyam Madaan
+  - Sung Ju Hwang
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "Advances in Neural Information Processing Systems 39 (NeurIPS)"
+  venue_short: NeurIPS
+  venue_location: "Sydney, Australia"
+  year: 2026
+  month: 12
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links: {}
 - key: kim2026hyperthink
   type: conference
   title: "HyperThink: Text-to-parameter hypernetworks for efficient reasoning"
@@ -36,6 +56,29 @@ publications:
   on_website: false
   webpage_path: null
   links: {}
+- key: lu2026deleting
+  type: conference
+  title: The surprising effectiveness of deleting weights in LLM reasoning and adaptation
+  authors:
+  - Jack Lu
+  - Zhenbang Yang
+  - Mike Lasby
+  - Tejas Pote
+  - Yani Ioannou
+  - Mengye Ren
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: "Advances in Neural Information Processing Systems 39 (NeurIPS)"
+  venue_short: NeurIPS
+  venue_location: "Sydney, Australia"
+  year: 2026
+  month: 12
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links: {}
 - key: lu2026deleting_wo
   title: The surprising effectiveness of deleting weights in LLM reasoning and adaptation
   authors:
@@ -55,7 +98,7 @@ publications:
   month: 7
   note: null
   selected: false
-  on_website: true
+  on_website: false
   webpage_path: null
   links: {}
   type: workshop
@@ -233,6 +276,28 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2605.27668"
+- key: baek2026probabilistic
+  type: conference
+  title: Probabilistic recursive reasoning
+  authors:
+  - Junyeob Baek
+  - Mingyu Jo
+  - Minsu Kim
+  - Mengye Ren
+  - Yoshua Bengio
+  - Sungjin Ahn
+  equal_contribution: []
+  venue_full: "Advances in Neural Information Processing Systems 39 (NeurIPS)"
+  venue_short: NeurIPS
+  venue_location: "Sydney, Australia"
+  year: 2026
+  month: 12
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2605.19376"
 - key: baek2026generative
   type: preprint
   title: Generative recursive reasoning
@@ -251,11 +316,28 @@ publications:
   month: 5
   note: null
   selected: false
-  on_website: true
+  on_website: false
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2605.19376"
 - key: ren2026creativity
+  type: conference
+  title: 'Seeking the unfamiliar but memorable: Conceptual creativity as meta-learning'
+  authors:
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "Advances in Neural Information Processing Systems 39 (NeurIPS)"
+  venue_short: NeurIPS
+  venue_location: "Sydney, Australia"
+  year: 2026
+  month: 12
+  note: null
+  selected: true
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2605.16477"
+- key: ren2026creativity_pr
   type: preprint
   title: 'Seeking the unfamiliar but memorable: Conceptual creativity as meta-learning'
   authors:
@@ -267,8 +349,8 @@ publications:
   year: 2026
   month: 5
   note: null
-  selected: true
-  on_website: true
+  selected: false
+  on_website: false
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2605.16477"
