@@ -38,7 +38,9 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: {}
+  links:
+    arxiv: "https://arxiv.org/abs/2610.03039"
+    webpage: "https://hyperthink-llm.github.io/"
 - key: teehan2026latent_wo
   type: workshop
   title: Latent flow waypoints for latent planning
