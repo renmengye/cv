@@ -92,7 +92,8 @@ def format_item(entry):
     venue = format_venue(entry)
     loc_year = format_location_year(entry)
     note = format_note(entry)
-    return f'\\item {authors}. {title}. {venue}{loc_year}.{note}\n'
+    sep = '' if title.endswith(('?', '!')) else '.'
+    return f'\\item {authors}. {title}{sep} {venue}{loc_year}.{note}\n'
 
 
 def format_patent_item(entry, short=False):
@@ -227,7 +228,8 @@ def generate_select_pubs_tex(all_entries):
         title = e.get('title', '')
         venue = format_venue(e, short=True)
         year = e.get('year', '')
-        lines.append(f'\\item\n{authors}.\n{title}.\n{venue}, {year}.\n')
+        sep = '' if title.endswith(('?', '!')) else '.'
+        lines.append(f'\\item\n{authors}.\n{title}{sep}\n{venue}, {year}.\n')
     lines.append(r'\end{list2}')
     lines.append(r'\fi')
     return '\n'.join(lines) + '\n'

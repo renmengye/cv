@@ -1,4 +1,105 @@
 publications:
+- key: ren2026content
+  type: preprint
+  title: "The content–geometry tradeoff in world models: When JEPA learns latent maps"
+  authors:
+  - Mengye Ren
+  - Ying Wang
+  - Chris Hoang
+  - Yilun Kuang
+  - Yann LeCun
+  equal_contribution:
+  - 1
+  - 2
+  venue_full: Agentic Learning AI Lab Technical Report AGL-TR-2026-04
+  venue_short: Technical report
+  venue_location: ''
+  year: 2026
+  month: 11
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/content-geometry-tradeoff/"
+    pdf: "https://cdn.agenticlearning.ai/25c41dcbc4b7a11e/content-geometry-tradeoff-2026.pdf"
+    html: "https://agenticlearning.ai/research/content-geometry-tradeoff#full-paper"
+    doi: "https://doi.org/10.5281/zenodo.24356797"
+- key: brown2026unbundling
+  type: preprint
+  title: Unbundling multimodal vision encoding
+  authors:
+  - Ellis Brown
+  - Chris Hoang
+  - Shengyi Qian
+  - Shang-Wen Li
+  - Mike Lewis
+  - Marjan Ghazvininejad
+  - Luke Zettlemoyer
+  - Lucas Beyer
+  - Mengye Ren
+  - Jakob Verbeek
+  - Saining Xie
+  - Hu Xu
+  equal_contribution:
+  - 0
+  - 1
+  venue_full: arXiv preprint arXiv:2611.17334
+  venue_short: arXiv preprint
+  venue_location: ''
+  year: 2026
+  month: 11
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    arxiv: "https://arxiv.org/abs/2611.17334"
+    webpage: "https://unbundling.github.io"
+    html: "https://agenticlearning.ai/research/unbundling#full-paper"
+- key: jin2026haiku
+  type: preprint
+  title: What is it like to write like Haiku?
+  authors:
+  - Jinran Jin
+  - Ryan Teehan
+  - Jack Lu
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Agentic Learning AI Lab Technical Report AGL-TR-2026-03
+  venue_short: Technical report
+  venue_location: ''
+  year: 2026
+  month: 11
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://agenticlearning.ai/prompto/"
+    pdf: "https://cdn.agenticlearning.ai/ccd383426d4c452b/prompto-2026.pdf"
+    html: "https://agenticlearning.ai/research/prompto#full-paper"
+    doi: "https://doi.org/10.5281/zenodo.24160383"
+- key: ren2026outerloop
+  type: preprint
+  title: "Outerloop: Open and trustworthy multi-agent autoresearch"
+  authors:
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: Agentic Learning AI Lab Technical Report AGL-TR-2026-02
+  venue_short: Technical report
+  venue_location: ''
+  year: 2026
+  month: 11
+  note: null
+  selected: false
+  on_website: true
+  webpage_path: null
+  links:
+    webpage: "https://outerloop.science"
+    pdf: "https://cdn.agenticlearning.ai/17ae6b5755ff555c/outerloop-2026.pdf"
+    html: "https://agenticlearning.ai/research/outerloop#full-paper"
+    doi: "https://doi.org/10.5281/zenodo.24047406"
 - key: yang2026geometry
   type: conference
   title: On the geometry and latent-space composition of hypernetwork-generated LoRAs
@@ -80,7 +181,9 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: {}
+  links:
+    arxiv: "https://arxiv.org/abs/2611.10866"
+    webpage: "https://agenticlearning.ai/deleting-weights/"
 - key: lu2026deleting_wo
   title: The surprising effectiveness of deleting weights in LLM reasoning and adaptation
   authors:
@@ -423,8 +526,8 @@ publications:
   authors:
   - Mengye Ren
   equal_contribution: []
-  venue_full: null
-  venue_short: null
+  venue_full: Agentic Learning AI Lab Technical Report AGL-TR-2026-01
+  venue_short: Technical report
   venue_location: null
   year: 2026
   month: 4
@@ -435,6 +538,7 @@ publications:
   links:
     pdf: 2026/the-self-requires-learning/paper.pdf
     philpapers: https://philpapers.org/rec/RENTSR
+    doi: "https://doi.org/10.5281/zenodo.24047404"
   type: preprint
 - key: wang2026temporal
   type: conference
