@@ -139,6 +139,45 @@ publications:
   links:
     arxiv: "https://arxiv.org/abs/2610.03039"
     webpage: "https://hyperthink-llm.github.io/"
+- key: wang2026adajepa_cwm
+  type: workshop
+  title: 'AdaJEPA: An adaptive latent world model'
+  authors:
+  - Ying Wang
+  - Oumayma Bounou
+  - Yann LeCun
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "NeurIPS 2026 Workshop on Continual World Models"
+  venue_short: "NeurIPS 2026 CWM Workshop"
+  venue_location: "Sydney, Australia"
+  year: 2026
+  month: 12
+  note: null
+  selected: false
+  on_website: false
+  webpage_path: null
+  links: {}
+- key: jiang2026babyclip_wo
+  type: workshop
+  title: "Continual visual and verbal learning through a child\u2019s egocentric input"
+  authors:
+  - Xiaoyang Jiang
+  - Yanlai Yang
+  - Kenneth A. Norman
+  - Brenden M. Lake
+  - Mengye Ren
+  equal_contribution: []
+  venue_full: "NeurIPS 2026 BabyVLM Workshop: Toward Developmentally Plausible Multimodal Systems"
+  venue_short: "NeurIPS 2026 BabyVLM Workshop"
+  venue_location: "Atlanta, Georgia, USA"
+  year: 2026
+  month: 12
+  note: oral
+  selected: false
+  on_website: false
+  webpage_path: null
+  links: {}
 - key: teehan2026latent_wo
   type: workshop
   title: Latent flow waypoints for latent planning
