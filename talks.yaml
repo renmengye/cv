@@ -3,6 +3,13 @@
 
 talks:
 - title: The always learning machine
+  venue: Simon Fraser University, Visual Computing Workshop
+  location: "Burnaby, British Columbia, Canada"
+  date: "2026-11-19"
+  links: {}
+  selected: true
+  on_website: true
+- title: The always learning machine
   venue: Boston University, CISE Seminar
   location: "Boston, Massachusetts, USA"
   date: "2026-09-04"
