@@ -338,7 +338,7 @@ publications:
   webpage_path: null
   links:
     arxiv: "https://arxiv.org/abs/2606.05115"
-- key: jiang2026babyclip_wo
+- key: jiang2026babyclip_cvprw
   type: workshop
   title: "BabyCLIP: Continual language grounding through the experience of a single child"
   authors:
