@@ -3,6 +3,14 @@
 
 talks:
 - title: The always learning machine
+  venue: Columbia University, Continual Learning in Minds and Machines Workshop
+  location: "New York, New York, USA"
+  date: "2026-11-20"
+  links:
+    slides: "https://drive.google.com/file/d/1U4uGOyDFCBEvqAxsvjclgiUudaYHKY72/view?usp=sharing"
+  selected: true
+  on_website: true
+- title: The always learning machine
   venue: Simon Fraser University, Annual Visual Computing Workshop
   location: "Burnaby, British Columbia, Canada"
   date: "2026-11-19"
