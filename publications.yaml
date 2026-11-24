@@ -97,9 +97,9 @@ publications:
     webpage: "https://outerloop.science"
     pdf: "https://cdn.agenticlearning.ai/17ae6b5755ff555c/outerloop-2026.pdf"
     html: "https://agenticlearning.ai/research/outerloop#full-paper"
-- key: yang2026geometry
+- key: yang2026latent
   type: conference
-  title: On the geometry and latent-space composition of hypernetwork-generated LoRAs
+  title: "Latent Merger: Latent-space composition of hypernetwork-generated LoRAs"
   authors:
   - Yanlai Yang
   - Minki Kang
@@ -116,7 +116,11 @@ publications:
   selected: false
   on_website: true
   webpage_path: null
-  links: {}
+  links:
+    webpage: "https://agenticlearning.ai/latent-merger/"
+    pdf: "https://cdn.agenticlearning.ai/c87844af59479499/latent-merger-2026.pdf"
+    html: "https://agenticlearning.ai/research/latent-merger#full-paper"
+    code: "https://github.com/agentic-learning-ai-lab/latent-merger"
 - key: kim2026hyperthink
   type: conference
   title: "HyperThink: Text-to-parameter hypernetworks for efficient reasoning"
